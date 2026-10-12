@@ -1,7 +1,7 @@
 name: paper-agent
 on:
   schedule:
-    - cron: "0 12,16,20,22 * * *"   # before the US basketball evening slate
+    - cron: "0 */3 * * *"            # every 3 hours: soccer, NFL and basketball slates
     - cron: "30 4 * * *"            # overnight: settle finished games, refresh report
   workflow_dispatch: {}
 permissions:

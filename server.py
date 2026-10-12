@@ -37,9 +37,16 @@ LEAGUES = {
     "wnba": dict(name="WNBA", pm=10105, espn="basketball/wnba"),
     "ncaam": dict(name="College (CBB)", pm=10470, espn="basketball/mens-college-basketball"),
     "euroleague": dict(name="EuroLeague", pm=10371, espn=None),
+    "nfl": dict(name="NFL", pm=12185, espn="football/nfl"),
     "epl": dict(name="EPL", pm=10188, espn="soccer/eng.1"),
+    "laliga": dict(name="La Liga", pm=10193, espn="soccer/esp.1"),
+    "bundesliga": dict(name="Bundesliga", pm=10194, espn="soccer/ger.1"),
+    "seriea": dict(name="Serie A", pm=10203, espn="soccer/ita.1"),
+    "ligue1": dict(name="Ligue 1", pm=10195, espn="soccer/fra.1"),
+    "mls": dict(name="MLS", pm=10189, espn="soccer/usa.1"),
     "ucl": dict(name="Champions League", pm=10204, espn="soccer/uefa.champions"),
 }
+BASKETBALL = ("nba", "wnba", "ncaam")
 
 _cache, _lock = {}, threading.Lock()
 
@@ -90,7 +97,7 @@ def pm_events(league):
 
 def market_view(m):
     outs, prices = jl(m.get("outcomes")), [float(x) for x in jl(m.get("outcomePrices"))]
-    return dict(id=str(m["id"]), type=m.get("sportsMarketType") or "", question=m.get("question", ""),
+    return dict(id=str(m["id"]), type=m.get("sportsMarketType") or "", question=m.get("question", ""), group=m.get("groupItemTitle") or "",
                 outcomes=outs, prices=prices, closed=bool(m.get("closed")),
                 line=_line(m.get("question", ""), m.get("sportsMarketType")))
 
@@ -109,10 +116,19 @@ def start_time(e):
 
 def event_view(e, full=False):
     ms = [market_view(m) for m in e.get("markets", [])]
-    ml = next((m for m in ms if m["type"] == "moneyline"), None)
+    mls = [m for m in ms if m["type"] == "moneyline"]
+    ml = None
+    if len(mls) == 1:
+        ml = dict(mls[0], mids=[mls[0]["id"]] * len(mls[0]["outcomes"]), idxs=list(range(len(mls[0]["outcomes"]))))
+    elif len(mls) >= 2 and all(m["outcomes"][:1] == ["Yes"] for m in mls):      # soccer: one Yes/No market per outcome
+        mls = sorted(mls, key=lambda m: ("draw" in (m["group"] or m["question"]).lower(), m["id"]))
+        names = [(m["group"] or re.sub(r"^Will | win.*$", "", m["question"])).strip() for m in mls]
+        names = ["Draw" if re.match(r"(?i)^(draw|tie)\b", n) else n for n in names]
+        ml = dict(id="multi", type="moneyline", question=e["title"], group="", outcomes=names, prices=[m["prices"][0] for m in mls],
+                  closed=False, line=None, mids=[m["id"] for m in mls], idxs=[0] * len(mls))
     teams = [t.strip() for t in re.split(r"\s+vs\.?\s+", e["title"])] if " vs" in e["title"] else [e["title"]]
     v = dict(id=str(e["id"]), title=e["title"], teams=teams, start=start_time(e),
-             volume=float(e.get("volume") or 0), ml=ml, n_markets=len(ms))
+             volume=float(e.get("volume") or 0), ml=ml, n_markets=len(ms), ml_markets=[m for m in ms if m["type"] == "moneyline"])
     if full:
         v["spreads"] = sorted([m for m in ms if m["type"] == "spreads"], key=lambda m: m["line"] or 0)
         v["totals"] = sorted([m for m in ms if m["type"] == "totals"], key=lambda m: m["line"] or 0)
@@ -138,16 +154,36 @@ def ml_prob(s):
     return 100 / (o + 100) if o > 0 else -o / (-o + 100)
 
 
+def fair_lookup(fair, name):
+    """Match a Polymarket outcome name to a DraftKings fair price. Draws never match team names."""
+    if re.match(r"(?i)^(draw|tie)\b", name):
+        return fair.get("Draw")
+    for k, v in fair.items():
+        if k != "Draw" and (k in name or name in k):
+            return v
+    return None
+
+
 def dk_fair(ev):
-    """DraftKings no-vig win chance by team nickname (from ESPN)."""
+    """DraftKings no-vig win chances by team nickname (and 'Draw' for soccer), from ESPN."""
     c = ev["competitions"][0]
-    o = (c.get("odds") or [{}])[0].get("moneyline", {})
-    ph = ml_prob(o.get("home", {}).get("close", {}).get("odds"))
-    pa = ml_prob(o.get("away", {}).get("close", {}).get("odds"))
+    o = (c.get("odds") or [{}])[0]
+    t = {x["homeAway"]: x["team"]["name"] for x in c["competitors"]}
+    ml = o.get("moneyline", {})
+    ph = ml_prob(ml.get("home", {}).get("close", {}).get("odds"))
+    pa = ml_prob(ml.get("away", {}).get("close", {}).get("odds"))
+    pd = ml_prob(ml.get("draw", {}).get("close", {}).get("odds"))
+    if not (ph and pa):
+        ph = ml_prob((o.get("homeTeamOdds") or {}).get("moneyLine"))
+        pa = ml_prob((o.get("awayTeamOdds") or {}).get("moneyLine"))
+        pd = ml_prob((o.get("drawOdds") or {}).get("moneyLine"))
     if not (ph and pa):
         return {}
-    t = {x["homeAway"]: x["team"]["name"] for x in c["competitors"]}
-    return {t["home"]: ph / (ph + pa), t["away"]: pa / (ph + pa)}
+    probs = {t["home"]: ph, t["away"]: pa}
+    if pd:
+        probs["Draw"] = pd
+    tot = sum(probs.values())
+    return {k: v / tot for k, v in probs.items()}
 
 
 def match_espn(league, ev_view):
@@ -167,6 +203,8 @@ def games(league):
     out = []
     now = datetime.datetime.now(datetime.timezone.utc)
     for e in pm_events(league):
+        if " - " in e["title"]:                      # "- Total Corners", "- More Markets" side events
+            continue
         v = event_view(e)
         if not v["ml"] or not v["start"]:
             continue
@@ -178,6 +216,7 @@ def games(league):
             continue
         ee = match_espn(league, v)
         v["espn_id"] = ee["id"] if ee else None
+        v["season_type"] = (ee.get("season") or {}).get("type") if ee else None
         v["status"] = ee["status"]["type"]["name"] if ee else ""
         if ee:
             comp = ee["competitions"][0]["competitors"]
@@ -187,7 +226,7 @@ def games(league):
             v["value"] = []
             if v["volume"] >= 1000:
                 for n, p in zip(v["ml"]["outcomes"], v["ml"]["prices"]):
-                    f = next((val for k, val in fair.items() if k in n or n in k), None)
+                    f = fair_lookup(fair, n)
                     if f is not None and f - p >= 0.04:
                         v["value"].append(dict(team=n, price=p, fair=round(f, 3), edge=round(f - p, 3)))
         out.append(v)
@@ -217,6 +256,7 @@ def research(league, eid):
     base = LEAGUES[league]["espn"]
     inj = fetch(f"https://site.api.espn.com/apis/site/v2/sports/{base}/injuries", 600) or {}
     injmap = {t["displayName"]: t["injuries"] for t in inj.get("injuries", [])}
+    res["injury_feed"] = bool(injmap)
     for x in ee["competitions"][0]["competitors"]:
         t = x["team"]
         info = dict(tid=t["id"], name=t["displayName"], logo=t.get("logo"), record=(x.get("records") or [{}])[0].get("summary", ""),
@@ -287,8 +327,7 @@ def dossier(league, eid):
             return None
         return dict(id=a["id"], name=a["name"], pos=a["pos"], **g["avg"], last=g["games"][:5])
     with ThreadPoolExecutor(20) as ex:
-        results = [list(ex.map(pl, t["roster"][:10])) for t in r["teams"]] if False else None
-        futs = [[ex.submit(pl, a) for a in t["roster"][:10]] for t in r["teams"]]
+        futs = [[ex.submit(pl, a) for a in (t["roster"][:10] if league in BASKETBALL else [])] for t in r["teams"]]
         results = [[f.result() for f in fs] for fs in futs]
     for t, res in zip(r["teams"], results):
         rows = [x for x in res if x and x.get("pts") is not None]
@@ -332,7 +371,7 @@ def dossier(league, eid):
         if len(dtd) >= 3:
             w.append(f"{t['name']} has {len(dtd)} day-to-day players (rest/injury): lineup uncertain.")
     now = datetime.datetime.now(datetime.timezone.utc)
-    if league in ("nba",) and now.month == 10 and now.day < 20:
+    if league == "nba" and r.get("season_type") == 1:
         w.append("NBA PRESEASON: starters often rest and play few minutes. Results are noisy.")
     r["warnings"] = w
     r["event_id"] = eid

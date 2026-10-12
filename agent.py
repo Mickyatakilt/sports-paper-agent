@@ -18,15 +18,18 @@ sys.path.insert(0, HERE)
 import server as S                                     # prices, ESPN research, wallet, settlement
 
 # ------------------------------------------------------------------ settings (edit here)
-LEAGUES = ["nba"]            # basketball first. ESPN research exists for nba, wnba, ncaam
+LEAGUES = ["nba", "ncaam", "wnba", "nfl", "epl", "laliga", "bundesliga", "seriea", "ligue1", "mls", "ucl"]
+BASKETBALL = ("nba", "wnba", "ncaam")   # full player-level checks; other sports use the checks that apply
 PASS_THRESHOLD = 0.80        # share of applicable checks that must pass
 MIN_EDGE = 0.04              # Polymarket price must be 4+ points under DraftKings' fair chance
+PRACTICE_EDGE = 0.015        # preseason games only: smaller edge, bet tagged PRACTICE, not counted toward the 40-bet verdict
+PRACTICE_STAKE = 1.0
+PRACTICE_MAX_PER_DAY = 5
 MIN_VOLUME = 5000            # dollars traded on the market
 PRICE_RANGE = (0.20, 0.80)
 STAKE = 2.0                  # dollars per bet (hard cap $5)
 MAX_BETS_PER_DAY = 3
-WINDOW_HOURS = (0.2, 14)     # only games starting between 12 minutes and 14 hours from now
-ALLOW_PRESEASON = False      # preseason lineups are too random; keep False
+WINDOW_HOURS = (0.2, 30)     # only games starting between 12 minutes and 30 hours from now
 
 MANDATORY = {"edge", "volume", "price", "season"}
 
@@ -57,8 +60,10 @@ def margin(t, n=5):
 
 def rec_pct(t):
     try:
-        w, l = t["record"].split("-")[:2]
-        w, l = int(w), int(l)
+        parts = [int(x) for x in t["record"].split("-")[:3]]
+        if len(parts) == 3:                                  # soccer W-D-L
+            return parts[0] / sum(parts) if sum(parts) else None
+        w, l = parts[:2]
         return w / (w + l) if w + l else None
     except Exception:
         return None
@@ -78,7 +83,7 @@ def rest_days(t, start):
         return None
 
 
-def evaluate(d, outcome, price, fair, volume, start):
+def evaluate(d, outcome, price, fair, volume, start, practice=False):
     """Return list of checks: (id, group, label, result True/False/None, detail)."""
     ours, opp = team_by_name(d, outcome)
     C = []
@@ -86,14 +91,15 @@ def evaluate(d, outcome, price, fair, volume, start):
     def add(cid, group, label, ok, detail):
         C.append(dict(id=cid, group=group, label=label, ok=ok, detail=detail))
 
+    need = PRACTICE_EDGE if practice else MIN_EDGE
     edge = None if fair is None else fair - price
-    add("edge", "Market", f"Price at least {MIN_EDGE*100:.0f} pts below DraftKings fair chance", None if edge is None else edge >= MIN_EDGE,
+    add("edge", "Market", f"Price at least {need*100:.1f} pts below DraftKings fair chance", None if edge is None else edge >= need,
         "no DraftKings line" if edge is None else f"PM {price:.0%} vs DK fair {fair:.0%} = {edge*100:+.1f} pts")
     add("volume", "Market", f"Market has ${MIN_VOLUME:,}+ traded", volume >= MIN_VOLUME, f"${volume:,.0f} traded")
     add("price", "Market", f"Price between {PRICE_RANGE[0]:.0%} and {PRICE_RANGE[1]:.0%}", PRICE_RANGE[0] <= price <= PRICE_RANGE[1], f"{price:.0%}")
     st = d.get("season_type")
-    add("season", "History", "Regular season or later (not preseason)", True if ALLOW_PRESEASON else (st is not None and st >= 2),
-        {1: "preseason", 2: "regular season", 3: "postseason"}.get(st, "unknown"))
+    add("season", "History", "Regular season or later (preseason = PRACTICE bet only)", True if st is None or st >= 2 or practice else False,
+        {1: "preseason: PRACTICE bet", 2: "regular season", 3: "postseason"}.get(st, "season type not reported"))
     if not ours or not opp:
         add("teams", "Team", "Both teams found in research", False, "team lookup failed")
         return C
@@ -132,7 +138,8 @@ def evaluate(d, outcome, price, fair, volume, start):
     sb = sum(p["pts"] or 0 for p in tb)
     add("depth", "Players", "Top-5 scoring (last-5 avg) at least the opponent's", None if not ta or not tb else sa >= sb, f"{sa:.0f} vs {sb:.0f} pts")
     all_dtd = [i for i in ours["injuries"] if i["status"] != "Out"]
-    add("lineup", "Players", "Lineup not uncertain (under 3 day-to-day players)", len(all_dtd) < 3, f"{len(all_dtd)} day-to-day")
+    add("lineup", "Players", "Lineup not uncertain (under 3 day-to-day players)", len(all_dtd) < 3 if d.get("injury_feed") and d.get("_league") in BASKETBALL else None,
+        f"{len(all_dtd)} day-to-day" if d.get("_league") in BASKETBALL and d.get("injury_feed") else "basketball-only check")
 
     h = d.get("h2h") or []
     wins = 0
@@ -186,12 +193,15 @@ def run(dry=False, limit=None):
             if not (WINDOW_HOURS[0] <= hrs <= WINDOW_HOURS[1]) or not g.get("dk_fair"):
                 continue
             ml = g["ml"]
+            practice = g.get("season_type") == 1
+            cap_day = PRACTICE_MAX_PER_DAY if practice else MAX_BETS_PER_DAY
+            need = PRACTICE_EDGE if practice else MIN_EDGE
             cands = []
             for i, (name, price) in enumerate(zip(ml["outcomes"], ml["prices"])):
-                fair = next((v for k, v in g["dk_fair"].items() if k in name or name in k), None)
-                if fair is None:
+                fair = S.fair_lookup(g["dk_fair"], name)
+                if fair is None or name == "Draw":              # never bet draws: no team research applies
                     continue
-                if dry or fair - price >= MIN_EDGE:
+                if dry or fair - price >= need:
                     cands.append((i, name, price, fair))
             if not cands:
                 decisions.append(dict(league=lg, game=g["title"], start=g["start"], action="NO EDGE", note="Polymarket price within 4 pts of DraftKings fair chance"))
@@ -200,12 +210,13 @@ def run(dry=False, limit=None):
                 break
             n_games += 1
             d = S.dossier(lg, g["id"])
+            d["_league"] = lg
             if not d.get("teams"):
                 decisions.append(dict(league=lg, game=g["title"], start=g["start"], action="SKIP", note="no research data"))
                 continue
             best = None
             for i, name, price, fair in cands:
-                checks = evaluate(d, name, price, fair, g["volume"], st)
+                checks = evaluate(d, name, price, fair, g["volume"], st, practice)
                 pct, np_, na, blockers = score(checks)
                 rec = dict(i=i, name=name, price=price, fair=round(fair, 3), pct=round(pct, 3), passed=np_, applicable=na, blockers=blockers, checks=checks)
                 if best is None or (not blockers, pct) > (not best["blockers"], best["pct"]):
@@ -216,28 +227,29 @@ def run(dry=False, limit=None):
                 reason = "mandatory gate failed: " + ", ".join(best["blockers"])
             elif best["pct"] < PASS_THRESHOLD:
                 reason = f"only {best['pct']:.0%} of checks passed (need {PASS_THRESHOLD:.0%})"
-            elif ml["id"] in existing:
+            elif ml["mids"][best["i"]] in existing or any(m in existing for m in ml["mids"]):
                 reason = "already have a bet on this game"
-            elif placed_today >= MAX_BETS_PER_DAY:
-                reason = f"daily limit of {MAX_BETS_PER_DAY} bets reached"
+            elif placed_today >= cap_day:
+                reason = f"daily limit of {cap_day} bets reached"
             else:
                 action = "BET"
             dec = dict(league=lg, game=g["title"], start=g["start"], action=action, selection=best["name"], price=best["price"], fair=best["fair"],
                        pass_pct=best["pct"], passed=best["passed"], applicable=best["applicable"], reason=reason, checks=best["checks"], warnings=d.get("warnings", []))
             if action == "BET" and not dry:
                 fails = [c["label"] for c in best["checks"] if c["ok"] is False]
-                note = f"AUTO {best['pct']:.0%} ({best['passed']}/{best['applicable']}). DK fair {best['fair']:.0%} vs PM {best['price']:.0%}." + (f" Failed: {'; '.join(fails)}" if fails else "")
-                code, res = S._place(dict(legs=[dict(market_id=ml["id"], idx=best["i"], label=f"{best['name']} to win", game=g["title"], league=lg)],
-                                          stake=STAKE, order="market", note=note), False)
+                note = f"{'PRACTICE ' if practice else ''}AUTO {best['pct']:.0%} ({best['passed']}/{best['applicable']}). DK fair {best['fair']:.0%} vs PM {best['price']:.0%}." + (f" Failed: {'; '.join(fails)}" if fails else "")
+                code, res = S._place(dict(legs=[dict(market_id=ml["mids"][best["i"]], idx=ml["idxs"][best["i"]], label=f"{best['name']} to win", game=g["title"], league=lg)],
+                                          stake=PRACTICE_STAKE if practice else STAKE, order="market", note=note), False)
                 dec["placed"] = res
                 if code == 200:
                     placed_today += 1
-                    existing.add(ml["id"])
+                    existing.update(ml["mids"])
                     with S.wlock:                                  # attach the checklist note to the position
                         w2 = S.load_wallet()
                         for p in w2["positions"]:
                             if p["id"] == res["id"]:
                                 p["note"] = note
+                                p["practice"] = practice
                         S.save_wallet(w2)
             decisions.append(dec)
     if not dry:
@@ -256,7 +268,10 @@ def write_report(decisions, dry=False):
     lines = [f"# Paper agent report{' (DRY RUN)' if dry else ''}", f"_{datetime.datetime.now(datetime.timezone.utc):%Y-%m-%d %H:%M} UTC_", "",
              f"**Wallet:** total ${pf['total']:.2f} (start $100) · cash ${pf['cash']:.2f} · open ${pf['open_value']:.2f} · realized ${pf['realized']:+.2f}", ""]
     settled = [p for p in pf["positions"] if p["status"] in ("won", "lost", "sold")]
-    lines += [f"Settled bets: {len(settled)} / 40 goal · wins {sum(1 for p in settled if (p.get('payout') or 0) > p['stake'])}", ""]
+    real = [p for p in settled if not p.get("practice")]
+    prac = [p for p in settled if p.get("practice")]
+    lines += [f"**Official test:** {len(real)} / 40 settled bets · wins {sum(1 for p in real if (p.get('payout') or 0) > p['stake'])} · profit ${sum((p.get('payout') or 0) - p['stake'] - p.get('fee', 0) for p in real):+.2f}",
+              f"**Practice (preseason, not counted):** {len(prac)} settled · profit ${sum((p.get('payout') or 0) - p['stake'] - p.get('fee', 0) for p in prac):+.2f}", ""]
     bets = [d for d in decisions if d["action"] == "BET"]
     lines.append(f"## This run: {len(bets)} bet(s), {sum(1 for d in decisions if d['action']=='SKIP')} skipped, {sum(1 for d in decisions if d['action']=='NO EDGE')} no edge")
     for d in decisions:
@@ -272,7 +287,7 @@ def write_report(decisions, dry=False):
             lines.append(f"- {mark} **{c['group']}** {c['label']}: {c['detail']}")
     lines += ["", "## Open and recent positions"]
     for p in pf["positions"][:15]:
-        lines.append(f"- #{p['id']} {p['status'].upper()} {', '.join(l['label'] for l in p['legs'])} ({p['legs'][0]['game']}) ${p['stake']:.2f}" + (f" → ${p['payout']:.2f}" if p.get("payout") is not None else ""))
+        lines.append(f"- #{p['id']}{' [PRACTICE]' if p.get('practice') else ''} {p['status'].upper()} {', '.join(l['label'] for l in p['legs'])} ({p['legs'][0]['game']}) ${p['stake']:.2f}" + (f" → ${p['payout']:.2f}" if p.get("payout") is not None else ""))
     os.makedirs(STATE, exist_ok=True)
     with open(os.path.join(STATE, "latest_report.md"), "w") as f:
         f.write("\n".join(lines) + "\n")
