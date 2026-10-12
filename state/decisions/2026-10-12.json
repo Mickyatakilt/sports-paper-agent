@@ -1,0 +1,26 @@
+[
+ {
+  "league": "nba",
+  "game": "Nets vs. Wizards",
+  "start": "2026-10-12T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791840219
+ },
+ {
+  "league": "nba",
+  "game": "Timberwolves vs. Knicks",
+  "start": "2026-10-12T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791840219
+ },
+ {
+  "league": "nba",
+  "game": "Spurs vs. Jazz",
+  "start": "2026-10-13T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791840219
+ }
+]
