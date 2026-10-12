@@ -1,5 +1,29 @@
 {
- "cash": 100.0,
- "next_id": 1,
- "positions": []
+ "cash": 98.9733,
+ "next_id": 2,
+ "positions": [
+  {
+   "id": 1,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5352838",
+     "idx": 1,
+     "label": "Knicks to win",
+     "game": "Timberwolves vs. Knicks",
+     "league": "nba",
+     "price": 0.465,
+     "question": "Timberwolves vs. Knicks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.1505,
+   "price": 0.465,
+   "fee": 0.0267,
+   "status": "open",
+   "placed_at": 1791843993,
+   "note": "PRACTICE AUTO 81% (13/16). DK fair 51% vs PM 46%. Failed: Last-5 win rate at least the opponent's; Last-5 average margin at least the opponent's; Overall record at least the opponent's",
+   "practice": true
+  }
+ ]
 }

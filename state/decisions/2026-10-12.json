@@ -22,5 +22,487 @@
   "action": "NO EDGE",
   "note": "Polymarket price within 4 pts of DraftKings fair chance",
   "ts": 1791840219
+ },
+ {
+  "league": "nba",
+  "game": "Thunder vs. Hawks",
+  "start": "2026-10-12T23:00:00+00:00",
+  "action": "SKIP",
+  "selection": "Thunder",
+  "price": 0.3755,
+  "fair": 0.391,
+  "pass_pct": 0.562,
+  "passed": 9,
+  "applicable": 16,
+  "reason": "only 56% of checks passed (need 80%)",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 1.5 pts below DraftKings fair chance",
+    "ok": true,
+    "detail": "PM 38% vs DK fair 39% = +1.5 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$556,405 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "38%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "preseason: PRACTICE bet"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 5.5 vs DK 4.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": false,
+    "detail": "Oklahoma City Thunder 0% vs Atlanta Hawks 67%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": false,
+    "detail": "-4.0 vs +0.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "4 vs 2 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": false,
+    "detail": "0-2 vs 2-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": true,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": false,
+    "detail": "Shai Gilgeous-Alexander, Jared McCain, Ajay Mitchell, Alex Caruso"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": false,
+    "detail": "ours 4 vs theirs 2 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": true,
+    "detail": "82 vs 42 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": false,
+    "detail": "12 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": false,
+    "detail": "0 of 2 meetings"
+   }
+  ],
+  "warnings": [
+   "Atlanta Hawks OUT: Henri Veesaar",
+   "Atlanta Hawks has 8 day-to-day players (rest/injury): lineup uncertain.",
+   "Oklahoma City Thunder has 12 day-to-day players (rest/injury): lineup uncertain.",
+   "NBA PRESEASON: starters often rest and play few minutes. Results are noisy."
+  ],
+  "ts": 1791844000
+ },
+ {
+  "league": "nba",
+  "game": "Nets vs. Wizards",
+  "start": "2026-10-12T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "nba",
+  "game": "Timberwolves vs. Knicks",
+  "start": "2026-10-12T23:30:00+00:00",
+  "action": "BET",
+  "selection": "Knicks",
+  "price": 0.465,
+  "fair": 0.511,
+  "pass_pct": 0.812,
+  "passed": 13,
+  "applicable": 16,
+  "reason": "",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 1.5 pts below DraftKings fair chance",
+    "ok": true,
+    "detail": "PM 46% vs DK fair 51% = +4.6 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$66,196 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "46%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "preseason: PRACTICE bet"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 0.5 vs DK 1.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": false,
+    "detail": "New York Knicks 0% vs Minnesota Timberwolves 67%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": false,
+    "detail": "-12.5 vs +3.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "4 vs 1 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": false,
+    "detail": "0-2 vs 2-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": true,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": true,
+    "detail": "ours 0 vs theirs 5 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": true,
+    "detail": "77 vs 77 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "0 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": true,
+    "detail": "1 of 2 meetings"
+   }
+  ],
+  "warnings": [
+   "Minnesota Timberwolves played yesterday (back-to-back).",
+   "Minnesota Timberwolves OUT: Donte DiVincenzo",
+   "Minnesota Timberwolves has 6 day-to-day players (rest/injury): lineup uncertain.",
+   "NBA PRESEASON: starters often rest and play few minutes. Results are noisy."
+  ],
+  "placed": {
+   "ok": true,
+   "id": 1,
+   "status": "open",
+   "shares": 2.15,
+   "price": 0.465,
+   "fee": 0.0267
+  },
+  "ts": 1791844000
+ },
+ {
+  "league": "nba",
+  "game": "Spurs vs. Jazz",
+  "start": "2026-10-13T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "nba",
+  "game": "Cavaliers vs. Magic",
+  "start": "2026-10-13T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "nba",
+  "game": "Warriors vs. Lakers",
+  "start": "2026-10-14T02:00:00+00:00",
+  "action": "SKIP",
+  "selection": "Warriors",
+  "price": 0.41,
+  "fair": 0.449,
+  "pass_pct": 0.625,
+  "passed": 10,
+  "applicable": 16,
+  "reason": "mandatory gate failed: volume",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 1.5 pts below DraftKings fair chance",
+    "ok": true,
+    "detail": "PM 41% vs DK fair 45% = +3.9 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": false,
+    "detail": "$62 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "41%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "preseason: PRACTICE bet"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": false,
+    "detail": "PM spread 5.5 vs DK 2.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": false,
+    "detail": "Golden State Warriors 50% vs Los Angeles Lakers 67%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+5.8 vs +0.7"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": false,
+    "detail": "3 vs 5 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": false,
+    "detail": "2-2 vs 2-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": false,
+    "detail": "Jimmy Butler III"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": true,
+    "detail": "ours 1 vs theirs 2 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": true,
+    "detail": "77 vs 76 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "2 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": true,
+    "detail": "3 of 5 meetings"
+   }
+  ],
+  "warnings": [
+   "THIN market: under $1,000 traded, so the price is not trustworthy.",
+   "Los Angeles Lakers has 6 day-to-day players (rest/injury): lineup uncertain.",
+   "Golden State Warriors OUT: Jimmy Butler III, Moses Moody",
+   "NBA PRESEASON: starters often rest and play few minutes. Results are noisy."
+  ],
+  "ts": 1791844000
+ },
+ {
+  "league": "nfl",
+  "game": "Bills vs. Rams",
+  "start": "2026-10-13T00:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "ucl",
+  "game": "Racing Club de Lens vs. Sporting CP",
+  "start": "2026-10-13T16:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "ucl",
+  "game": "Arsenal FC vs. Lille OSC",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "ucl",
+  "game": "Villarreal CF vs. SSC Napoli",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "ucl",
+  "game": "FC Internazionale Milano vs. Club Brugge KV",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
+ },
+ {
+  "league": "ucl",
+  "game": "Galatasaray SK vs. FC Barcelona",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791844000
  }
 ]
