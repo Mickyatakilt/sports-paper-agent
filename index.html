@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Market</title>
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--panel2:#1e222b;--line:#2a2f3a;--text:#e8eaf0;--mute:#8b93a5;--blue:#2d7cf6;--green:#2fbf71;--red:#e5484d;--amber:#f0b429}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+a{color:var(--blue);text-decoration:none}
+header{display:flex;align-items:center;gap:24px;padding:12px 24px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+.logo{font-weight:700;font-size:18px}.logo small{background:var(--amber);color:#000;border-radius:4px;padding:1px 6px;font-size:10px;margin-left:8px;vertical-align:middle}
+nav a{color:var(--mute);margin-right:18px;cursor:pointer;font-weight:600}nav a.on{color:var(--text);border-bottom:2px solid var(--blue);padding-bottom:12px}
+.wallet{margin-left:auto;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px 14px;text-align:right}
+.wallet b{font-size:16px}.wallet span{color:var(--mute);font-size:12px;display:block}
+main{display:grid;grid-template-columns:200px minmax(0,1fr) 340px;gap:20px;padding:20px 24px;max-width:1400px;margin:0 auto}
+main.wide{grid-template-columns:minmax(0,1fr)}
+main.game{grid-template-columns:minmax(0,1fr) 340px}
+.side a{display:block;padding:8px 12px;border-radius:8px;color:var(--mute);cursor:pointer;font-weight:600}
+.side a.on,.side a:hover{background:var(--panel);color:var(--text)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.card.click{cursor:pointer}.card.click:hover{border-color:#3a4150}
+h2{margin:6px 0 12px;font-size:20px}h3{margin:0 0 8px;font-size:15px}
+.day{color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:18px 0 8px}
+.row{display:flex;align-items:center;gap:10px}.sp{margin-left:auto}
+.mute{color:var(--mute)}.small{font-size:12px}
+.team{display:flex;justify-content:space-between;align-items:center;padding:5px 0}
+.pill{border:1px solid var(--line);background:var(--panel2);border-radius:8px;padding:6px 12px;min-width:68px;text-align:center;font-weight:700;color:var(--text);cursor:pointer;font:inherit;font-weight:700}
+.pill:hover{border-color:var(--blue)}.pill.sel{background:var(--blue);border-color:var(--blue)}.pill.in{outline:2px solid var(--amber)}
+.mult{color:var(--mute);margin-right:8px;font-size:12px}
+.badge{display:inline-block;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700}
+.b-val{background:rgba(47,191,113,.18);color:var(--green)}.b-thin{background:rgba(240,180,41,.16);color:var(--amber)}.b-live{background:rgba(229,72,77,.18);color:var(--red)}
+.mkt{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:center;padding:7px 0;border-top:1px solid var(--line)}
+.mkt:first-of-type{border-top:0}
+.ticket{position:sticky;top:76px}
+.tabs{display:flex;gap:6px;margin:8px 0}.tabs button{background:none;border:0;color:var(--mute);padding:6px 10px;border-radius:8px;cursor:pointer;font-weight:600}.tabs button.on{background:var(--panel2);color:var(--text)}
+input[type=number]{width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 10px;font:inherit;font-size:16px}
+.btn{background:var(--blue);color:#fff;border:0;border-radius:10px;padding:11px;width:100%;font:inherit;font-weight:700;cursor:pointer}
+.btn:disabled{background:var(--panel2);color:var(--mute);cursor:not-allowed}
+.btn.sm{width:auto;padding:5px 12px;font-size:12px}.btn.red{background:var(--red)}.btn.ghost{background:var(--panel2);color:var(--text)}
+.quick{display:flex;gap:6px;margin:8px 0}.quick button{flex:1;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px;cursor:pointer}
+.kv{display:flex;justify-content:space-between;padding:3px 0}
+table{width:100%;border-collapse:collapse}td,th{padding:6px 8px;text-align:left;border-top:1px solid var(--line)}th{color:var(--mute);font-weight:600;font-size:12px;border-top:0}
+.win{color:var(--green)}.loss{color:var(--red)}
+.bar{background:var(--panel2);border-radius:99px;height:14px;overflow:hidden;margin:6px 0}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--green))}
+.msg{padding:8px 10px;border-radius:8px;margin-top:8px;font-size:13px}.msg.err{background:rgba(229,72,77,.15);color:#ff9a9d}.msg.ok{background:rgba(47,191,113,.15);color:#8be0b1}
+.form span{display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;border-radius:4px;font-size:11px;font-weight:700;margin-right:3px}
+.form .W{background:rgba(47,191,113,.25);color:var(--green)}.form .L{background:rgba(229,72,77,.25);color:var(--red)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:1000px){main,main.game{grid-template-columns:1fr}.ticket{position:static}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Paper Market<small>FAKE MONEY</small></div>
+  <nav id="nav"></nav>
+  <div class="wallet"><b id="wTotal">$100.00</b><span id="wCash">cash $100.00</span></div>
+</header>
+<main id="main"></main>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct = p => Math.round(p * 100) + '%';
+const cents = p => (p * 100).toFixed(1).replace(/\.0$/, '') + '¢';
+const mult = p => (1 / p).toFixed(2) + 'x';
+const money = n => (n < 0 ? '-' : '') + '$' + Math.abs(n).toFixed(2);
+const FEE = 0.05, MAXSTAKE = 5;
+const api = (u, opt) => fetch(u, opt).then(r => r.json());
+const post = (u, body) => api(u, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
+
+let S = {view: 'sports', league: 'nba', leagues: [], games: [], game: null, sel: null, combo: [], stake: 5, order: 'market', limit: '', msg: null, tab: 'overview', research: null, player: null, gameLeague: 'nba'};
+
+function nav() {
+  const items = [['sports','Sports'],['portfolio','Portfolio'],['alerts','Value alerts'],['rules','Rules & goal']];
+  $('#nav').innerHTML = items.map(([k,l]) => `<a class="${S.view===k||(k==='sports'&&S.view==='game')?'on':''}" onclick="go('${k}')">${l}</a>`).join('');
+}
+async function wallet() {
+  const p = await api('/api/portfolio'); S.pf = p;
+  $('#wTotal').textContent = money(p.total);
+  $('#wCash').textContent = `cash ${money(p.cash)} · open ${money(p.open_value)}`;
+  return p;
+}
+function go(v) { S.view = v; S.msg = null; render(); }
+
+async function render() {
+  nav();
+  const m = $('#main');
+  if (S.view === 'sports') return renderSports(m);
+  if (S.view === 'game') return renderGame(m);
+  if (S.view === 'portfolio') return renderPortfolio(m);
+  if (S.view === 'alerts') return renderAlerts(m);
+  if (S.view === 'rules') return renderRules(m);
+}
+
+/* ---------- SPORTS LIST ---------- */
+async function renderSports(m) {
+  m.className = '';
+  m.innerHTML = `<div class="side" id="side"></div><div id="list"><div class="mute">Loading live prices…</div></div><div>${comboHtml()}</div>`;
+  $('#side').innerHTML = S.leagues.map(l => `<a class="${l.id===S.league?'on':''}" onclick="S.league='${l.id}';render()">${esc(l.name)}</a>`).join('');
+  S.games = await api('/api/games?league=' + S.league);
+  const byDay = {};
+  S.games.forEach(g => { const d = new Date(g.start).toLocaleDateString(undefined, {weekday:'long', month:'short', day:'numeric'}); (byDay[d] = byDay[d] || []).push(g); });
+  const html = Object.entries(byDay).map(([d, gs]) => `<div class="day">${esc(d)}</div>` + gs.map(gameCard).join('')).join('');
+  $('#list').innerHTML = `<h2>${esc(S.leagues.find(l=>l.id===S.league)?.name || '')}</h2>` + (html || '<div class="card mute">No games with markets right now. Try another league.</div>');
+}
+function gameCard(g) {
+  const t = new Date(g.start).toLocaleTimeString(undefined, {hour:'numeric', minute:'2-digit'});
+  const live = g.status === 'STATUS_IN_PROGRESS';
+  const ml = g.ml;
+  const val = (g.value || []).map(v => `<span class="badge b-val">VALUE ${esc(v.team)} +${Math.round(v.edge*100)}%</span>`).join(' ');
+  const thin = g.volume < 1000 ? '<span class="badge b-thin">THIN</span>' : '';
+  const rows = ml.outcomes.map((n, i) => `<div class="team"><span>${esc(n)} ${g.score&&g.score[n]!=null&&g.status!=='STATUS_SCHEDULED'?'<b>'+esc(g.score[n])+'</b>':''}</span><span><span class="mult">${mult(ml.prices[i])}</span><button class="pill" onclick="event.stopPropagation();quick('${g.id}','${S.league}',${i})">${pct(ml.prices[i])}</button></span></div>`).join('');
+  return `<div class="card click" onclick="openGame('${g.id}','${S.league}')"><div class="row small mute"><span>${t}</span>${live?'<span class="badge b-live">LIVE</span>':''}${val}${thin}<span class="sp">${g.n_markets} markets · vol $${Math.round(g.volume).toLocaleString()}</span></div>${rows}</div>`;
+}
+async function quick(gid, lg, idx) { await openGame(gid, lg); const m = S.game.ml; select(m, idx); }
+
+/* ---------- GAME PAGE ---------- */
+async function openGame(id, lg) {
+  S.gameLeague = lg || S.league; S.view = 'game'; S.sel = null; S.msg = null; S.research = null; S.player = null; S.tab = 'overview';
+  S.game = await api(`/api/game?league=${S.gameLeague}&id=${id}`);
+  S.rv = await api(`/api/review/start?league=${S.gameLeague}&id=${id}`); S.rv.local = Date.now() - S.rv.now * 1000;
+  S.saved = S.saved || {}; S.rf = {checks: [], estimate: '', reason: ''};
+  render();
+  S.research = await api(`/api/dossier?league=${S.gameLeague}&id=${id}`);
+  if (S.view === 'game') renderResearch();
+}
+function pillBtn(m, i) {
+  const sel = S.sel && S.sel.market_id === m.id && S.sel.idx === i, inc = S.combo.some(c => c.market_id === m.id && c.idx === i);
+  return `<button class="pill ${sel?'sel':''} ${inc?'in':''}" onclick="selectById('${m.id}',${i})" title="Click to bet. Shift-click adds to combo" onauxclick="">${esc(m.outcomes[i])} ${pct(m.prices[i])}</button>`;
+}
+function allMarkets() { const g = S.game; return [g.ml, ...g.spreads, ...g.totals, ...g.other].filter(Boolean); }
+function selectById(id, i) { const m = allMarkets().find(x => x.id === id); select(m, i); }
+function select(m, i) {
+  S.sel = {market_id: m.id, idx: i, label: labelFor(m, i), game: S.game.title, league: S.gameLeague, price: m.prices[i], q: m.question};
+  S.msg = null; S.rf = {checks: [], estimate: '', reason: ''}; render();
+}
+function labelFor(m, i) {
+  if (m.type === 'spreads') { const base = m.line; const name = m.outcomes[i]; const ln = i === 0 ? base : (base ? -base : base); return `${name} ${ln > 0 ? '+' : ''}${ln}`; }
+  if (m.type === 'totals') return `${m.outcomes[i]} ${m.line}`;
+  if (m.type === 'moneyline') return `${m.outcomes[i]} to win`;
+  return `${m.question}: ${m.outcomes[i]}`;
+}
+function renderGame(m) {
+  const g = S.game;
+  if (!g || g.error) { m.innerHTML = '<div class="card">Game not found.</div>'; return; }
+  m.className = 'game';
+  const t = new Date(g.start).toLocaleString(undefined, {weekday:'short', month:'short', day:'numeric', hour:'numeric', minute:'2-digit'});
+  const mk = ms => ms.map(x => `<div class="mkt"><span>${esc(x.question)}</span>${pillBtn(x,0)}${pillBtn(x,1)}</div>`).join('');
+  m.innerHTML = `
+  <div><a onclick="go('sports')">← back</a>
+    <h2>${esc(g.title)}</h2><div class="mute small">${t} · volume $${Math.round(g.volume).toLocaleString()} ${g.volume<1000?'<span class="badge b-thin">THIN: price not trustworthy</span>':''}</div>
+    <div class="card" style="margin-top:12px"><h3>Moneyline</h3>${g.ml?`<div class="mkt"><span>${esc(g.ml.question)}</span>${pillBtn(g.ml,0)}${pillBtn(g.ml,1)}</div>`:''}
+      <div class="small mute">Click a price to bet. Right-click (or the + button in the ticket) adds it to your combo.</div></div>
+    ${g.spreads.length?`<div class="card"><h3>Spread</h3>${mk(g.spreads)}</div>`:''}
+    ${g.totals.length?`<div class="card"><h3>Totals</h3>${mk(g.totals)}</div>`:''}
+    ${g.other.length?`<div class="card"><h3>Other</h3>${mk(g.other)}</div>`:''}
+    <div class="card"><div class="tabs" id="rtabs"></div><div id="rbody" class="mute">Loading research…</div></div>
+  </div>
+  <div class="ticket">${ticketHtml()}${comboHtml()}</div>`;
+  m.querySelectorAll('.pill').forEach(b => b.addEventListener('contextmenu', e => { e.preventDefault(); const mm = b.getAttribute('onclick').match(/'(\d+)',(\d)/); addCombo(mm[1], +mm[2]); }));
+  renderResearch();
+}
+const CHECKS = ['Read both injury reports','Checked rest / back-to-back','Looked at each team\'s last 5 games','Checked key players\' recent form','Read the latest news','Compared Polymarket vs DraftKings','Checked market volume and preseason warnings'];
+function elapsedMin() { return S.rv ? Math.floor((Date.now() - S.rv.local) / 1000 - S.rv.started) / 60 : 0; }
+function reviewHtml() {
+  const s = S.sel, live = livePrice(s), est = (+S.rf.estimate) / 100, edge = est - live, spent = Math.max(0, Math.floor(((Date.now() - S.rv.local) / 1000 - S.rv.started) / 60)), need = Math.round(S.rv.min_seconds / 60);
+  const ok = spent >= need;
+  return `<div class="card" style="border-color:var(--amber)"><h3>Pre-bet review required</h3><div class="mute small">${esc(s.label)} · price ${pct(live)}</div>
+  <div class="kv"><span class="mute">Time on this game</span><b class="${ok?'win':'loss'}">${spent} / ${need} min</b></div>
+  <div class="bar"><i style="width:${Math.min(100, spent/need*100)}%"></i></div>
+  ${CHECKS.map((c,i)=>`<label style="display:block;padding:3px 0"><input type="checkbox" ${S.rf.checks.includes(i)?'checked':''} onchange="toggleCheck(${i})"> ${esc(c)}</label>`).join('')}
+  <div class="small mute" style="margin-top:8px">Your honest chance this wins (%)</div>
+  <input type="number" min="2" max="98" step="1" value="${esc(S.rf.estimate)}" oninput="S.rf.estimate=this.value;refreshReviewEdge()" placeholder="e.g. ${Math.round(live*100)+6}">
+  <div class="kv small"><span class="mute">Edge vs price</span><b id="edgeVal" class="${edge>=0.04?'win':'loss'}">${S.rf.estimate?(edge*100).toFixed(1)+' pts (need 4+)':'enter estimate'}</b></div>
+  <div class="small mute">Why is the price wrong? (min 60 characters)</div>
+  <textarea rows="4" style="width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px;font:inherit" oninput="S.rf.reason=this.value">${esc(S.rf.reason)}</textarea>
+  <button class="btn" style="margin-top:8px" onclick="saveReview()">Save review</button>
+  ${S.msg?`<div class="msg ${S.msg.ok?'ok':'err'}">${esc(S.msg.t)}</div>`:''}</div>`;
+}
+function toggleCheck(i) { const c = S.rf.checks; const k = c.indexOf(i); k >= 0 ? c.splice(k, 1) : c.push(i); }
+function refreshReviewEdge() { const el = $('#edgeVal'); if (!el) return; const edge = (+S.rf.estimate) / 100 - livePrice(S.sel); el.textContent = S.rf.estimate ? (edge * 100).toFixed(1) + ' pts (need 4+)' : 'enter estimate'; el.className = edge >= 0.04 ? 'win' : 'loss'; }
+async function saveReview() {
+  const s = S.sel;
+  const r = await post('/api/review', {market_id: s.market_id, idx: s.idx, league: s.league, event_id: S.game.id, checks: S.rf.checks, estimate: S.rf.estimate, reason: S.rf.reason});
+  if (r.error) S.msg = {t: r.error}; else { S.saved[s.market_id + ':' + s.idx] = true; S.msg = {ok: 1, t: `Review saved (${r.minutes} min, edge ${(r.edge*100).toFixed(1)} pts). You can place the bet.`}; }
+  render();
+}
+function ticketHtml() {
+  const s = S.sel;
+  if (s && !S.saved[s.market_id + ':' + s.idx]) return reviewHtml();
+  return ticketHtml2();
+}
+function ticketHtml2() {
+  const s = S.sel;
+  if (!s) return `<div class="card"><h3>Ticket</h3><div class="mute">Pick a price to start. This is fake money, so experiment.</div></div>`;
+  const live = livePrice(s);
+  const price = S.order === 'limit' && S.limit ? Math.min(+S.limit / 100, 0.98) : live;
+  const stake = Math.min(+S.stake || 0, MAXSTAKE);
+  const shares = price > 0 ? stake / price : 0;
+  const fee = S.order === 'limit' && price < live ? 0 : FEE * shares * price * (1 - price);
+  return `<div class="card"><h3>${esc(s.label)}</h3><div class="mute small">${esc(s.game)}</div>
+  <div class="tabs"><button class="${S.order==='market'?'on':''}" onclick="S.order='market';render()">Market</button><button class="${S.order==='limit'?'on':''}" onclick="S.order='limit';render()">Limit</button></div>
+  ${S.order==='limit'?`<div class="small mute">Limit price (¢). Fills only when the price drops to this. Now ${cents(live)}.</div><input type="number" step="0.5" min="2" max="98" value="${esc(S.limit)}" oninput="S.limit=this.value;refreshTicket()" placeholder="e.g. ${Math.round(live*100)-3}">`:''}
+  <div class="small mute" style="margin-top:8px">Amount (max $${MAXSTAKE})</div>
+  <input type="number" step="0.5" min="0.5" max="${MAXSTAKE}" value="${S.stake}" oninput="S.stake=this.value;refreshTicket()">
+  <div class="quick">${[1,2,3,5].map(v=>`<button onclick="S.stake=${v};render()">$${v}</button>`).join('')}</div>
+  <div class="kv"><span class="mute">Price</span><b>${cents(price)} (${mult(price)})</b></div>
+  <div class="kv"><span class="mute">Shares</span><span>${shares.toFixed(2)}</span></div>
+  <div class="kv"><span class="mute">To win</span><b class="win">${money(shares)} (+${money(shares-stake)})</b></div>
+  <div class="kv"><span class="mute">Fee (est.)</span><span>${money(fee)}</span></div>
+  <button class="btn" onclick="placeSingle()" ${stake<=0?'disabled':''}>Buy ${esc(s.label)}</button>
+  <button class="btn ghost" style="margin-top:8px" onclick="addCombo('${s.market_id}',${s.idx})">+ Add to combo</button>
+  ${S.msg?`<div class="msg ${S.msg.ok?'ok':'err'}">${esc(S.msg.t)}</div>`:''}</div>`;
+}
+function livePrice(s) { const m = allMarkets().find(x => x.id === s.market_id); return m ? m.prices[s.idx] : s.price; }
+function refreshTicket() { const el = document.querySelector('.ticket'); if (!el) return; const a = document.activeElement, id = a && a.tagName === 'INPUT' ? a.getAttribute('oninput') : null; el.innerHTML = ticketHtml() + comboHtml(); if (id) { const n = [...el.querySelectorAll('input')].find(i => i.getAttribute('oninput') === id); if (n) { n.focus(); n.setSelectionRange(n.value.length, n.value.length); } } }
+async function placeSingle() {
+  const s = S.sel;
+  const body = {legs: [{market_id: s.market_id, idx: s.idx, label: s.label, game: s.game, league: s.league}], stake: Math.min(+S.stake, MAXSTAKE), order: S.order};
+  if (S.order === 'limit') body.limit = (+S.limit) / 100;
+  const r = await post('/api/bet', body);
+  S.msg = r.error ? {t: r.error} : {ok: 1, t: r.status === 'pending' ? `Limit order waiting at ${cents(r.price)}.` : `Bought ${r.shares} shares at ${cents(r.price)} (fee ${money(r.fee)}).`};
+  await wallet(); render();
+}
+
+/* ---------- COMBO ---------- */
+function addCombo(mid, idx) {
+  const m = allMarkets().find(x => x.id === mid); if (!m) return;
+  if (S.combo.some(c => c.market_id === mid)) S.combo = S.combo.filter(c => c.market_id !== mid);
+  S.combo.push({market_id: mid, idx, label: labelFor(m, idx), game: S.game.title, league: S.gameLeague, price: m.prices[idx]});
+  render();
+}
+function comboHtml() {
+  if (!S.combo.length) return `<div class="card"><h3>Combo (parlay)</h3><div class="mute small">Right-click a price or tap "+ Add to combo". All legs must win. Big payout, low odds.</div></div>`;
+  const prod = S.combo.reduce((a, c) => a * c.price, 1), stake = Math.min(+S.stake || 0, MAXSTAKE);
+  const legs = S.combo.map((c, i) => `<div class="kv small"><span>${esc(c.label)}<br><span class="mute">${esc(c.game)}</span></span><span>${pct(c.price)} <a onclick="S.combo.splice(${i},1);render()">✕</a></span></div>`).join('');
+  return `<div class="card" style="border-color:var(--amber)"><h3>Combo · ${S.combo.length} legs</h3>${legs}
+  <div class="kv"><span class="mute">Chance all win</span><b>${(prod*100).toFixed(1)}%</b></div>
+  <div class="kv"><span class="mute">Payout</span><b class="win">${mult(prod)} → ${money(stake/prod)}</b></div>
+  <button class="btn" onclick="placeCombo()" ${S.combo.length<2?'disabled':''}>Buy combo for ${money(stake)}</button>
+  <button class="btn ghost" style="margin-top:8px" onclick="S.combo=[];render()">Clear</button>
+  ${S.msg&&S.msg.combo?`<div class="msg ${S.msg.ok?'ok':'err'}">${esc(S.msg.t)}</div>`:''}</div>`;
+}
+async function placeCombo() {
+  const r = await post('/api/bet', {legs: S.combo, stake: Math.min(+S.stake, MAXSTAKE), order: 'market'});
+  if (r.error) S.msg = {combo: 1, t: r.error}; else { S.msg = {combo: 1, ok: 1, t: `Combo bought: ${r.shares} shares at ${cents(r.price)}.`}; S.combo = []; }
+  await wallet(); render();
+}
+
+/* ---------- RESEARCH ---------- */
+function renderResearch() {
+  const tabs = $('#rtabs'), body = $('#rbody'); if (!tabs) return;
+  const names = [['overview','Overview'],['lines','Lines'],['injuries','Injuries'],['key','Key players'],['news','News'],['h2h','Head-to-head']];
+  tabs.innerHTML = names.map(([k,l]) => `<button class="${S.tab===k?'on':''}" onclick="S.tab='${k}';renderResearch()">${l}</button>`).join('');
+  const r = S.research;
+  if (!r) { body.innerHTML = 'Building the full dossier (about 30 seconds the first time)…'; return; }
+  if (!r.teams || !r.teams.length) { body.innerHTML = esc(r.note || 'No research data for this game.'); return; }
+  const warn = (r.warnings || []).map(w => `<div class="msg err" style="margin:4px 0">⚠ ${esc(w)}</div>`).join('');
+  if (S.tab === 'overview') {
+    body.innerHTML = `${warn}<div class="two" style="margin-top:10px">${r.teams.map(t => `<div><h3>${esc(t.name)} <span class="mute small">${esc(t.record)} · ${t.homeAway}</span></h3>
+      ${t.back_to_back ? '<span class="badge b-thin">BACK-TO-BACK</span>' : ''}
+      <div class="form" style="margin:8px 0">${t.form.map(f => `<span class="${f.win?'W':'L'}" title="${esc(f.date)} ${f.home?'vs':'@'} ${esc(f.opp)} ${f.us}-${f.them}">${f.win?'W':'L'}</span>`).join('')}</div>
+      <table><tr><th>Date</th><th>Opponent</th><th>Score</th></tr>${t.form.map(f => `<tr><td>${esc(f.date)}</td><td>${f.home?'vs':'@'} ${esc(f.opp)}</td><td class="${f.win?'win':'loss'}">${f.us}-${f.them}</td></tr>`).join('')}</table></div>`).join('')}</div>`;
+  } else if (S.tab === 'lines') {
+    const L = r.lines || {};
+    body.innerHTML = `<table><tr><th></th><th>Polymarket</th><th>DraftKings (via ESPN)</th></tr>
+      <tr><td>Win chance</td><td>${Object.entries(L.pm_moneyline||{}).map(([k,v])=>esc(k)+' '+pct(v)).join(' · ')}</td><td>${Object.entries(L.dk_fair||{}).map(([k,v])=>esc(k)+' '+pct(v)).join(' · ') || 'not posted'}</td></tr>
+      <tr><td>Spread</td><td>${esc(L.pm_spread||'n/a')}</td><td>${esc(L.dk_spread||'n/a')}</td></tr>
+      <tr><td>Total</td><td>${esc(L.pm_total??'n/a')}</td><td>${esc(L.dk_total??'n/a')}</td></tr></table>
+      <div class="small mute" style="margin-top:8px">When both agree, the price is probably fair. Your edge has to come from information they have not priced in.</div>`;
+  } else if (S.tab === 'injuries') {
+    body.innerHTML = `<div class="two">${r.teams.map(t => `<div><h3>${esc(t.name)}</h3>${t.injuries.length ? t.injuries.map(i => `<div style="margin-bottom:8px"><b>${esc(i.name)}</b> <span class="badge ${i.status==='Out'?'b-live':'b-thin'}">${esc(i.status)}</span><div class="small mute">${esc(i.note)}</div></div>`).join('') : '<span class="mute">None listed</span>'}</div>`).join('')}</div>`;
+  } else if (S.tab === 'news') {
+    body.innerHTML = `<div class="two">${r.teams.map(t => `<div><h3>${esc(t.name)}</h3>${t.news.map(n => `<div style="margin-bottom:8px"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.h)}</a><div class="small mute">${esc(n.pub)}</div></div>`).join('') || '<span class="mute">No news</span>'}</div>`).join('')}</div>`;
+  } else if (S.tab === 'key') {
+    body.innerHTML = `<div class="small mute" style="margin-bottom:8px">Averages of each player's last 5 games on record (offseason: last season's end). Day-to-day or Out players are flagged.</div>${r.teams.map(t => `<h3>${esc(t.name)}</h3><table><tr><th>Player</th><th>Pos</th><th>PTS</th><th>REB</th><th>AST</th><th>MIN</th><th>Status</th></tr>${(t.key_players||[]).map(p => `<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${p.pts}</td><td>${p.reb}</td><td>${p.ast}</td><td>${p.min}</td><td>${p.injury?`<span class="badge ${p.injury==='Out'?'b-live':'b-thin'}">${esc(p.injury)}</span>`:''}</td></tr>`).join('')}</table>`).join('')}`;
+  } else {
+    body.innerHTML = (r.h2h && r.h2h.length) ? `<table><tr><th>Date</th><th>Game</th><th>Score</th></tr>${r.h2h.map(h => `<tr><td>${esc(h.date)}</td><td>${esc(h.name)}</td><td>${esc(h.score)}</td></tr>`).join('')}</table>` : '<span class="mute">No recent meetings found.</span>';
+  }
+}
+
+/* ---------- PORTFOLIO ---------- */
+async function renderPortfolio(m) {
+  m.className = 'wide'; m.style.gridTemplateColumns = '';
+  const p = await wallet();
+  const done = p.positions.filter(x => ['won','lost','sold'].includes(x.status));
+  const decided = done.filter(x => x.status !== 'sold');
+  const wins = done.filter(x => (x.payout || 0) > x.stake).length;
+  const rows = p.positions.map(x => {
+    const legs = x.legs.map(l => esc(l.label)).join(' + ');
+    const cls = x.status === 'won' ? 'win' : x.status === 'lost' ? 'loss' : '';
+    const val = x.status === 'open' ? (x.value != null ? money(x.value) : '…') : x.status === 'pending' ? 'waiting @ ' + cents(x.price) : money(x.payout || 0);
+    const pl = x.status === 'open' && x.value != null ? x.value - x.stake - x.fee : (x.payout != null ? x.payout - x.stake - x.fee : 0);
+    return `<tr><td>#${x.id}</td><td>${x.kind === 'parlay' ? 'Combo' : 'Single'}</td><td>${legs}<div class="small mute">${esc(x.legs[0].game)}${x.legs.length>1?' +'+(x.legs.length-1)+' more':''}</div></td><td>${money(x.stake)}</td><td>${val}</td><td class="${pl>=0?'win':'loss'}">${['pending'].includes(x.status)?'':money(pl)}</td><td class="${cls}">${x.status}</td><td>${['open','pending'].includes(x.status) ? `<button class="btn sm red" onclick="sellPos(${x.id})">${x.status==='open'?'Sell':'Cancel'}</button>` : ''}</td></tr>`;
+  }).join('');
+  m.innerHTML = `<div><h2>Portfolio</h2>
+  <div class="card"><div class="two"><div><div class="kv"><span class="mute">Total value</span><b>${money(p.total)}</b></div><div class="kv"><span class="mute">Cash</span><span>${money(p.cash)}</span></div><div class="kv"><span class="mute">In open bets</span><span>${money(p.open_value+p.pending)}</span></div></div>
+  <div><div class="kv"><span class="mute">Profit / loss vs $100</span><b class="${p.total-p.start>=0?'win':'loss'}">${money(p.total-p.start)}</b></div><div class="kv"><span class="mute">Settled bets</span><span>${done.length}</span></div><div class="kv"><span class="mute">Winning bets</span><span>${wins}</span></div></div></div>
+  <div class="small mute" style="margin-top:8px">Goal: 40 settled bets and profit above $0</div><div class="bar"><i style="width:${Math.min(100, done.length/40*100)}%"></i></div><div class="small">${done.length} / 40</div></div>
+  <div class="card"><table><tr><th>#</th><th>Type</th><th>Bet</th><th>Stake</th><th>Value</th><th>P/L</th><th>Status</th><th></th></tr>${rows || '<tr><td colspan="8" class="mute">No bets yet.</td></tr>'}</table></div>
+  <button class="btn sm ghost" onclick="resetAll()">Reset paper wallet to $100</button></div>`;
+}
+async function sellPos(id) { const r = await post('/api/sell', {id}); if (r.error) alert(r.error); await wallet(); render(); }
+async function resetAll() { if (confirm('Erase all paper bets and restart with $100?')) { await post('/api/reset', {}); await wallet(); render(); } }
+
+/* ---------- ALERTS / RULES ---------- */
+async function renderAlerts(m) {
+  m.className = 'wide'; m.innerHTML = '<div><h2>Value alerts</h2><div class="mute">Checking…</div></div>';
+  const a = await api('/api/alerts');
+  m.innerHTML = `<div><h2>Value alerts</h2><div class="mute small" style="margin-bottom:10px">Polymarket price is at least 4 points below DraftKings' no-vig win chance, on markets with over $1,000 traded. A flag is a reason to look, not a reason to bet: check injuries and rest first.</div>
+  ${a.length ? a.map(x => `<div class="card click" onclick="openGame('${x.game_id}','${x.league}')"><b>${esc(x.team)}</b> in ${esc(x.game)} <span class="badge b-val">+${Math.round(x.edge*100)}%</span><div class="small mute">Polymarket ${pct(x.price)} vs DraftKings fair ${pct(x.fair)}</div></div>`).join('') : '<div class="card mute">No flagged edges right now. That is normal: the two markets usually agree.</div>'}</div>`;
+}
+function renderRules(m) {
+  m.className = 'wide';
+  m.innerHTML = `<div><h2>Rules & goal</h2><div class="card"><ul>
+  <li>Fake $100 wallet. Max <b>$5</b> per bet.</li><li>Every bet needs a <b>full review first</b>: at least 30 minutes on the game, 7-item checklist, your own win-chance estimate that beats the price by 4+ points, and a written reason. The site refuses the bet otherwise.</li>
+  <li>Parlays: rare and tiny. Each extra leg multiplies the chance of losing.</li><li>Use Sell to practice exits, but note it costs about 1¢ per share.</li>
+  <li>Goal: 40 settled bets with profit above $0 before any real money.</li></ul>
+  <div class="small mute">Prices come live from Polymarket's public data (mid price). Fees are an estimate (5% × price × (1 − price)). Bets settle on Polymarket's own resolution. No real money, account or deposit is involved.</div></div></div>`;
+}
+
+(async function init() {
+  S.leagues = await api('/api/leagues');
+  await wallet(); render();
+  setInterval(wallet, 30000);
+  setInterval(() => { if (S.view === 'game' && S.sel && !S.saved[S.sel.market_id + ':' + S.sel.idx] && !(document.activeElement && ['INPUT','TEXTAREA'].includes(document.activeElement.tagName))) refreshTicket(); }, 30000);
+})();
+</script>
+</body>
+</html>

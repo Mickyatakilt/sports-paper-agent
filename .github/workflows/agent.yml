@@ -1,0 +1,25 @@
+name: paper-agent
+on:
+  schedule:
+    - cron: "0 12,16,20,22 * * *"   # before the US basketball evening slate
+    - cron: "30 4 * * *"            # overnight: settle finished games, refresh report
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: paper-agent
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run checklist agent (PAPER MONEY ONLY)
+        run: python3 agent.py run
+      - name: Save state
+        run: |
+          git config user.name "paper-agent"
+          git config user.email "paper-agent@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || (git commit -m "agent run $(date -u +%F\ %H:%M)" && git pull --rebase -q && git push -q)

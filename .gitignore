@@ -1,0 +1,6 @@
+wallet.json
+reviews.json
+server.log
+paper_bets.csv
+__pycache__/
+.DS_Store
