@@ -157,10 +157,12 @@ def evaluate(d, outcome, price, fair, volume, start, practice=False):
 
 
 def score(checks):
-    ap = [c for c in checks if c["ok"] is not None]
+    # The 80% is measured on the situational checks only (team, players, history, line agreement).
+    # Mandatory market gates (edge, volume, price, season) must pass separately; they don't inflate the score.
+    ap = [c for c in checks if c["ok"] is not None and c["id"] not in MANDATORY]
     passed = [c for c in ap if c["ok"]]
     pct = len(passed) / len(ap) if ap else 0
-    mand_fail = [c["id"] for c in ap if c["id"] in MANDATORY and not c["ok"]]
+    mand_fail = [c["id"] for c in checks if c["id"] in MANDATORY and c["ok"] is False]
     mand_missing = [c["id"] for c in checks if c["id"] in MANDATORY and c["ok"] is None]
     return pct, len(passed), len(ap), mand_fail + mand_missing
 
