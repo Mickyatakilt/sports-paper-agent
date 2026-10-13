@@ -1,6 +1,6 @@
 {
- "cash": 94.8772,
- "next_id": 6,
+ "cash": 93.86,
+ "next_id": 7,
  "positions": [
   {
    "id": 1,
@@ -118,6 +118,30 @@
    "status": "open",
    "placed_at": 1791886443,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 6,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4616367",
+     "idx": 1,
+     "label": "Islanders to win",
+     "game": "Canucks vs. Islanders",
+     "league": "nhl",
+     "price": 0.655,
+     "question": "Canucks vs. Islanders"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5267,
+   "price": 0.655,
+   "fee": 0.0172,
+   "status": "open",
+   "placed_at": 1791897256,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
