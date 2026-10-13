@@ -1,6 +1,6 @@
 {
- "cash": 98.9733,
- "next_id": 2,
+ "cash": 97.9615,
+ "next_id": 3,
  "positions": [
   {
    "id": 1,
@@ -20,9 +20,34 @@
    "shares": 2.1505,
    "price": 0.465,
    "fee": 0.0267,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1791843993,
    "note": "PRACTICE AUTO 81% (13/16). DK fair 51% vs PM 46%. Failed: Last-5 win rate at least the opponent's; Last-5 average margin at least the opponent's; Overall record at least the opponent's",
+   "practice": true,
+   "payout": 0.0,
+   "closed_at": 1791866481
+  },
+  {
+   "id": 2,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5394609",
+     "idx": 1,
+     "label": "Raptors to win",
+     "game": "Knicks vs. Raptors",
+     "league": "nba",
+     "price": 0.765,
+     "question": "Knicks vs. Raptors"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3072,
+   "price": 0.765,
+   "fee": 0.0118,
+   "status": "open",
+   "placed_at": 1791866484,
+   "note": "PRACTICE AUTO 83% (10/12). DK fair 78% vs PM 76%. Failed: Top-5 scoring (last-5 avg) at least the opponent's; Lineup not uncertain (under 3 day-to-day players)",
    "practice": true
   }
  ]
