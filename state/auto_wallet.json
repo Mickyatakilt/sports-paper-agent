@@ -1,6 +1,6 @@
 {
- "cash": 93.86,
- "next_id": 7,
+ "cash": 91.8134,
+ "next_id": 9,
  "positions": [
   {
    "id": 1,
@@ -142,6 +142,54 @@
    "status": "open",
    "placed_at": 1791897256,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 7,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4616401",
+     "idx": 0,
+     "label": "Avalanche to win",
+     "game": "Avalanche vs. Stars",
+     "league": "nhl",
+     "price": 0.485,
+     "question": "Avalanche vs. Stars"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.0619,
+   "price": 0.485,
+   "fee": 0.0258,
+   "status": "open",
+   "placed_at": 1791923244,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 48%, DK fair 48%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 8,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4616325",
+     "idx": 1,
+     "label": "Hurricanes to win",
+     "game": "Capitals vs. Hurricanes",
+     "league": "nhl",
+     "price": 0.585,
+     "question": "Capitals vs. Hurricanes"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7094,
+   "price": 0.585,
+   "fee": 0.0208,
+   "status": "open",
+   "placed_at": 1791923252,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 58%, DK fair 58%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
