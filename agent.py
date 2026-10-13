@@ -18,8 +18,9 @@ sys.path.insert(0, HERE)
 import server as S                                     # prices, ESPN research, wallet, settlement
 
 # ------------------------------------------------------------------ settings (edit here)
-LEAGUES = ["nba", "ncaam", "wnba", "nfl", "epl", "laliga", "bundesliga", "seriea", "ligue1", "mls", "ucl"]
-BASKETBALL = ("nba", "wnba", "ncaam")   # full player-level checks; other sports use the checks that apply
+LEAGUES = ["nba", "ncaam", "wnba", "cwbb", "nhl", "mlb", "nfl", "cfb", "epl", "laliga", "bundesliga", "seriea", "ligue1", "mls", "ucl", "uel",
+           "championship", "eredivisie", "portugal", "turkey", "mexico", "brazil", "argentina"]
+BASKETBALL = S.BASKETBALL   # full player-level checks; other sports use the checks that apply
 PASS_THRESHOLD = 0.80        # share of applicable checks that must pass
 MIN_EDGE = 0.04              # Polymarket price must be 4+ points under DraftKings' fair chance
 PRACTICE_EDGE = 0.015        # preseason games only: smaller edge, bet tagged PRACTICE, not counted toward the 40-bet verdict
@@ -237,8 +238,11 @@ def run(dry=False, limit=None):
     today = now.date().isoformat()
     placed_today = sum(1 for p in w["positions"] if datetime.datetime.fromtimestamp(p["placed_at"], datetime.timezone.utc).date().isoformat() == today)
     n_games = 0
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(4) as ex:                        # fetch every league's board in parallel
+        boards = dict(zip(LEAGUES, ex.map(lambda l: S.games(l), LEAGUES)))
     for lg in LEAGUES:
-        for g in S.games(lg):
+        for g in boards[lg]:
             st = datetime.datetime.fromisoformat(g["start"])
             hrs = (st - now).total_seconds() / 3600
             if not (WINDOW_HOURS[0] <= hrs <= WINDOW_HOURS[1]) or not g.get("dk_fair"):

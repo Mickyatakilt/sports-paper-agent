@@ -45,8 +45,20 @@ LEAGUES = {
     "ligue1": dict(name="Ligue 1", pm=10195, espn="soccer/fra.1"),
     "mls": dict(name="MLS", pm=10189, espn="soccer/usa.1"),
     "ucl": dict(name="Champions League", pm=10204, espn="soccer/uefa.champions"),
+    "uel": dict(name="Europa League", pm=10209, espn="soccer/uefa.europa"),
+    "championship": dict(name="EFL Championship", pm=10355, espn="soccer/eng.2"),
+    "eredivisie": dict(name="Eredivisie", pm=10286, espn="soccer/ned.1"),
+    "portugal": dict(name="Liga Portugal", pm=10330, espn="soccer/por.1"),
+    "turkey": dict(name="Super Lig", pm=10292, espn="soccer/tur.1"),
+    "mexico": dict(name="Liga MX", pm=10290, espn="soccer/mex.1"),
+    "brazil": dict(name="Brasileirao", pm=10359, espn="soccer/bra.1"),
+    "argentina": dict(name="Liga Argentina", pm=10312, espn="soccer/arg.1"),
+    "nhl": dict(name="NHL", pm=10346, espn="hockey/nhl"),
+    "mlb": dict(name="MLB", pm=3, espn="baseball/mlb"),
+    "cfb": dict(name="College Football", pm=12756, espn="football/college-football"),
+    "cwbb": dict(name="Women's College BB", pm=10471, espn="basketball/womens-college-basketball"),
 }
-BASKETBALL = ("nba", "wnba", "ncaam")
+BASKETBALL = ("nba", "wnba", "ncaam", "cwbb")
 
 _cache, _lock = {}, threading.Lock()
 
@@ -57,13 +69,17 @@ def fetch(url, ttl=25):
         hit = _cache.get(url)
         if hit and now - hit[0] < ttl:
             return hit[1]
-    out = subprocess.run(["curl", "-s", "--max-time", "25", url], capture_output=True, text=True).stdout
-    try:
-        data = json.loads(out)
-    except Exception:
-        data = None
-    with _lock:
-        _cache[url] = (now, data)
+    data = None
+    for attempt in range(4):                       # the public APIs sometimes rate-limit or hiccup: retry
+        out = subprocess.run(["curl", "-s", "--max-time", "25", url], capture_output=True, text=True).stdout
+        try:
+            data = json.loads(out)
+            break
+        except Exception:
+            time.sleep(1.5 * (attempt + 1))
+    if data is not None:                           # never cache a failure
+        with _lock:
+            _cache[url] = (now, data)
     return data
 
 
@@ -90,9 +106,22 @@ wlock = threading.Lock()
 
 # ---------------------------------------------------------------- polymarket
 def pm_events(league):
+    """Upcoming Polymarket events for a league. Soccer/MLB have many side events per game
+    (corners, halves, props), so page through by end date until we pass ~40 hours out."""
     sid = LEAGUES[league]["pm"]
-    d = fetch(f"https://gamma-api.polymarket.com/events?series_id={sid}&active=true&closed=false&limit=200", 20)
-    return d if isinstance(d, list) else []
+    now = datetime.datetime.now(datetime.timezone.utc)
+    since = (now - datetime.timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    horizon = (now + datetime.timedelta(hours=40)).strftime("%Y-%m-%dT%H:%M")
+    out = []
+    for page in range(10):
+        d = fetch(f"https://gamma-api.polymarket.com/events?series_id={sid}&active=true&closed=false&end_date_min={since}"
+                  f"&order=endDate&ascending=true&limit=100&offset={page * 100}", 20)
+        if not isinstance(d, list) or not d:
+            break
+        out += d
+        if len(d) < 100 or (d[-1].get("endDate") or "")[:16] > horizon:
+            break
+    return out
 
 
 def market_view(m):
@@ -167,12 +196,13 @@ def fair_lookup(fair, name):
 def dk_fair(ev):
     """DraftKings no-vig win chances by team nickname (and 'Draw' for soccer), from ESPN."""
     c = ev["competitions"][0]
-    o = (c.get("odds") or [{}])[0]
+    o = (c.get("odds") or [{}])[0] or {}
     t = {x["homeAway"]: x["team"]["name"] for x in c["competitors"]}
-    ml = o.get("moneyline", {})
-    ph = ml_prob(ml.get("home", {}).get("close", {}).get("odds"))
-    pa = ml_prob(ml.get("away", {}).get("close", {}).get("odds"))
-    pd = ml_prob(ml.get("draw", {}).get("close", {}).get("odds"))
+    ml = o.get("moneyline") or {}
+
+    def close(side):
+        return (((ml.get(side) or {}).get("close")) or {}).get("odds")
+    ph, pa, pd = ml_prob(close("home")), ml_prob(close("away")), ml_prob(close("draw"))
     if not (ph and pa):
         ph = ml_prob((o.get("homeTeamOdds") or {}).get("moneyLine"))
         pa = ml_prob((o.get("awayTeamOdds") or {}).get("moneyLine"))
