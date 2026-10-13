@@ -1,6 +1,6 @@
 {
- "cash": 96.9248,
- "next_id": 4,
+ "cash": 94.8772,
+ "next_id": 6,
  "positions": [
   {
    "id": 1,
@@ -72,6 +72,54 @@
    "placed_at": 1791878700,
    "note": "PRACTICE AUTO 83% (10/12). DK fair 30% vs PM 26%. Failed: Polymarket and DraftKings spreads agree (within 1.5); Top-5 scoring (last-5 avg) at least the opponent's",
    "practice": true
+  },
+  {
+   "id": 4,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4616299",
+     "idx": 1,
+     "label": "Blue Jackets to win",
+     "game": "Panthers vs. Blue Jackets",
+     "league": "nhl",
+     "price": 0.545,
+     "question": "Panthers vs. Blue Jackets"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.8349,
+   "price": 0.545,
+   "fee": 0.0228,
+   "status": "open",
+   "placed_at": 1791886435,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 55%, DK fair 53%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 5,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4616469",
+     "idx": 0,
+     "label": "Bruins to win",
+     "game": "Bruins vs. Sharks",
+     "league": "nhl",
+     "price": 0.505,
+     "question": "Bruins vs. Sharks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9802,
+   "price": 0.505,
+   "fee": 0.0248,
+   "status": "open",
+   "placed_at": 1791886443,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
   }
  ]
 }
