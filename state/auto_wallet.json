@@ -1,6 +1,6 @@
 {
- "cash": 97.9615,
- "next_id": 3,
+ "cash": 96.9248,
+ "next_id": 4,
  "positions": [
   {
    "id": 1,
@@ -48,6 +48,29 @@
    "status": "open",
    "placed_at": 1791866484,
    "note": "PRACTICE AUTO 83% (10/12). DK fair 78% vs PM 76%. Failed: Top-5 scoring (last-5 avg) at least the opponent's; Lineup not uncertain (under 3 day-to-day players)",
+   "practice": true
+  },
+  {
+   "id": 3,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5394612",
+     "idx": 0,
+     "label": "Pacers to win",
+     "game": "Pacers vs. Thunder",
+     "league": "nba",
+     "price": 0.265,
+     "question": "Pacers vs. Thunder"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 3.7736,
+   "price": 0.265,
+   "fee": 0.0367,
+   "status": "open",
+   "placed_at": 1791878700,
+   "note": "PRACTICE AUTO 83% (10/12). DK fair 30% vs PM 26%. Failed: Polymarket and DraftKings spreads agree (within 1.5); Top-5 scoring (last-5 avg) at least the opponent's",
    "practice": true
   }
  ]
