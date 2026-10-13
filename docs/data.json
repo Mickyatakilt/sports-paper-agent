@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-13T08:43:18+00:00",
+ "updated": "2026-10-13T09:09:15+00:00",
  "wallet": {
-  "total": 98.87,
+  "total": 98.84,
   "cash": 96.92,
-  "open_value": 1.95,
+  "open_value": 1.91,
   "realized": -1.03,
   "start": 100.0
  },
@@ -27,7 +27,7 @@
    "stake": 1.0,
    "price": 0.265,
    "payout": null,
-   "value": 0.96,
+   "value": 0.92,
    "practice": true,
    "note": "PRACTICE AUTO 83% (10/12). DK fair 30% vs PM 26%. Failed: Polymarket and DraftKings spreads agree (within 1.5); Top-5 scoring (last-5 avg) at least the opponent's",
    "placed_at": 1791878700
@@ -1694,151 +1694,41 @@
    "ts": 1791844000
   }
  ],
- "last_run": [
-  {
-   "league": "nba",
-   "game": "Warriors vs. Lakers",
-   "start": "2026-10-14T02:00:00+00:00",
-   "action": "SKIP",
-   "selection": "Lakers",
-   "price": 0.575,
-   "fair": 0.593,
-   "pass_pct": 0.5,
-   "passed": 6,
-   "applicable": 12,
-   "reason": "mandatory gate failed: volume",
-   "checks": [
-    {
-     "id": "edge",
-     "group": "Market",
-     "label": "Price at least 1.5 pts below DraftKings fair chance",
-     "ok": true,
-     "detail": "PM 57% vs DK fair 59% = +1.8 pts"
-    },
-    {
-     "id": "volume",
-     "group": "Market",
-     "label": "Market has $5,000+ traded",
-     "ok": false,
-     "detail": "$639 traded"
-    },
-    {
-     "id": "price",
-     "group": "Market",
-     "label": "Price between 20% and 80%",
-     "ok": true,
-     "detail": "57%"
-    },
-    {
-     "id": "season",
-     "group": "History",
-     "label": "Regular season or later (preseason = PRACTICE bet only)",
-     "ok": true,
-     "detail": "preseason: PRACTICE bet"
-    },
-    {
-     "id": "lines",
-     "group": "Market",
-     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": true,
-     "detail": "PM spread 2.5 vs DK 2.5"
-    },
-    {
-     "id": "form",
-     "group": "Team",
-     "label": "Last-5 win rate at least the opponent's",
-     "ok": true,
-     "detail": "Los Angeles Lakers 67% vs Golden State Warriors 50%"
-    },
-    {
-     "id": "margin",
-     "group": "Team",
-     "label": "Last-5 average margin at least the opponent's",
-     "ok": false,
-     "detail": "+0.7 vs +5.8"
-    },
-    {
-     "id": "b2b",
-     "group": "Team",
-     "label": "Not on a back-to-back",
-     "ok": true,
-     "detail": "rested"
-    },
-    {
-     "id": "rest",
-     "group": "Team",
-     "label": "Rest days at least the opponent's",
-     "ok": true,
-     "detail": "5 vs 3 days"
-    },
-    {
-     "id": "record",
-     "group": "Team",
-     "label": "Overall record at least the opponent's",
-     "ok": true,
-     "detail": "2-1 vs 2-2"
-    },
-    {
-     "id": "star_out",
-     "group": "Players",
-     "label": "None of our top-5 scorers is OUT",
-     "ok": true,
-     "detail": "all available"
-    },
-    {
-     "id": "star_dtd",
-     "group": "Players",
-     "label": "At most 1 top-5 scorer day-to-day",
-     "ok": false,
-     "detail": "Walker Kessler, Cameron Carr"
-    },
-    {
-     "id": "opp_hurt",
-     "group": "Players",
-     "label": "Our top-5 availability at least as good as theirs",
-     "ok": false,
-     "detail": "ours 2 vs theirs 1 unavailable"
-    },
-    {
-     "id": "depth",
-     "group": "Players",
-     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": false,
-     "detail": "76 vs 77 pts"
-    },
-    {
-     "id": "lineup",
-     "group": "Players",
-     "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": false,
-     "detail": "6 day-to-day"
-    },
-    {
-     "id": "h2h",
-     "group": "History",
-     "label": "Won at least half of recent meetings",
-     "ok": false,
-     "detail": "2 of 5 meetings"
-    }
-   ],
-   "warnings": [
-    "THIN market: under $1,000 traded, so the price is not trustworthy.",
-    "Los Angeles Lakers has 6 day-to-day players (rest/injury): lineup uncertain.",
-    "Golden State Warriors OUT: Jimmy Butler III, Moses Moody",
-    "NBA PRESEASON: starters often rest and play few minutes. Results are noisy."
-   ],
-   "ts": 1791880998
-  }
- ],
+ "last_run": [],
  "no_edge": [
   "Cavaliers vs. Magic",
   "Knicks vs. Raptors",
   "Pacers vs. Thunder",
+  "Warriors vs. Lakers",
   "Trail Blazers vs. Kings",
+  "Devils vs. Red Wings",
+  "Panthers vs. Blue Jackets",
+  "Sabres vs. Canadiens",
+  "Capitals vs. Hurricanes",
+  "Kraken vs. Flyers",
+  "Lightning vs. Rangers",
+  "Blues vs. Senators",
+  "Canucks vs. Islanders",
+  "Penguins vs. Blackhawks",
+  "Wild vs. Jets",
+  "Avalanche vs. Stars",
+  "Golden Knights vs. Predators",
+  "Flames vs. Ducks",
+  "Oilers vs. Kings",
+  "Bruins vs. Sharks",
+  "Cleveland Guardians vs. Tampa Bay Rays",
   "Racing Club de Lens vs. Sporting CP",
   "Arsenal FC vs. Lille OSC",
   "Villarreal CF vs. SSC Napoli",
   "FC Internazionale Milano vs. Club Brugge KV",
-  "Galatasaray SK vs. FC Barcelona"
+  "Galatasaray SK vs. FC Barcelona",
+  "Burnley FC vs. Charlton Athletic FC",
+  "Wolverhampton Wanderers FC vs. Bolton Wanderers FC",
+  "Bristol City FC vs. Blackburn Rovers FC",
+  "Wrexham AFC vs. West Bromwich Albion FC",
+  "Millwall FC vs. Swansea City AFC",
+  "Cardiff City FC vs. Watford FC",
+  "Stoke City FC vs. Middlesbrough FC",
+  "Birmingham City FC vs. Preston North End FC"
  ]
 }

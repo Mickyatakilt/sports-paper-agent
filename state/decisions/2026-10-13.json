@@ -1389,5 +1389,277 @@
   "action": "NO EDGE",
   "note": "Polymarket price within 4 pts of DraftKings fair chance",
   "ts": 1791880998
+ },
+ {
+  "league": "nba",
+  "game": "Cavaliers vs. Magic",
+  "start": "2026-10-13T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nba",
+  "game": "Knicks vs. Raptors",
+  "start": "2026-10-13T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nba",
+  "game": "Pacers vs. Thunder",
+  "start": "2026-10-14T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nba",
+  "game": "Warriors vs. Lakers",
+  "start": "2026-10-14T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nba",
+  "game": "Trail Blazers vs. Kings",
+  "start": "2026-10-14T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Devils vs. Red Wings",
+  "start": "2026-10-13T22:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Panthers vs. Blue Jackets",
+  "start": "2026-10-13T22:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Sabres vs. Canadiens",
+  "start": "2026-10-13T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Capitals vs. Hurricanes",
+  "start": "2026-10-13T22:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Kraken vs. Flyers",
+  "start": "2026-10-13T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Lightning vs. Rangers",
+  "start": "2026-10-13T23:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Blues vs. Senators",
+  "start": "2026-10-13T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Canucks vs. Islanders",
+  "start": "2026-10-13T23:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Penguins vs. Blackhawks",
+  "start": "2026-10-14T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Wild vs. Jets",
+  "start": "2026-10-14T00:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Avalanche vs. Stars",
+  "start": "2026-10-14T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Golden Knights vs. Predators",
+  "start": "2026-10-14T00:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Flames vs. Ducks",
+  "start": "2026-10-14T01:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Oilers vs. Kings",
+  "start": "2026-10-14T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "nhl",
+  "game": "Bruins vs. Sharks",
+  "start": "2026-10-14T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "mlb",
+  "game": "Cleveland Guardians vs. Tampa Bay Rays",
+  "start": "2026-10-14T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "ucl",
+  "game": "Racing Club de Lens vs. Sporting CP",
+  "start": "2026-10-13T16:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "ucl",
+  "game": "Arsenal FC vs. Lille OSC",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "ucl",
+  "game": "Villarreal CF vs. SSC Napoli",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "ucl",
+  "game": "FC Internazionale Milano vs. Club Brugge KV",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "ucl",
+  "game": "Galatasaray SK vs. FC Barcelona",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Burnley FC vs. Charlton Athletic FC",
+  "start": "2026-10-13T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Wolverhampton Wanderers FC vs. Bolton Wanderers FC",
+  "start": "2026-10-13T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Bristol City FC vs. Blackburn Rovers FC",
+  "start": "2026-10-13T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Wrexham AFC vs. West Bromwich Albion FC",
+  "start": "2026-10-13T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Millwall FC vs. Swansea City AFC",
+  "start": "2026-10-13T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Cardiff City FC vs. Watford FC",
+  "start": "2026-10-13T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Stoke City FC vs. Middlesbrough FC",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
+ },
+ {
+  "league": "championship",
+  "game": "Birmingham City FC vs. Preston North End FC",
+  "start": "2026-10-13T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1791882555
  }
 ]
