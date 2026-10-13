@@ -29,10 +29,15 @@ PRACTICE_MAX_PER_DAY = 5
 MIN_VOLUME = 5000            # dollars traded on the market
 PRICE_RANGE = (0.20, 0.80)
 STAKE = 2.0                  # dollars per bet (hard cap $5)
+EXPERIMENT = True            # checklist-only signal test: no price edge needed, tiny $1 fake bets, tracked separately
+EXPERIMENT_STAKE = 1.0
+EXPERIMENT_MAX_PER_DAY = 6
+EXPERIMENT_MAX_DOSSIERS_PER_RUN = 8
 MAX_BETS_PER_DAY = 3
 WINDOW_HOURS = (0.2, 30)     # only games starting between 12 minutes and 30 hours from now
 
 MANDATORY = {"edge", "volume", "price", "season"}
+MIN_APPLICABLE = 6          # a checklist with fewer applicable checks is too thin to bet on
 
 
 def num(x):
@@ -42,10 +47,25 @@ def num(x):
         return None
 
 
+_STOP = {"club", "calcio", "futbol", "football", "united", "city", "real", "sporting", "athletic", "atletico", "de", "the", "and", "afc", "fc", "sc", "cf", "sk", "ac", "as", "us", "ssc", "fk", "bk"}
+
+
+def _toks(n):
+    import re as _re
+    return {t for t in _re.findall(r"[a-zà-ÿ]+", n.lower()) if len(t) >= 4 and t not in _STOP}
+
+
 def team_by_name(d, outcome):
-    ours = next((t for t in d["teams"] if outcome in t["name"] or t["name"].split()[-1] == outcome), None)
-    opp = next((t for t in d["teams"] if t is not ours), None)
-    return ours, opp
+    o = _toks(outcome)
+    best, score_ = None, 0
+    for t in d["teams"]:
+        sc = len(o & _toks(t["name"]))
+        if outcome in t["name"] or t["name"] in outcome:
+            sc += 5
+        if sc > score_:
+            best, score_ = t, sc
+    opp = next((t for t in d["teams"] if t is not best), None)
+    return best, opp
 
 
 def winpct(t, n=5):
@@ -157,14 +177,15 @@ def evaluate(d, outcome, price, fair, volume, start, practice=False):
     return C
 
 
-def score(checks):
+def score(checks, mandatory=None):
+    mandatory = MANDATORY if mandatory is None else mandatory
     # The 80% is measured on the situational checks only (team, players, history, line agreement).
     # Mandatory market gates (edge, volume, price, season) must pass separately; they don't inflate the score.
-    ap = [c for c in checks if c["ok"] is not None and c["id"] not in MANDATORY]
+    ap = [c for c in checks if c["ok"] is not None and c["id"] not in MANDATORY]      # edge is never part of the %
     passed = [c for c in ap if c["ok"]]
     pct = len(passed) / len(ap) if ap else 0
-    mand_fail = [c["id"] for c in checks if c["id"] in MANDATORY and c["ok"] is False]
-    mand_missing = [c["id"] for c in checks if c["id"] in MANDATORY and c["ok"] is None]
+    mand_fail = [c["id"] for c in checks if c["id"] in mandatory and c["ok"] is False]
+    mand_missing = [c["id"] for c in checks if c["id"] in mandatory and c["ok"] is None]
     return pct, len(passed), len(ap), mand_fail + mand_missing
 
 
@@ -188,6 +209,18 @@ def notify(title, msg, tags="", priority="default"):
                     "-d", msg, f"https://ntfy.sh/{topic}"], capture_output=True)
 
 
+def bucket(p):
+    return p.get("bucket") or ("practice" if p.get("practice") else "official")
+
+
+def stats(positions, name):
+    done = [p for p in positions if p["status"] in ("won", "lost", "sold") and bucket(p) == name]
+    prof = sum((p.get("payout") or 0) - p["stake"] - p.get("fee", 0) for p in done)
+    staked = sum(p["stake"] for p in done)
+    return dict(settled=len(done), wins=sum(1 for p in done if (p.get("payout") or 0) > p["stake"]), profit=round(prof, 2),
+                roi=round(prof / staked, 3) if staked else 0)
+
+
 def export_dashboard(decisions):
     """Write docs/data.json for the phone dashboard."""
     pf = S.portfolio()
@@ -195,8 +228,8 @@ def export_dashboard(decisions):
 
     def pl(p):
         return (p.get("payout") or 0) - p["stake"] - p.get("fee", 0)
-    real = [p for p in settled if not p.get("practice")]
-    prac = [p for p in settled if p.get("practice")]
+    real = [p for p in settled if bucket(p) == "official"]
+    prac = [p for p in settled if bucket(p) == "practice"]
     hist = []
     d = os.path.join(STATE, "decisions")
     if os.path.isdir(d):
@@ -208,8 +241,9 @@ def export_dashboard(decisions):
                wallet=dict(total=pf["total"], cash=pf["cash"], open_value=pf["open_value"], realized=pf["realized"], start=pf["start"]),
                official=dict(settled=len(real), goal=40, wins=sum(1 for p in real if pl(p) > 0), profit=round(sum(pl(p) for p in real), 2)),
                practice=dict(settled=len(prac), wins=sum(1 for p in prac if pl(p) > 0), profit=round(sum(pl(p) for p in prac), 2)),
+               experiment=stats(pf["positions"], "experiment"),
                positions=[dict(id=p["id"], status=p["status"], label=", ".join(l["label"] for l in p["legs"]), game=p["legs"][0]["game"], stake=p["stake"],
-                               price=p.get("price"), payout=p.get("payout"), value=p.get("value"), practice=bool(p.get("practice")), note=p.get("note", ""),
+                               price=p.get("price"), payout=p.get("payout"), value=p.get("value"), practice=bool(p.get("practice")), bucket=bucket(p), note=p.get("note", ""),
                                placed_at=p["placed_at"]) for p in pf["positions"][:60]],
                decisions=sorted(hist, key=lambda x: x.get("ts", 0), reverse=True)[:30],
                last_run=[dc for dc in decisions if dc["action"] != "NO EDGE"],
@@ -229,7 +263,7 @@ def run(dry=False, limit=None):
             was, now_ = before.get(p["id"]), p["status"]
             if was in ("open", "pending") and now_ in ("won", "lost"):
                 prof = (p.get("payout") or 0) - p["stake"] - p.get("fee", 0)
-                notify(f"{'WON' if now_ == 'won' else 'LOST'} {prof:+.2f}" + (" (practice)" if p.get("practice") else ""),
+                notify(f"{'WON' if now_ == 'won' else 'LOST'} {prof:+.2f}" + (f" ({bucket(p)})" if bucket(p) != "official" else ""),
                        f"{p['legs'][0]['label']}: {p['legs'][0]['game']}", "white_check_mark" if now_ == "won" else "x")
             elif was == "pending" and now_ == "open":
                 notify("Limit order filled", f"{p['legs'][0]['label']}: {p['legs'][0]['game']}", "ballot_box_with_check")
@@ -238,6 +272,10 @@ def run(dry=False, limit=None):
     today = now.date().isoformat()
     placed_today = sum(1 for p in w["positions"] if datetime.datetime.fromtimestamp(p["placed_at"], datetime.timezone.utc).date().isoformat() == today)
     n_games = 0
+    exp_queue = []
+    exp_today = sum(1 for p in w["positions"] if bucket(p) == "experiment" and datetime.datetime.fromtimestamp(p["placed_at"], datetime.timezone.utc).date().isoformat() == today)
+    seen_path = os.path.join(STATE, "experiment_seen.json")
+    seen = {k: v for k, v in load_json(seen_path, {}).items() if time.time() - v < 8 * 3600}
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(4) as ex:                        # fetch every league's board in parallel
         boards = dict(zip(LEAGUES, ex.map(lambda l: S.games(l), LEAGUES)))
@@ -260,6 +298,8 @@ def run(dry=False, limit=None):
                     cands.append((i, name, price, fair))
             if not cands:
                 decisions.append(dict(league=lg, game=g["title"], start=g["start"], action="NO EDGE", note="Polymarket price within 4 pts of DraftKings fair chance"))
+                if EXPERIMENT and g["volume"] >= MIN_VOLUME and not practice:
+                    exp_queue.append((g["volume"], lg, g, st))
                 continue
             if limit and n_games >= limit:
                 break
@@ -280,6 +320,8 @@ def run(dry=False, limit=None):
             reason = ""
             if best["blockers"]:
                 reason = "mandatory gate failed: " + ", ".join(best["blockers"])
+            elif best["applicable"] < MIN_APPLICABLE:
+                reason = f"only {best['applicable']} checks had data (need {MIN_APPLICABLE}+)"
             elif best["pct"] < PASS_THRESHOLD:
                 reason = f"only {best['pct']:.0%} of checks passed (need {PASS_THRESHOLD:.0%})"
             elif ml["mids"][best["i"]] in existing or any(m in existing for m in ml["mids"]):
@@ -308,8 +350,67 @@ def run(dry=False, limit=None):
                             if p["id"] == res["id"]:
                                 p["note"] = note
                                 p["practice"] = practice
+                                p["bucket"] = "practice" if practice else "official"
                         S.save_wallet(w2)
             decisions.append(dec)
+    if EXPERIMENT:
+        for vol, lg, g, st in sorted(exp_queue, key=lambda x: -x[0])[:EXPERIMENT_MAX_DOSSIERS_PER_RUN]:
+            key = f"{lg}:{g['id']}"
+            if key in seen or (limit and n_games >= limit):
+                continue
+            n_games += 1
+            ml = g["ml"]
+            d = S.dossier(lg, g["id"])
+            d["_league"] = lg
+            seen[key] = time.time()
+            if not d.get("teams"):
+                continue
+            best = None
+            for i, name in enumerate(ml["outcomes"]):
+                fair = S.fair_lookup(g["dk_fair"], name)
+                if fair is None or name == "Draw":
+                    continue
+                checks = evaluate(d, name, ml["prices"][i], fair, g["volume"], st, False)
+                pct, np_, na, blockers = score(checks, MANDATORY - {"edge"})
+                rec = dict(i=i, name=name, price=ml["prices"][i], fair=round(fair, 3), pct=round(pct, 3), passed=np_, applicable=na, blockers=blockers, checks=checks)
+                if best is None or (not blockers, pct) > (not best["blockers"], best["pct"]):
+                    best = rec
+            if not best:
+                continue
+            action, reason = "SKIP", ""
+            if best["blockers"]:
+                reason = "gate failed: " + ", ".join(best["blockers"])
+            elif best["applicable"] < MIN_APPLICABLE:
+                reason = f"only {best['applicable']} checks had data (need {MIN_APPLICABLE}+)"
+            elif best["pct"] < PASS_THRESHOLD:
+                reason = f"only {best['pct']:.0%} of checks passed (need {PASS_THRESHOLD:.0%})"
+            elif any(m in existing for m in ml["mids"]):
+                reason = "already have a bet on this game"
+            elif exp_today >= EXPERIMENT_MAX_PER_DAY:
+                reason = f"experiment daily limit of {EXPERIMENT_MAX_PER_DAY} reached"
+            else:
+                action = "BET"
+            dec = dict(league=lg, game=g["title"], start=g["start"], action=action, bucket="experiment", selection=best["name"], price=best["price"], fair=best["fair"],
+                       pass_pct=best["pct"], passed=best["passed"], applicable=best["applicable"], reason=reason, checks=best["checks"], warnings=d.get("warnings", []))
+            if action == "BET" and not dry:
+                fails = [c["label"] for c in best["checks"] if c["ok"] is False]
+                note = f"EXPERIMENT (checklist only) {best['pct']:.0%} ({best['passed']}/{best['applicable']}). PM {best['price']:.0%}, DK fair {best['fair']:.0%}." + (f" Failed: {'; '.join(fails)}" if fails else "")
+                code, res = S._place(dict(legs=[dict(market_id=ml["mids"][best["i"]], idx=ml["idxs"][best["i"]], label=f"{best['name']} to win", game=g["title"], league=lg)],
+                                          stake=EXPERIMENT_STAKE, order="market", note=note), False)
+                dec["placed"] = res
+                if code == 200:
+                    notify(f"EXPERIMENT BET: {best['name']} to win", f"{g['title']} · $1 at {best['price']:.0%} · checklist {best['passed']}/{best['applicable']}", "test_tube")
+                    exp_today += 1
+                    existing.update(ml["mids"])
+                    with S.wlock:
+                        w2 = S.load_wallet()
+                        for p in w2["positions"]:
+                            if p["id"] == res["id"]:
+                                p["note"], p["bucket"], p["practice"] = note, "experiment", False
+                        S.save_wallet(w2)
+            decisions.append(dec)
+        if not dry:
+            jdump(seen_path, seen)
     if not dry:
         log_path = os.path.join(STATE, "decisions", f"{today}.json")
         log = load_json(log_path, [])
@@ -328,9 +429,11 @@ def write_report(decisions, dry=False):
     lines = [f"# Paper agent report{' (DRY RUN)' if dry else ''}", f"_{datetime.datetime.now(datetime.timezone.utc):%Y-%m-%d %H:%M} UTC_", "",
              f"**Wallet:** total ${pf['total']:.2f} (start $100) · cash ${pf['cash']:.2f} · open ${pf['open_value']:.2f} · realized ${pf['realized']:+.2f}", ""]
     settled = [p for p in pf["positions"] if p["status"] in ("won", "lost", "sold")]
-    real = [p for p in settled if not p.get("practice")]
-    prac = [p for p in settled if p.get("practice")]
+    real = [p for p in settled if bucket(p) == "official"]
+    prac = [p for p in settled if bucket(p) == "practice"]
+    ex = stats(pf["positions"], "experiment")
     lines += [f"**Official test:** {len(real)} / 40 settled bets · wins {sum(1 for p in real if (p.get('payout') or 0) > p['stake'])} · profit ${sum((p.get('payout') or 0) - p['stake'] - p.get('fee', 0) for p in real):+.2f}",
+              f"**Experiment (checklist alone, no price edge, not counted):** {ex['settled']} settled · {ex['wins']} won · profit ${ex['profit']:+.2f} · ROI {ex['roi']:+.0%}",
               f"**Practice (preseason, not counted):** {len(prac)} settled · profit ${sum((p.get('payout') or 0) - p['stake'] - p.get('fee', 0) for p in prac):+.2f}", ""]
     bets = [d for d in decisions if d["action"] == "BET"]
     lines.append(f"## This run: {len(bets)} bet(s), {sum(1 for d in decisions if d['action']=='SKIP')} skipped, {sum(1 for d in decisions if d['action']=='NO EDGE')} no edge")
@@ -347,7 +450,7 @@ def write_report(decisions, dry=False):
             lines.append(f"- {mark} **{c['group']}** {c['label']}: {c['detail']}")
     lines += ["", "## Open and recent positions"]
     for p in pf["positions"][:15]:
-        lines.append(f"- #{p['id']}{' [PRACTICE]' if p.get('practice') else ''} {p['status'].upper()} {', '.join(l['label'] for l in p['legs'])} ({p['legs'][0]['game']}) ${p['stake']:.2f}" + (f" → ${p['payout']:.2f}" if p.get("payout") is not None else ""))
+        lines.append(f"- #{p['id']}{' [' + bucket(p).upper() + ']' if bucket(p) != 'official' else ''} {p['status'].upper()} {', '.join(l['label'] for l in p['legs'])} ({p['legs'][0]['game']}) ${p['stake']:.2f}" + (f" → ${p['payout']:.2f}" if p.get("payout") is not None else ""))
     os.makedirs(STATE, exist_ok=True)
     with open(os.path.join(STATE, "latest_report.md"), "w") as f:
         f.write("\n".join(lines) + "\n")
