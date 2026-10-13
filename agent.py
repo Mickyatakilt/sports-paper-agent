@@ -9,7 +9,7 @@ the 3 mandatory gates pass. Runs from the cloud (GitHub Actions), no laptop need
   python3 agent.py run --dry      score every upcoming game, place nothing  (add --limit N)
   python3 agent.py report         rebuild state/latest_report.md only
 """
-import os, sys, json, time, datetime
+import os, sys, json, time, datetime, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "state")
@@ -177,12 +177,61 @@ def load_json(path, default):
     return json.load(open(path)) if os.path.exists(path) else default
 
 
+def notify(title, msg, tags="", priority="default"):
+    """Push to your phone through the free ntfy app. Topic comes from the NTFY_TOPIC secret."""
+    topic = os.environ.get("NTFY_TOPIC")
+    print(f"[notify] {title} | {msg}")
+    if not topic:
+        return
+    subprocess.run(["curl", "-s", "--max-time", "15", "-H", f"Title: {title}", "-H", f"Tags: {tags}", "-H", f"Priority: {priority}",
+                    "-d", msg, f"https://ntfy.sh/{topic}"], capture_output=True)
+
+
+def export_dashboard(decisions):
+    """Write docs/data.json for the phone dashboard."""
+    pf = S.portfolio()
+    settled = [p for p in pf["positions"] if p["status"] in ("won", "lost", "sold")]
+
+    def pl(p):
+        return (p.get("payout") or 0) - p["stake"] - p.get("fee", 0)
+    real = [p for p in settled if not p.get("practice")]
+    prac = [p for p in settled if p.get("practice")]
+    hist = []
+    d = os.path.join(STATE, "decisions")
+    if os.path.isdir(d):
+        for fn in sorted(os.listdir(d))[-4:]:
+            for dc in load_json(os.path.join(d, fn), []):
+                if dc["action"] in ("BET", "SKIP"):
+                    hist.append(dc)
+    out = dict(updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+               wallet=dict(total=pf["total"], cash=pf["cash"], open_value=pf["open_value"], realized=pf["realized"], start=pf["start"]),
+               official=dict(settled=len(real), goal=40, wins=sum(1 for p in real if pl(p) > 0), profit=round(sum(pl(p) for p in real), 2)),
+               practice=dict(settled=len(prac), wins=sum(1 for p in prac if pl(p) > 0), profit=round(sum(pl(p) for p in prac), 2)),
+               positions=[dict(id=p["id"], status=p["status"], label=", ".join(l["label"] for l in p["legs"]), game=p["legs"][0]["game"], stake=p["stake"],
+                               price=p.get("price"), payout=p.get("payout"), value=p.get("value"), practice=bool(p.get("practice")), note=p.get("note", ""),
+                               placed_at=p["placed_at"]) for p in pf["positions"][:60]],
+               decisions=sorted(hist, key=lambda x: x.get("ts", 0), reverse=True)[:30],
+               last_run=[dc for dc in decisions if dc["action"] != "NO EDGE"],
+               no_edge=[dc["game"] for dc in decisions if dc["action"] == "NO EDGE"])
+    jdump(os.path.join(HERE, "docs", "data.json"), out)
+
+
 def run(dry=False, limit=None):
     now = datetime.datetime.now(datetime.timezone.utc)
+    before = {p["id"]: p["status"] for p in S.load_wallet()["positions"]}
     with S.wlock:
         w = S.refresh(S.load_wallet())
         if not dry:
             S.save_wallet(w)
+    if not dry:
+        for p in w["positions"]:
+            was, now_ = before.get(p["id"]), p["status"]
+            if was in ("open", "pending") and now_ in ("won", "lost"):
+                prof = (p.get("payout") or 0) - p["stake"] - p.get("fee", 0)
+                notify(f"{'WON' if now_ == 'won' else 'LOST'} {prof:+.2f}" + (" (practice)" if p.get("practice") else ""),
+                       f"{p['legs'][0]['label']}: {p['legs'][0]['game']}", "white_check_mark" if now_ == "won" else "x")
+            elif was == "pending" and now_ == "open":
+                notify("Limit order filled", f"{p['legs'][0]['label']}: {p['legs'][0]['game']}", "ballot_box_with_check")
     decisions = []
     existing = {l["market_id"] for p in w["positions"] for l in p["legs"]}
     today = now.date().isoformat()
@@ -244,6 +293,9 @@ def run(dry=False, limit=None):
                                           stake=PRACTICE_STAKE if practice else STAKE, order="market", note=note), False)
                 dec["placed"] = res
                 if code == 200:
+                    notify(f"{'PRACTICE ' if practice else ''}BET: {best['name']} to win",
+                           f"{g['title']} · ${(PRACTICE_STAKE if practice else STAKE):.0f} at {best['price']:.0%} (DK fair {best['fair']:.0%}) · checklist {best['passed']}/{best['applicable']}",
+                           "basketball" if lg in BASKETBALL else "soccer", "high")
                     placed_today += 1
                     existing.update(ml["mids"])
                     with S.wlock:                                  # attach the checklist note to the position
@@ -262,6 +314,8 @@ def run(dry=False, limit=None):
         log += decisions
         jdump(log_path, log)
     write_report(decisions, dry)
+    if not dry:
+        export_dashboard(decisions)
     return decisions
 
 

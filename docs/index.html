@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Paper Agent">
+<meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>Paper Agent</title>
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--panel2:#1e222b;--line:#2a2f3a;--text:#e8eaf0;--mute:#8b93a5;--green:#2fbf71;--red:#e5484d;--amber:#f0b429;--blue:#2d7cf6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:env(safe-area-inset-top) 16px calc(env(safe-area-inset-bottom) + 70px)}
+h1{font-size:20px;margin:16px 0 4px}.sub{color:var(--mute);font-size:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;margin:12px 0}
+.big{font-size:30px;font-weight:700}.win{color:var(--green)}.loss{color:var(--red)}.mute{color:var(--mute)}.small{font-size:12px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:3px 0}
+.bar{background:var(--panel2);border-radius:99px;height:12px;overflow:hidden;margin:8px 0 4px}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--green))}
+.badge{display:inline-block;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700}
+.b-bet{background:rgba(47,191,113,.2);color:var(--green)}.b-skip{background:rgba(139,147,165,.2);color:var(--mute)}.b-prac{background:rgba(240,180,41,.18);color:var(--amber)}
+.b-won{background:rgba(47,191,113,.2);color:var(--green)}.b-lost{background:rgba(229,72,77,.2);color:var(--red)}.b-open,.b-pending{background:rgba(45,124,246,.2);color:var(--blue)}.b-sold{background:rgba(139,147,165,.2);color:var(--mute)}
+details summary{cursor:pointer;list-style:none}details summary::-webkit-details-marker{display:none}
+.chk{padding:3px 0;font-size:13px}.note{font-size:12px;color:var(--mute);margin-top:6px}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;background:none;border:0;color:var(--mute);padding:14px 0;font:inherit;font-weight:600}nav button.on{color:var(--text);box-shadow:inset 0 2px 0 var(--blue)}
+</style>
+</head>
+<body>
+<h1>Paper Agent <span class="badge b-prac">FAKE MONEY</span></h1>
+<div class="sub" id="upd">loading…</div>
+<div id="view"></div>
+<nav><button id="t-home" class="on" onclick="tab('home')">Home</button><button id="t-bets" onclick="tab('bets')">Bets</button><button id="t-dec" onclick="tab('dec')">Decisions</button></nav>
+<script>
+const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const money=n=>(n<0?'-':'')+'$'+Math.abs(n).toFixed(2), pct=p=>Math.round(p*100)+'%';
+let D=null, T='home';
+async function load(){try{D=await (await fetch('data.json?'+Date.now())).json();$('#upd').textContent='Updated '+new Date(D.updated).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'})+' · runs every 3 hours';}catch(e){$('#upd').textContent='No data yet (first agent run pending)';D=null}render()}
+function tab(t){T=t;['home','bets','dec'].forEach(k=>$('#t-'+k).className=k===t?'on':'');render()}
+function badge(s){return `<span class="badge b-${s}">${s.toUpperCase()}</span>`}
+function render(){
+  const v=$('#view'); if(!D){v.innerHTML='<div class="card mute">Waiting for the first agent run.</div>';return}
+  if(T==='home'){
+    const w=D.wallet,pl=w.total-w.start,o=D.official,p=D.practice;
+    v.innerHTML=`<div class="card"><div class="small mute">Paper wallet</div><div class="big">${money(w.total)}</div><div class="${pl>=0?'win':'loss'}">${pl>=0?'+':''}${money(pl)} vs $${w.start}</div><div class="small mute">cash ${money(w.cash)} · open bets ${money(w.open_value)}</div></div>
+    <div class="card"><b>Official test</b> <span class="small mute">(regular season, strict rules)</span><div class="bar"><i style="width:${Math.min(100,o.settled/o.goal*100)}%"></i></div><div class="row"><span>${o.settled} / ${o.goal} settled bets</span><span>${o.wins} won</span></div><div class="row"><span class="mute">Profit</span><b class="${o.profit>=0?'win':'loss'}">${money(o.profit)}</b></div><div class="note">Goal: 40 bets and profit above $0 before any real money.</div></div>
+    <div class="card"><b>Practice</b> <span class="small mute">(preseason, not counted)</span><div class="row"><span>${p.settled} settled · ${p.wins} won</span><b class="${p.profit>=0?'win':'loss'}">${money(p.profit)}</b></div></div>
+    <div class="card"><b>Last run</b>${D.last_run.length?D.last_run.map(dec).join(''):'<div class="mute small" style="margin-top:6px">No qualifying games. '+D.no_edge.length+' games had no price edge, which is normal.</div>'}</div>`;
+  } else if(T==='bets'){
+    v.innerHTML=D.positions.length?D.positions.map(p=>{const pl=p.payout!=null?p.payout-p.stake:null;return `<div class="card"><div class="row"><b>${esc(p.label)}</b>${badge(p.status)}</div><div class="small mute">${esc(p.game)}${p.practice?' · <span class="badge b-prac">PRACTICE</span>':''}</div><div class="row small"><span>Stake ${money(p.stake)}${p.price?' @ '+pct(p.price):''}</span>${pl!=null?`<b class="${pl>=0?'win':'loss'}">${pl>=0?'+':''}${money(pl)}</b>`:''}</div>${p.note?`<div class="note">${esc(p.note)}</div>`:''}</div>`}).join(''):'<div class="card mute">No bets yet.</div>';
+  } else {
+    v.innerHTML=D.decisions.length?D.decisions.map(dec).join(''):'<div class="card mute">No decisions with checklists yet.</div>';
+  }
+}
+function dec(d){
+  const mark=c=>c.ok===true?'✅':c.ok===false?'❌':'➖';
+  return `<details class="card"><summary><div class="row"><b>${esc(d.game)}</b><span class="badge ${d.action==='BET'?'b-bet':'b-skip'}">${d.action}</span></div><div class="small mute">${esc(d.selection||'')} ${d.price?'· price '+pct(d.price):''} ${d.fair?'· DK fair '+pct(d.fair):''} · checklist ${d.passed}/${d.applicable} (${pct(d.pass_pct||0)})</div>${d.reason?`<div class="note">${esc(d.reason)}</div>`:''}</summary>
+  ${(d.warnings||[]).map(w=>`<div class="note">⚠ ${esc(w)}</div>`).join('')}
+  <div style="margin-top:8px">${(d.checks||[]).map(c=>`<div class="chk">${mark(c)} <b>${esc(c.group)}</b> ${esc(c.label)}<div class="small mute">${esc(c.detail)}</div></div>`).join('')}</div></details>`;
+}
+load(); setInterval(load,120000);
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script>
+</body>
+</html>
