@@ -221,6 +221,24 @@ def stats(positions, name):
                 roi=round(prof / staked, 3) if staked else 0)
 
 
+def readiness(pf):
+    """Plain pass/fail on whether the system has earned real money. Pure arithmetic, no AI."""
+    off = stats(pf["positions"], "official")
+    exp = stats(pf["positions"], "experiment")
+    first = min((p["placed_at"] for p in pf["positions"] if bucket(p) == "official"), default=None)
+    days = (time.time() - first) / 86400 if first else 0
+    checks = [
+        dict(label="40+ settled official bets", ok=off["settled"] >= 40, detail=f"{off['settled']} / 40"),
+        dict(label="Official profit above $0 (after fees)", ok=off["profit"] > 0, detail=f"${off['profit']:+.2f}"),
+        dict(label="Official return above 0%", ok=off["roi"] > 0 and off["settled"] > 0, detail=f"{off['roi']:+.0%}"),
+        dict(label="At least 14 days of official betting", ok=days >= 14, detail=f"{days:.0f} days"),
+        dict(label="Experiment (checklist alone) 30+ bets, profit above $0", ok=exp["settled"] >= 30 and exp["profit"] > 0, detail=f"{exp['settled']} bets, ${exp['profit']:+.2f}"),
+    ]
+    core = checks[:4]
+    return dict(ready=all(c["ok"] for c in core), checks=checks,
+                note="Paper results only. A pass means 'worth considering real money later', not a guarantee.")
+
+
 def export_dashboard(decisions):
     """Write docs/data.json for the phone dashboard."""
     pf = S.portfolio()
@@ -242,6 +260,7 @@ def export_dashboard(decisions):
                official=dict(settled=len(real), goal=40, wins=sum(1 for p in real if pl(p) > 0), profit=round(sum(pl(p) for p in real), 2)),
                practice=dict(settled=len(prac), wins=sum(1 for p in prac if pl(p) > 0), profit=round(sum(pl(p) for p in prac), 2)),
                experiment=stats(pf["positions"], "experiment"),
+               readiness=readiness(pf),
                positions=[dict(id=p["id"], status=p["status"], label=", ".join(l["label"] for l in p["legs"]), game=p["legs"][0]["game"], stake=p["stake"],
                                price=p.get("price"), payout=p.get("payout"), value=p.get("value"), practice=bool(p.get("practice")), bucket=bucket(p), note=p.get("note", ""),
                                placed_at=p["placed_at"]) for p in pf["positions"][:60]],
