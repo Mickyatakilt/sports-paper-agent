@@ -1,6 +1,6 @@
 {
- "cash": 99.1921,
- "next_id": 12,
+ "cash": 98.1578,
+ "next_id": 13,
  "positions": [
   {
    "id": 1,
@@ -278,6 +278,30 @@
    "status": "open",
    "placed_at": 1792004761,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 28%, DK fair 29%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 12,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4688863",
+     "idx": 0,
+     "label": "Kraken to win",
+     "game": "Kraken vs. Lightning",
+     "league": "nhl",
+     "price": 0.315,
+     "question": "Kraken vs. Lightning"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 3.1746,
+   "price": 0.315,
+   "fee": 0.0343,
+   "status": "open",
+   "placed_at": 1792020841,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 32%, DK fair 32%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
