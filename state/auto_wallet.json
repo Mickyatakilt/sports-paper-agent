@@ -1,6 +1,6 @@
 {
- "cash": 101.2501,
- "next_id": 10,
+ "cash": 99.1921,
+ "next_id": 12,
  "positions": [
   {
    "id": 1,
@@ -232,6 +232,54 @@
    "practice": false,
    "payout": 1.87,
    "closed_at": 1791965647
+  },
+  {
+   "id": 10,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4212356",
+     "idx": 0,
+     "label": "Seahawks to win",
+     "game": "Seahawks vs. Broncos",
+     "league": "nfl",
+     "price": 0.565,
+     "question": "Seahawks vs. Broncos"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7699,
+   "price": 0.565,
+   "fee": 0.0218,
+   "status": "open",
+   "placed_at": 1792004746,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 11,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5179311",
+     "idx": 0,
+     "label": "Charlotte FC to win",
+     "game": "Columbus Crew vs. Charlotte FC",
+     "league": "mls",
+     "price": 0.275,
+     "question": "Will Charlotte FC win on 2026-10-14?"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 3.6364,
+   "price": 0.275,
+   "fee": 0.0362,
+   "status": "open",
+   "placed_at": 1792004761,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 28%, DK fair 29%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
   }
  ]
 }
