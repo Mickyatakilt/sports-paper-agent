@@ -1,6 +1,6 @@
 {
- "cash": 91.8134,
- "next_id": 9,
+ "cash": 90.7901,
+ "next_id": 10,
  "positions": [
   {
    "id": 1,
@@ -190,6 +190,30 @@
    "status": "open",
    "placed_at": 1791923252,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 58%, DK fair 58%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 9,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4616455",
+     "idx": 0,
+     "label": "Oilers to win",
+     "game": "Oilers vs. Kings",
+     "league": "nhl",
+     "price": 0.535,
+     "question": "Oilers vs. Kings"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.8692,
+   "price": 0.535,
+   "fee": 0.0233,
+   "status": "open",
+   "placed_at": 1791936168,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 54%, DK fair 54%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
