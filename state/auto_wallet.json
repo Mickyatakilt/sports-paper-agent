@@ -1,6 +1,6 @@
 {
- "cash": 98.1578,
- "next_id": 13,
+ "cash": 97.1296,
+ "next_id": 14,
  "positions": [
   {
    "id": 1,
@@ -304,6 +304,30 @@
    "status": "open",
    "placed_at": 1792020841,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 32%, DK fair 32%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 13,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4688873",
+     "idx": 0,
+     "label": "Rangers to win",
+     "game": "Rangers vs. Devils",
+     "league": "nhl",
+     "price": 0.435,
+     "question": "Rangers vs. Devils"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.2989,
+   "price": 0.435,
+   "fee": 0.0282,
+   "status": "open",
+   "placed_at": 1792055867,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 44%, DK fair 44%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
