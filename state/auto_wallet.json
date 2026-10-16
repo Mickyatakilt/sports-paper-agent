@@ -301,11 +301,13 @@
    "shares": 3.1746,
    "price": 0.315,
    "fee": 0.0343,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792020841,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 32%, DK fair 32%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792117430
   },
   {
    "id": 13,
@@ -325,11 +327,13 @@
    "shares": 2.2989,
    "price": 0.435,
    "fee": 0.0282,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792055867,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 44%, DK fair 44%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792117430
   },
   {
    "id": 14,
