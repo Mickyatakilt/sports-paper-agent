@@ -251,11 +251,13 @@
    "shares": 1.7699,
    "price": 0.565,
    "fee": 0.0218,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792004746,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792157912
   },
   {
    "id": 11,
@@ -353,11 +355,13 @@
    "shares": 2.8986,
    "price": 0.345,
    "fee": 0.0328,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792072150,
    "note": "PRACTICE AUTO 92% (11/12). DK fair 36% vs PM 34%. Failed: Top-5 scoring (last-5 avg) at least the opponent's",
    "practice": true,
-   "bucket": "practice"
+   "bucket": "practice",
+   "payout": 0.0,
+   "closed_at": 1792157912
   }
  ]
 }
