@@ -1,6 +1,6 @@
 {
- "cash": 96.0968,
- "next_id": 15,
+ "cash": 95.072,
+ "next_id": 16,
  "positions": [
   {
    "id": 1,
@@ -362,6 +362,30 @@
    "bucket": "practice",
    "payout": 0.0,
    "closed_at": 1792157912
+  },
+  {
+   "id": 15,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4726824",
+     "idx": 0,
+     "label": "Bruins to win",
+     "game": "Bruins vs. Ducks",
+     "league": "nhl",
+     "price": 0.505,
+     "question": "Bruins vs. Ducks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9802,
+   "price": 0.505,
+   "fee": 0.0248,
+   "status": "open",
+   "placed_at": 1792192208,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
   }
  ]
 }
