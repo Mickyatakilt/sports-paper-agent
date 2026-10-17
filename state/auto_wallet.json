@@ -1,6 +1,6 @@
 {
- "cash": 96.0302,
- "next_id": 17,
+ "cash": 91.9476,
+ "next_id": 21,
  "positions": [
   {
    "id": 1,
@@ -410,6 +410,102 @@
    "status": "open",
    "placed_at": 1792226625,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 56%, DK fair 57%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 17,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4329888",
+     "idx": 0,
+     "label": "Panthers to win",
+     "game": "Panthers vs. Eagles",
+     "league": "nfl",
+     "price": 0.615,
+     "question": "Panthers vs. Eagles"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.626,
+   "price": 0.615,
+   "fee": 0.0192,
+   "status": "open",
+   "placed_at": 1792240554,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 60%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 18,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4329887",
+     "idx": 1,
+     "label": "Giants to win",
+     "game": "Saints vs. Giants",
+     "league": "nfl",
+     "price": 0.495,
+     "question": "Saints vs. Giants"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.0202,
+   "price": 0.495,
+   "fee": 0.0253,
+   "status": "open",
+   "placed_at": 1792240560,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 19,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4329883",
+     "idx": 0,
+     "label": "Bears to win",
+     "game": "Bears vs. Falcons",
+     "league": "nfl",
+     "price": 0.505,
+     "question": "Bears vs. Falcons"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9802,
+   "price": 0.505,
+   "fee": 0.0248,
+   "status": "open",
+   "placed_at": 1792240565,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 50%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 20,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4329885",
+     "idx": 1,
+     "label": "Colts to win",
+     "game": "Titans vs. Colts",
+     "league": "nfl",
+     "price": 0.735,
+     "question": "Titans vs. Colts"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3605,
+   "price": 0.735,
+   "fee": 0.0133,
+   "status": "open",
+   "placed_at": 1792240570,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 74%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
