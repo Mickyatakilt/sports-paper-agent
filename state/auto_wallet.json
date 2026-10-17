@@ -1,6 +1,6 @@
 {
- "cash": 97.052,
- "next_id": 16,
+ "cash": 96.0302,
+ "next_id": 17,
  "positions": [
   {
    "id": 1,
@@ -388,6 +388,30 @@
    "practice": false,
    "payout": 1.98,
    "closed_at": 1792221649
+  },
+  {
+   "id": 16,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4329882",
+     "idx": 1,
+     "label": "Jaguars to win",
+     "game": "Texans vs. Jaguars",
+     "league": "nfl",
+     "price": 0.565,
+     "question": "Texans vs. Jaguars"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7699,
+   "price": 0.565,
+   "fee": 0.0218,
+   "status": "open",
+   "placed_at": 1792226625,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 56%, DK fair 57%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
   }
  ]
 }
