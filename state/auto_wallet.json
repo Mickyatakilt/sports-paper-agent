@@ -1,6 +1,6 @@
 {
- "cash": 91.9476,
- "next_id": 21,
+ "cash": 90.9369,
+ "next_id": 22,
  "positions": [
   {
    "id": 1,
@@ -506,6 +506,30 @@
    "status": "open",
    "placed_at": 1792240570,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 74%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 21,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4329891",
+     "idx": 1,
+     "label": "Chiefs to win",
+     "game": "Chargers vs. Chiefs",
+     "league": "nfl",
+     "price": 0.785,
+     "question": "Chargers vs. Chiefs"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.2739,
+   "price": 0.785,
+   "fee": 0.0107,
+   "status": "open",
+   "placed_at": 1792258776,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 78%, DK fair 79%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
