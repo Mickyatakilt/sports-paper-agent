@@ -1,5 +1,5 @@
 {
- "cash": 95.072,
+ "cash": 97.052,
  "next_id": 16,
  "positions": [
   {
@@ -381,11 +381,13 @@
    "shares": 1.9802,
    "price": 0.505,
    "fee": 0.0248,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792192208,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.98,
+   "closed_at": 1792221649
   }
  ]
 }
