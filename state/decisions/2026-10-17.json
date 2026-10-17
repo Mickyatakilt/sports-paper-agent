@@ -5371,5 +5371,787 @@
    "Baltimore Ravens has 21 day-to-day players (rest/injury): lineup uncertain."
   ],
   "ts": 1792258783
+ },
+ {
+  "league": "nhl",
+  "game": "Kraken vs. Panthers",
+  "start": "2026-10-17T22:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Rangers vs. Blue Jackets",
+  "start": "2026-10-17T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Islanders vs. Maple Leafs",
+  "start": "2026-10-17T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Senators vs. Flyers",
+  "start": "2026-10-17T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Sabres vs. Canadiens",
+  "start": "2026-10-17T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Sharks vs. Red Wings",
+  "start": "2026-10-17T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Stars vs. Blackhawks",
+  "start": "2026-10-17T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Blues vs. Predators",
+  "start": "2026-10-18T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Bruins vs. Kings",
+  "start": "2026-10-18T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Penguins vs. Golden Knights",
+  "start": "2026-10-18T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Blue Jackets vs. Wild",
+  "start": "2026-10-18T22:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nhl",
+  "game": "Hurricanes vs. Flames",
+  "start": "2026-10-19T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Texans vs. Jaguars",
+  "start": "2026-10-18T13:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Bears vs. Falcons",
+  "start": "2026-10-18T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Ravens vs. Browns",
+  "start": "2026-10-18T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Titans vs. Colts",
+  "start": "2026-10-18T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Jets vs. Patriots",
+  "start": "2026-10-18T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Saints vs. Giants",
+  "start": "2026-10-18T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Panthers vs. Eagles",
+  "start": "2026-10-18T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Steelers vs. Buccaneers",
+  "start": "2026-10-18T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Cardinals vs. Rams",
+  "start": "2026-10-18T20:05:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Chargers vs. Chiefs",
+  "start": "2026-10-18T20:25:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Bills vs. Raiders",
+  "start": "2026-10-18T20:25:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Cowboys vs. Packers",
+  "start": "2026-10-19T00:20:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "epl",
+  "game": "Brighton & Hove Albion FC vs. Crystal Palace FC",
+  "start": "2026-10-18T13:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "epl",
+  "game": "AFC Bournemouth vs. Sunderland AFC",
+  "start": "2026-10-18T13:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "epl",
+  "game": "Leeds United FC vs. Manchester United FC",
+  "start": "2026-10-18T13:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "epl",
+  "game": "Nottingham Forest FC vs. Arsenal FC",
+  "start": "2026-10-18T15:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "laliga",
+  "game": "M\u00e1laga CF vs. Real Sociedad de F\u00fatbol",
+  "start": "2026-10-18T16:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "laliga",
+  "game": "Real Madrid CF vs. Sevilla FC",
+  "start": "2026-10-18T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "seriea",
+  "game": "Udinese Calcio vs. US Lecce",
+  "start": "2026-10-18T10:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "seriea",
+  "game": "ACF Fiorentina vs. Como 1907",
+  "start": "2026-10-18T13:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "seriea",
+  "game": "AC Milan vs. Atalanta BC",
+  "start": "2026-10-18T16:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "seriea",
+  "game": "Juventus FC vs. SS Lazio",
+  "start": "2026-10-18T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "ligue1",
+  "game": "Angers SCO vs. Olympique de Marseille",
+  "start": "2026-10-18T13:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "ligue1",
+  "game": "FC Lorient vs. AS Monaco FC",
+  "start": "2026-10-18T15:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "ligue1",
+  "game": "Le Havre AC vs. AJ Auxerre",
+  "start": "2026-10-18T15:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "ligue1",
+  "game": "Paris FC vs. Stade Rennais FC 1901",
+  "start": "2026-10-18T15:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "ligue1",
+  "game": "Olympique Lyonnais vs. OGC Nice",
+  "start": "2026-10-18T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "Atlanta United FC vs. Inter Miami CF",
+  "start": "2026-10-17T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "Orlando City SC vs. D.C. United SC",
+  "start": "2026-10-17T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "New England Revolution vs. Chicago Fire FC",
+  "start": "2026-10-17T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "Sporting Kansas City vs. Real Salt Lake",
+  "start": "2026-10-18T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "Austin FC vs. Vancouver Whitecaps FC",
+  "start": "2026-10-18T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "San Jose Earthquakes vs. Nashville SC",
+  "start": "2026-10-18T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "Seattle Sounders FC vs. CF Montr\u00e9al",
+  "start": "2026-10-18T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "Portland Timbers vs. Colorado Rapids SC",
+  "start": "2026-10-18T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mls",
+  "game": "FC Cincinnati vs. Columbus Crew",
+  "start": "2026-10-18T21:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "eredivisie",
+  "game": "PEC Zwolle vs. Go Ahead Eagles",
+  "start": "2026-10-18T10:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "eredivisie",
+  "game": "FC Twente vs. FC Utrecht",
+  "start": "2026-10-18T18:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mexico",
+  "game": "Club Santos Laguna vs. Quer\u00e9taro FC",
+  "start": "2026-10-17T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mexico",
+  "game": "Club Le\u00f3n FC vs. CF Am\u00e9rica",
+  "start": "2026-10-18T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mexico",
+  "game": "CF Cruz Azul vs. FC Ju\u00e1rez",
+  "start": "2026-10-18T03:10:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "mexico",
+  "game": "CF Monterrey vs. CF Pachuca",
+  "start": "2026-10-19T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "brazil",
+  "game": "Botafogo FR vs. Associa\u00e7\u00e3o Chapecoense de Futebol",
+  "start": "2026-10-17T21:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "brazil",
+  "game": "S\u00e3o Paulo FC vs. CR Vasco da Gama",
+  "start": "2026-10-18T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "brazil",
+  "game": "Fluminense FC vs. Santos FC",
+  "start": "2026-10-18T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "brazil",
+  "game": "Gr\u00eamio FBPA vs. Cruzeiro EC",
+  "start": "2026-10-18T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "brazil",
+  "game": "EC Bahia vs. CR Flamengo",
+  "start": "2026-10-18T21:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "brazil",
+  "game": "Clube do Remo vs. Red Bull Bragantino",
+  "start": "2026-10-18T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "argentina",
+  "game": "CS Independiente Rivadavia vs. CA Tigre",
+  "start": "2026-10-17T20:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "argentina",
+  "game": "CA Platense vs. CA Lan\u00fas",
+  "start": "2026-10-17T20:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "argentina",
+  "game": "Racing Club vs. CA Independiente",
+  "start": "2026-10-18T17:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "argentina",
+  "game": "Estudiantes de La Plata vs. CA San Lorenzo de Almagro",
+  "start": "2026-10-18T21:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Texans vs. Jaguars",
+  "start": "2026-10-18T13:30:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Jaguars",
+  "price": 0.565,
+  "fair": 0.572,
+  "pass_pct": 1.0,
+  "passed": 6,
+  "applicable": 6,
+  "reason": "already have a bet on this game",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 56% vs DK fair 57% = +0.7 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$115,884 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "56%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 2.5 vs DK 2.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Jacksonville Jaguars 80% vs Houston Texans 20%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+10.6 vs -0.4"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "7 vs 7 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "4-1 vs 1-4"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": null,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": null,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": null,
+    "detail": "ours 0 vs theirs 0 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": null,
+    "detail": "0 vs 0 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": null,
+    "detail": "basketball-only check"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": null,
+    "detail": "0 of 0 meetings"
+   }
+  ],
+  "warnings": [
+   "Jacksonville Jaguars OUT: Ross Matiscik, Montaric Brown",
+   "Jacksonville Jaguars has 23 day-to-day players (rest/injury): lineup uncertain.",
+   "Houston Texans OUT: Jalen Pitre, David Montgomery",
+   "Houston Texans has 23 day-to-day players (rest/injury): lineup uncertain."
+  ],
+  "ts": 1792266827
+ },
+ {
+  "league": "nfl",
+  "game": "Cowboys vs. Packers",
+  "start": "2026-10-19T00:20:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Cowboys",
+  "price": 0.485,
+  "fair": 0.483,
+  "pass_pct": 0.667,
+  "passed": 4,
+  "applicable": 6,
+  "reason": "only 67% of checks passed (need 80%)",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 48% vs DK fair 48% = -0.2 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$111,328 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "48%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 1.5 vs DK 1.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": false,
+    "detail": "Dallas Cowboys 40% vs Green Bay Packers 60%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+0.4 vs -1.6"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "10 vs 8 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": false,
+    "detail": "2-3 vs 3-2"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": null,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": null,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": null,
+    "detail": "ours 0 vs theirs 0 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": null,
+    "detail": "0 vs 0 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": null,
+    "detail": "basketball-only check"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": null,
+    "detail": "0 of 0 meetings"
+   }
+  ],
+  "warnings": [
+   "Green Bay Packers OUT: Benjamin St-Juste, Jonathan Ford, Skyy Moore, Josh Jacobs, Jordon Riley",
+   "Green Bay Packers has 18 day-to-day players (rest/injury): lineup uncertain.",
+   "Dallas Cowboys OUT: Drew Shelton, Cobie Durant, DeMarvion Overshown",
+   "Dallas Cowboys has 22 day-to-day players (rest/injury): lineup uncertain."
+  ],
+  "ts": 1792266827
  }
 ]
