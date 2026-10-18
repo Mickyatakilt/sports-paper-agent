@@ -1,6 +1,6 @@
 {
- "cash": 90.9369,
- "next_id": 22,
+ "cash": 89.9177,
+ "next_id": 23,
  "positions": [
   {
    "id": 1,
@@ -530,6 +530,30 @@
    "status": "open",
    "placed_at": 1792258776,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 78%, DK fair 79%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 22,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4329884",
+     "idx": 0,
+     "label": "Ravens to win",
+     "game": "Ravens vs. Browns",
+     "league": "nfl",
+     "price": 0.615,
+     "question": "Ravens vs. Browns"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.626,
+   "price": 0.615,
+   "fee": 0.0192,
+   "status": "open",
+   "placed_at": 1792289789,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 62%, DK fair 60%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
