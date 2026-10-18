@@ -1,5 +1,5 @@
 {
- "cash": 86.8654,
+ "cash": 90.4754,
  "next_id": 26,
  "positions": [
   {
@@ -433,11 +433,13 @@
    "shares": 1.626,
    "price": 0.615,
    "fee": 0.0192,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792240554,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 60%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.63,
+   "closed_at": 1792363266
   },
   {
    "id": 18,
@@ -457,11 +459,13 @@
    "shares": 2.0202,
    "price": 0.495,
    "fee": 0.0253,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792240560,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792363266
   },
   {
    "id": 19,
@@ -481,11 +485,13 @@
    "shares": 1.9802,
    "price": 0.505,
    "fee": 0.0248,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792240565,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 50%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.98,
+   "closed_at": 1792363267
   },
   {
    "id": 20,
@@ -505,11 +511,13 @@
    "shares": 1.3605,
    "price": 0.735,
    "fee": 0.0133,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792240570,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 74%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792363267
   },
   {
    "id": 21,
@@ -553,11 +561,13 @@
    "shares": 1.626,
    "price": 0.615,
    "fee": 0.0192,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792289789,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 62%, DK fair 60%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792363267
   },
   {
    "id": 23,
