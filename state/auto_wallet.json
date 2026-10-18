@@ -1,6 +1,6 @@
 {
- "cash": 88.8949,
- "next_id": 24,
+ "cash": 86.8654,
+ "next_id": 26,
  "positions": [
   {
    "id": 1,
@@ -580,6 +580,54 @@
    "status": "open",
    "placed_at": 1792345286,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 55%, DK fair 54%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 24,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4362230",
+     "idx": 1,
+     "label": "49ers to win",
+     "game": "Commanders vs. 49ers",
+     "league": "nfl",
+     "price": 0.785,
+     "question": "Commanders vs. 49ers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.2739,
+   "price": 0.785,
+   "fee": 0.0107,
+   "status": "open",
+   "placed_at": 1792353203,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 78%, DK fair 79%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 25,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4797319",
+     "idx": 1,
+     "label": "Wild to win",
+     "game": "Blue Jackets vs. Wild",
+     "league": "nhl",
+     "price": 0.625,
+     "question": "Blue Jackets vs. Wild"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.6,
+   "price": 0.625,
+   "fee": 0.0188,
+   "status": "open",
+   "placed_at": 1792353209,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 62%, DK fair 63%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
