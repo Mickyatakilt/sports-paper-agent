@@ -1,6 +1,6 @@
 {
- "cash": 89.9177,
- "next_id": 23,
+ "cash": 88.8949,
+ "next_id": 24,
  "positions": [
   {
    "id": 1,
@@ -407,11 +407,13 @@
    "shares": 1.7699,
    "price": 0.565,
    "fee": 0.0218,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792226625,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 56%, DK fair 57%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792345268
   },
   {
    "id": 17,
@@ -554,6 +556,30 @@
    "status": "open",
    "placed_at": 1792289789,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 62%, DK fair 60%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 23,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5557834",
+     "idx": 0,
+     "label": "Tampa Bay Rays to win",
+     "game": "Tampa Bay Rays vs. Cleveland Guardians",
+     "league": "mlb",
+     "price": 0.545,
+     "question": "Tampa Bay Rays vs. Cleveland Guardians"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.8349,
+   "price": 0.545,
+   "fee": 0.0228,
+   "status": "open",
+   "placed_at": 1792345286,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 55%, DK fair 54%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
