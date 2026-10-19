@@ -1,6 +1,6 @@
 {
- "cash": 93.1379,
- "next_id": 28,
+ "cash": 92.1121,
+ "next_id": 29,
  "positions": [
   {
    "id": 1,
@@ -692,6 +692,30 @@
    "status": "open",
    "placed_at": 1792377127,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 68%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 28,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5676016",
+     "idx": 1,
+     "label": "Pistons to win",
+     "game": "Celtics vs. Pistons",
+     "league": "nba",
+     "price": 0.485,
+     "question": "Celtics vs. Pistons"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.0619,
+   "price": 0.485,
+   "fee": 0.0258,
+   "status": "open",
+   "placed_at": 1792425776,
+   "note": "EXPERIMENT (checklist only) 88% (7/8). PM 48%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
    "bucket": "experiment",
    "practice": false
   }
