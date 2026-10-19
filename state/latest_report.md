@@ -1,13 +1,13 @@
 # Paper agent report
-_2026-10-19 02:32 UTC_
+_2026-10-19 08:18 UTC_
 
-**Wallet:** total $96.09 (start $100) · cash $93.14 · open $2.96 · realized $-3.81
+**Wallet:** total $96.08 (start $100) · cash $93.14 · open $2.94 · realized $-3.81
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 20 settled · 11 won · profit $-1.02 · ROI -5%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 2 bet(s), 1 skipped, 11 no edge
+## This run: 0 bet(s), 6 skipped, 11 no edge
 - Atlanta Dream vs. Golden State Valkyries: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Avalanche vs. Flyers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Ducks vs. Rangers: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -20,66 +20,124 @@ _2026-10-19 02:32 UTC_
 - SC Braga vs. Gil Vicente FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - SC Corinthians Paulista vs. EC Vitória: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
-### SKIP: SC Corinthians Paulista vs. EC Vitória → SC Corinthians Paulista
-Price 60% · DK fair 58% · checklist 4/6 (67%) · only 67% of checks passed (need 80%)
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 60% vs DK fair 58% = -1.5 pts
-- ✅ **Market** Market has $5,000+ traded: $7,140 traded
-- ✅ **Market** Price between 20% and 80%: 60%
+### SKIP: Commanders vs. 49ers → 49ers
+Price 78% · DK fair 78% · checklist 6/6 (100%) · already have a bet on this game
+- ⚠ San Francisco 49ers OUT: Marques Sigle, Nick Bosa, Deebo Samuel Sr., Garret Wallow
+- ⚠ San Francisco 49ers has 21 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Washington Commanders OUT: Javontae Jean-Baptiste, Charles Omenihu, Marcus Mariota, Jacory Croskey-Merritt
+- ⚠ Washington Commanders has 21 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 78% vs DK fair 78% = -0.3 pts
+- ✅ **Market** Market has $5,000+ traded: $381,724 traded
+- ✅ **Market** Price between 20% and 80%: 78%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 7.5 vs DK 7.5
+- ✅ **Team** Last-5 win rate at least the opponent's: San Francisco 49ers 100% vs Washington Commanders 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +12.2 vs -6.8
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 9 vs 9 days
+- ✅ **Team** Overall record at least the opponent's: 5-0 vs 1-3-1
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: AC Monza vs. Cagliari Calcio → Cagliari Calcio
+Price 30% · DK fair 30% · checklist 5/5 (100%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 30% vs DK fair 30% = +0.2 pts
+- ✅ **Market** Market has $5,000+ traded: $170,263 traded
+- ✅ **Market** Price between 20% and 80%: 30%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
 - ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
-- ✅ **Team** Last-5 win rate at least the opponent's: Corinthians 40% vs Vitória 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +0.0 vs -0.2
+- ✅ **Team** Last-5 win rate at least the opponent's: Cagliari 80% vs Monza 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.6 vs -0.8
 - ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 264 vs 264 days
-- ❌ **Team** Overall record at least the opponent's: 8-8-14 vs 10-6-14
+- ✅ **Team** Rest days at least the opponent's: 58 vs 58 days
+- ✅ **Team** Overall record at least the opponent's: 4-1-1 vs 1-1-4
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
 - ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ❌ **History** Won at least half of recent meetings: 0 of 1 meetings
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
-### BET: Atlanta Dream vs. Golden State Valkyries → Golden State Valkyries
-Price 57% · DK fair 55% · checklist 10/12 (83%)
-- ⚠ Golden State Valkyries OUT: Iliana Rupert
-- ⚠ Atlanta Dream OUT: Matilde Villa, Brionna Jones
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 57% vs DK fair 55% = -2.4 pts
-- ✅ **Market** Market has $5,000+ traded: $6,617 traded
-- ✅ **Market** Price between 20% and 80%: 57%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): postseason
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 2.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Golden State Valkyries 100% vs Atlanta Dream 80%
-- ✅ **Team** Last-5 average margin at least the opponent's: +6.2 vs +5.8
+### SKIP: Tottenham Hotspur FC vs. Coventry City FC → Tottenham Hotspur FC
+Price 64% · DK fair 62% · checklist 2/5 (40%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 64% vs DK fair 62% = -1.2 pts
+- ✅ **Market** Market has $5,000+ traded: $94,981 traded
+- ✅ **Market** Price between 20% and 80%: 64%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
+- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
+- ❌ **Team** Last-5 win rate at least the opponent's: Tottenham Hotspur 0% vs Coventry City 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: -1.2 vs -1.8
 - ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 3 vs 3 days
-- ✅ **Team** Overall record at least the opponent's: 32-12 vs 30-14
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ❌ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 36 vs 72 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ❌ **History** Won at least half of recent meetings: 0 of 4 meetings
+- ❌ **Team** Rest days at least the opponent's: 58 vs 59 days
+- ❌ **Team** Overall record at least the opponent's: 0-3-3 vs 2-0-4
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
-### BET: Avalanche vs. Flyers → Avalanche
-Price 68% · DK fair 66% · checklist 6/7 (86%)
-- ⚠ Philadelphia Flyers has 7 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Colorado Avalanche OUT: Zachary L'Heureux, Nicolas Roy
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 68% vs DK fair 66% = -1.8 pts
-- ✅ **Market** Market has $5,000+ traded: $5,538 traded
-- ✅ **Market** Price between 20% and 80%: 68%
+### SKIP: SC Braga vs. Gil Vicente FC → SC Braga
+Price 62% · DK fair 60% · checklist 5/5 (100%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 62% vs DK fair 60% = -1.1 pts
+- ✅ **Market** Market has $5,000+ traded: $16,021 traded
+- ✅ **Market** Price between 20% and 80%: 62%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
+- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
+- ✅ **Team** Last-5 win rate at least the opponent's: Braga 60% vs Gil Vicente 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.4 vs +0.0
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 71 vs 71 days
+- ✅ **Team** Overall record at least the opponent's: 3-2-2 vs 3-2-2
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Getafe CF vs. Rayo Vallecano de Madrid → Getafe CF
+Price 32% · DK fair 31% · checklist 4/5 (80%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 32% vs DK fair 31% = -0.6 pts
+- ✅ **Market** Market has $5,000+ traded: $10,028 traded
+- ✅ **Market** Price between 20% and 80%: 32%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
+- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
+- ✅ **Team** Last-5 win rate at least the opponent's: Getafe 20% vs Rayo Vallecano 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: -0.6 vs -1.2
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 65 vs 65 days
+- ❌ **Team** Overall record at least the opponent's: 2-2-4 vs 2-2-3
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Sharks vs. Maple Leafs → Maple Leafs
+Price 56% · DK fair 56% · checklist 4/7 (57%) · only 57% of checks passed (need 80%)
+- ⚠ Toronto Maple Leafs has 8 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 56% vs DK fair 56% = -0.2 pts
+- ✅ **Market** Market has $5,000+ traded: $9,705 traded
+- ✅ **Market** Price between 20% and 80%: 56%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 218.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Colorado Avalanche 60% vs Philadelphia Flyers 20%
-- ✅ **Team** Last-5 average margin at least the opponent's: +0.8 vs -1.4
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 142.0
+- ❌ **Team** Last-5 win rate at least the opponent's: Toronto Maple Leafs 20% vs San Jose Sharks 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: -0.6 vs -0.8
 - ✅ **Team** Not on a back-to-back: rested
 - ✅ **Team** Rest days at least the opponent's: 2 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 5-2-1 vs 1-6-3
+- ❌ **Team** Overall record at least the opponent's: 3-4-2 vs 4-3-1
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
 - ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ✅ **History** Won at least half of recent meetings: 1 of 2 meetings
+- ✅ **History** Won at least half of recent meetings: 2 of 2 meetings
 
 ## Open and recent positions
 - #27 [EXPERIMENT] OPEN Avalanche to win (Avalanche vs. Flyers) $1.00
