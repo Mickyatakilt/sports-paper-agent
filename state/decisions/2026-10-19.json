@@ -1373,5 +1373,93 @@
    "Toronto Maple Leafs has 8 day-to-day players (rest/injury): lineup uncertain."
   ],
   "ts": 1792397915
+ },
+ {
+  "league": "wnba",
+  "game": "Atlanta Dream vs. Golden State Valkyries",
+  "start": "2026-10-20T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "nhl",
+  "game": "Avalanche vs. Flyers",
+  "start": "2026-10-19T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "nhl",
+  "game": "Ducks vs. Rangers",
+  "start": "2026-10-19T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "nhl",
+  "game": "Sharks vs. Maple Leafs",
+  "start": "2026-10-19T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "nfl",
+  "game": "Commanders vs. 49ers",
+  "start": "2026-10-20T00:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "epl",
+  "game": "Tottenham Hotspur FC vs. Coventry City FC",
+  "start": "2026-10-19T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "laliga",
+  "game": "Getafe CF vs. Rayo Vallecano de Madrid",
+  "start": "2026-10-19T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "seriea",
+  "game": "AC Monza vs. Cagliari Calcio",
+  "start": "2026-10-19T16:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "seriea",
+  "game": "Parma Calcio 1913 vs. Torino FC",
+  "start": "2026-10-19T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "portugal",
+  "game": "SC Braga vs. Gil Vicente FC",
+  "start": "2026-10-19T19:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
+ },
+ {
+  "league": "brazil",
+  "game": "SC Corinthians Paulista vs. EC Vit\u00f3ria",
+  "start": "2026-10-19T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792404515
  }
 ]
