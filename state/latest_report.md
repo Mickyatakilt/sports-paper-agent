@@ -1,108 +1,124 @@
 # Paper agent report
-_2026-10-19 16:03 UTC_
+_2026-10-19 21:53 UTC_
 
-**Wallet:** total $96.01 (start $100) · cash $92.11 · open $3.90 · realized $-3.81
+**Wallet:** total $96.02 (start $100) · cash $92.11 · open $3.91 · realized $-3.81
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 20 settled · 11 won · profit $-1.02 · ROI -5%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 1 bet(s), 3 skipped, 16 no edge
+## This run: 0 bet(s), 4 skipped, 26 no edge
 - Celtics vs. Pistons: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- 76ers vs. Knicks: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Thunder vs. Spurs: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Atlanta Dream vs. Golden State Valkyries: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Avalanche vs. Flyers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Ducks vs. Rangers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Sharks vs. Maple Leafs: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Maple Leafs vs. Blue Jackets: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Kings vs. Capitals: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Ducks vs. Islanders: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Avalanche vs. Devils: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Sharks vs. Canadiens: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Jets vs. Blues: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Bruins vs. Stars: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Wild vs. Oilers: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Red Wings vs. Kraken: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Hurricanes vs. Canucks: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Lightning vs. Golden Knights: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Commanders vs. 49ers: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Tottenham Hotspur FC vs. Coventry City FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Getafe CF vs. Rayo Vallecano de Madrid: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- AC Monza vs. Cagliari Calcio: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Parma Calcio 1913 vs. Torino FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - AS Roma vs. ŠK Slovan Bratislava: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Liverpool FC vs. Villarreal CF: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Paris Saint-Germain FC vs. FC Barcelona: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Wolverhampton Wanderers FC vs. Portsmouth FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- SC Braga vs. Gil Vicente FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- CD Guadalajara vs. Club Necaxa: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- FC Juárez vs. Atlante FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - SC Corinthians Paulista vs. EC Vitória: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
-### SKIP: Paris Saint-Germain FC vs. FC Barcelona → Paris Saint-Germain FC
-Price 40% · DK fair 40% · checklist 5/5 (100%) · only 5 checks had data (need 6+)
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 40% vs DK fair 40% = +0.3 pts
-- ✅ **Market** Market has $5,000+ traded: $173,055 traded
-- ✅ **Market** Price between 20% and 80%: 40%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
-- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
-- ✅ **Team** Last-5 win rate at least the opponent's: Paris Saint-Germain 100% vs Barcelona 100%
-- ✅ **Team** Last-5 average margin at least the opponent's: +3.5 vs +3.5
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 41 vs 41 days
-- ✅ **Team** Overall record at least the opponent's: 2-0-0 vs 2-0-0
-- ➖ **Players** None of our top-5 scorers is OUT: all available
-- ➖ **Players** At most 1 top-5 scorer day-to-day: none
-- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
-- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
-
-### SKIP: Liverpool FC vs. Villarreal CF → Liverpool FC
-Price 64% · DK fair 63% · checklist 4/5 (80%) · only 5 checks had data (need 6+)
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 64% vs DK fair 63% = -0.6 pts
-- ✅ **Market** Market has $5,000+ traded: $58,069 traded
-- ✅ **Market** Price between 20% and 80%: 64%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
-- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
-- ✅ **Team** Last-5 win rate at least the opponent's: Liverpool 100% vs Villarreal 50%
-- ✅ **Team** Last-5 average margin at least the opponent's: +2.0 vs +0.5
-- ✅ **Team** Not on a back-to-back: rested
-- ❌ **Team** Rest days at least the opponent's: 41 vs 42 days
-- ✅ **Team** Overall record at least the opponent's: 2-0-0 vs 1-0-1
-- ➖ **Players** None of our top-5 scorers is OUT: all available
-- ➖ **Players** At most 1 top-5 scorer day-to-day: none
-- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
-- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
-
-### BET: Celtics vs. Pistons → Pistons
-Price 48% · DK fair 50% · checklist 7/8 (88%)
-- ⚠ Boston Celtics OUT: Devin Carter
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 48% vs DK fair 50% = +1.1 pts
-- ✅ **Market** Market has $5,000+ traded: $52,979 traded
-- ✅ **Market** Price between 20% and 80%: 48%
+### SKIP: Commanders vs. 49ers → 49ers
+Price 78% · DK fair 77% · checklist 5/6 (83%) · already have a bet on this game
+- ⚠ San Francisco 49ers OUT: Marques Sigle, Nick Bosa, Deebo Samuel Sr., Garret Wallow
+- ⚠ San Francisco 49ers has 21 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Washington Commanders OUT: Charles Omenihu, Marcus Mariota
+- ⚠ Washington Commanders has 23 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 78% vs DK fair 77% = -1.9 pts
+- ✅ **Market** Market has $5,000+ traded: $1,526,878 traded
+- ✅ **Market** Price between 20% and 80%: 78%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 1.5
-- ➖ **Team** Last-5 win rate at least the opponent's: Detroit Pistons None vs Boston Celtics None
-- ➖ **Team** Last-5 average margin at least the opponent's: n/a
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 21.5 vs DK 7.5
+- ✅ **Team** Last-5 win rate at least the opponent's: San Francisco 49ers 100% vs Washington Commanders 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +12.2 vs -6.8
 - ✅ **Team** Not on a back-to-back: rested
-- ➖ **Team** Rest days at least the opponent's: None vs None days
-- ➖ **Team** Overall record at least the opponent's: 0-0 vs 0-0
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 65 vs 60 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ❌ **History** Won at least half of recent meetings: 1 of 4 meetings
+- ✅ **Team** Rest days at least the opponent's: 9 vs 9 days
+- ✅ **Team** Overall record at least the opponent's: 5-0 vs 1-3-1
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
-### SKIP: Atlanta Dream vs. Golden State Valkyries → Golden State Valkyries
-Price 55% · DK fair 55% · checklist 10/12 (83%) · already have a bet on this game
-- ⚠ Golden State Valkyries OUT: Iliana Rupert
-- ⚠ Atlanta Dream OUT: Matilde Villa, Brionna Jones
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 55% vs DK fair 55% = +0.6 pts
-- ✅ **Market** Market has $5,000+ traded: $27,069 traded
-- ✅ **Market** Price between 20% and 80%: 55%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): postseason
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 2.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Golden State Valkyries 100% vs Atlanta Dream 80%
-- ✅ **Team** Last-5 average margin at least the opponent's: +6.2 vs +5.8
+### SKIP: Ducks vs. Rangers → Rangers
+Price 58% · DK fair 58% · checklist 5/7 (71%) · only 71% of checks passed (need 80%)
+- ⚠ New York Rangers has 5 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Anaheim Ducks has 3 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 58% vs DK fair 58% = -0.2 pts
+- ✅ **Market** Market has $5,000+ traded: $64,538 traded
+- ✅ **Market** Price between 20% and 80%: 58%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 155.0
+- ✅ **Team** Last-5 win rate at least the opponent's: New York Rangers 40% vs Anaheim Ducks 40%
+- ❌ **Team** Last-5 average margin at least the opponent's: -0.4 vs -0.2
 - ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 3 vs 3 days
-- ✅ **Team** Overall record at least the opponent's: 32-12 vs 30-14
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ❌ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 36 vs 72 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ❌ **History** Won at least half of recent meetings: 0 of 4 meetings
+- ✅ **Team** Rest days at least the opponent's: 2 vs 2 days
+- ✅ **Team** Overall record at least the opponent's: 6-3-1 vs 4-3-0
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ✅ **History** Won at least half of recent meetings: 2 of 2 meetings
+
+### SKIP: Sharks vs. Maple Leafs → Maple Leafs
+Price 55% · DK fair 55% · checklist 4/7 (57%) · only 57% of checks passed (need 80%)
+- ⚠ Toronto Maple Leafs has 9 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 55% vs DK fair 55% = +0.6 pts
+- ✅ **Market** Market has $5,000+ traded: $49,441 traded
+- ✅ **Market** Price between 20% and 80%: 55%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 135.0
+- ❌ **Team** Last-5 win rate at least the opponent's: Toronto Maple Leafs 20% vs San Jose Sharks 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: -0.6 vs -0.8
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 2 vs 2 days
+- ❌ **Team** Overall record at least the opponent's: 3-4-2 vs 4-3-1
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ✅ **History** Won at least half of recent meetings: 2 of 2 meetings
+
+### SKIP: Avalanche vs. Flyers → Avalanche
+Price 70% · DK fair 68% · checklist 6/7 (86%) · already have a bet on this game
+- ⚠ Philadelphia Flyers has 7 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Colorado Avalanche OUT: Zachary L'Heureux, Nicolas Roy
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 70% vs DK fair 68% = -2.0 pts
+- ✅ **Market** Market has $5,000+ traded: $42,815 traded
+- ✅ **Market** Price between 20% and 80%: 70%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 238.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Colorado Avalanche 60% vs Philadelphia Flyers 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.8 vs -1.4
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 2 vs 2 days
+- ✅ **Team** Overall record at least the opponent's: 5-2-1 vs 1-6-3
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ✅ **History** Won at least half of recent meetings: 1 of 2 meetings
 
 ## Open and recent positions
 - #28 [EXPERIMENT] OPEN Pistons to win (Celtics vs. Pistons) $1.00
