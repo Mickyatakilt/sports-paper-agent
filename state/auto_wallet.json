@@ -1,6 +1,6 @@
 {
- "cash": 90.4754,
- "next_id": 26,
+ "cash": 93.1379,
+ "next_id": 28,
  "positions": [
   {
    "id": 1,
@@ -537,11 +537,13 @@
    "shares": 1.2739,
    "price": 0.785,
    "fee": 0.0107,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792258776,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 78%, DK fair 79%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.27,
+   "closed_at": 1792377103
   },
   {
    "id": 22,
@@ -587,11 +589,13 @@
    "shares": 1.8349,
    "price": 0.545,
    "fee": 0.0228,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792345286,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 55%, DK fair 54%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.83,
+   "closed_at": 1792377103
   },
   {
    "id": 24,
@@ -635,9 +639,59 @@
    "shares": 1.6,
    "price": 0.625,
    "fee": 0.0188,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792353209,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 62%, DK fair 63%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false,
+   "payout": 1.6,
+   "closed_at": 1792377103
+  },
+  {
+   "id": 26,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5481970",
+     "idx": 1,
+     "label": "Golden State Valkyries to win",
+     "game": "Atlanta Dream vs. Golden State Valkyries",
+     "league": "wnba",
+     "price": 0.575,
+     "question": "Atlanta Dream vs. Golden State Valkyries"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7391,
+   "price": 0.575,
+   "fee": 0.0213,
+   "status": "open",
+   "placed_at": 1792377123,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 57%, DK fair 55%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 27,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4841684",
+     "idx": 0,
+     "label": "Avalanche to win",
+     "game": "Avalanche vs. Flyers",
+     "league": "nhl",
+     "price": 0.675,
+     "question": "Avalanche vs. Flyers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.4815,
+   "price": 0.675,
+   "fee": 0.0162,
+   "status": "open",
+   "placed_at": 1792377127,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 68%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
