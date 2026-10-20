@@ -1,6 +1,6 @@
 {
- "cash": 90.0546,
- "next_id": 31,
+ "cash": 90.3028,
+ "next_id": 32,
  "positions": [
   {
    "id": 1,
@@ -615,11 +615,13 @@
    "shares": 1.2739,
    "price": 0.785,
    "fee": 0.0107,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792353203,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 78%, DK fair 79%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.27,
+   "closed_at": 1792483375
   },
   {
    "id": 25,
@@ -665,11 +667,13 @@
    "shares": 1.7391,
    "price": 0.575,
    "fee": 0.0213,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792377123,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 57%, DK fair 55%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792483375
   },
   {
    "id": 27,
@@ -766,6 +770,30 @@
    "status": "open",
    "placed_at": 1792464298,
    "note": "EXPERIMENT (checklist only) 100% (8/8). PM 46%, DK fair 47%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 31,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4882663",
+     "idx": 1,
+     "label": "Oilers to win",
+     "game": "Wild vs. Oilers",
+     "league": "nhl",
+     "price": 0.565,
+     "question": "Wild vs. Oilers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7699,
+   "price": 0.565,
+   "fee": 0.0218,
+   "status": "open",
+   "placed_at": 1792483382,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 56%, DK fair 55%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
