@@ -1,6 +1,6 @@
 {
- "cash": 93.7519,
- "next_id": 37,
+ "cash": 92.7412,
+ "next_id": 38,
  "positions": [
   {
    "id": 1,
@@ -922,6 +922,30 @@
    "status": "open",
    "placed_at": 1792592140,
    "note": "EXPERIMENT (checklist only) 100% (8/8). PM 42%, DK fair 42%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 37,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5716468",
+     "idx": 1,
+     "label": "Rockets to win",
+     "game": "Mavericks vs. Rockets",
+     "league": "nba",
+     "price": 0.785,
+     "question": "Mavericks vs. Rockets"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.2739,
+   "price": 0.785,
+   "fee": 0.0107,
+   "status": "open",
+   "placed_at": 1792609390,
+   "note": "EXPERIMENT (checklist only) 88% (7/8). PM 78%, DK fair 78%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
