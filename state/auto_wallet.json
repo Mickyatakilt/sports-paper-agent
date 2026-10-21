@@ -1,6 +1,6 @@
 {
- "cash": 93.941,
- "next_id": 33,
+ "cash": 96.8367,
+ "next_id": 34,
  "positions": [
   {
    "id": 1,
@@ -771,11 +771,13 @@
    "shares": 2.1505,
    "price": 0.465,
    "fee": 0.0267,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792464298,
    "note": "EXPERIMENT (checklist only) 100% (8/8). PM 46%, DK fair 47%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 2.15,
+   "closed_at": 1792570090
   },
   {
    "id": 31,
@@ -795,11 +797,13 @@
    "shares": 1.7699,
    "price": 0.565,
    "fee": 0.0218,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792483382,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 56%, DK fair 55%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.77,
+   "closed_at": 1792570090
   },
   {
    "id": 32,
@@ -822,6 +826,30 @@
    "status": "open",
    "placed_at": 1792550311,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 33,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5716392",
+     "idx": 1,
+     "label": "Heat to win",
+     "game": "Timberwolves vs. Heat",
+     "league": "nba",
+     "price": 0.515,
+     "question": "Timberwolves vs. Heat"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9417,
+   "price": 0.515,
+   "fee": 0.0243,
+   "status": "open",
+   "placed_at": 1792570107,
+   "note": "EXPERIMENT (checklist only) 88% (7/8). PM 52%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
