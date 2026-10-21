@@ -1,6 +1,6 @@
 {
- "cash": 92.36280000000001,
- "next_id": 32,
+ "cash": 93.941,
+ "next_id": 33,
  "positions": [
   {
    "id": 1,
@@ -745,11 +745,13 @@
    "shares": 2.5974,
    "price": 0.385,
    "fee": 0.0308,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792464294,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 38%, DK fair 38%. Failed: Price at least 4.0 pts below DraftKings fair chance; Lineup not uncertain (under 3 day-to-day players)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 2.6,
+   "closed_at": 1792550299
   },
   {
    "id": 30,
@@ -796,6 +798,30 @@
    "status": "open",
    "placed_at": 1792483382,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 56%, DK fair 55%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 32,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5716444",
+     "idx": 1,
+     "label": "Nets to win",
+     "game": "Hornets vs. Nets",
+     "league": "nba",
+     "price": 0.565,
+     "question": "Hornets vs. Nets"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7699,
+   "price": 0.565,
+   "fee": 0.0218,
+   "status": "open",
+   "placed_at": 1792550311,
+   "note": "EXPERIMENT (checklist only) 88% (7/8). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
