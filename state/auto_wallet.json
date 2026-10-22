@@ -1,6 +1,6 @@
 {
- "cash": 89.673,
- "next_id": 41,
+ "cash": 89.7553,
+ "next_id": 44,
  "positions": [
   {
    "id": 1,
@@ -849,11 +849,13 @@
    "shares": 1.9417,
    "price": 0.515,
    "fee": 0.0243,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792570107,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 52%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792656518
   },
   {
    "id": 34,
@@ -873,11 +875,13 @@
    "shares": 2.8169,
    "price": 0.355,
    "fee": 0.0323,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792592133,
    "note": "EXPERIMENT (checklist only) 100% (8/8). PM 36%, DK fair 38%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792656518
   },
   {
    "id": 35,
@@ -897,11 +901,13 @@
    "shares": 1.9048,
    "price": 0.525,
    "fee": 0.0238,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792592137,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 52%, DK fair 53%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.9,
+   "closed_at": 1792656519
   },
   {
    "id": 36,
@@ -921,11 +927,13 @@
    "shares": 2.3529,
    "price": 0.425,
    "fee": 0.0287,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792592140,
    "note": "EXPERIMENT (checklist only) 100% (8/8). PM 42%, DK fair 42%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792656519
   },
   {
    "id": 37,
@@ -945,11 +953,13 @@
    "shares": 1.2739,
    "price": 0.785,
    "fee": 0.0107,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792609390,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 78%, DK fair 78%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.27,
+   "closed_at": 1792656519
   },
   {
    "id": 38,
@@ -1020,6 +1030,78 @@
    "status": "open",
    "placed_at": 1792636613,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 64%, DK fair 64%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 41,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5765055",
+     "idx": 1,
+     "label": "76ers to win",
+     "game": "Cavaliers vs. 76ers",
+     "league": "nba",
+     "price": 0.585,
+     "question": "Cavaliers vs. 76ers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7094,
+   "price": 0.585,
+   "fee": 0.0208,
+   "status": "open",
+   "placed_at": 1792656538,
+   "note": "EXPERIMENT (checklist only) 88% (7/8). PM 58%, DK fair 57%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 42,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4465810",
+     "idx": 0,
+     "label": "Patriots to win",
+     "game": "Patriots vs. Bears",
+     "league": "nfl",
+     "price": 0.405,
+     "question": "Patriots vs. Bears"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.4691,
+   "price": 0.405,
+   "fee": 0.0297,
+   "status": "open",
+   "placed_at": 1792656546,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 40%, DK fair 42%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 43,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5769220",
+     "idx": 0,
+     "label": "Nuggets to win",
+     "game": "Nuggets vs. Thunder",
+     "league": "nba",
+     "price": 0.255,
+     "question": "Nuggets vs. Thunder"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 3.9216,
+   "price": 0.255,
+   "fee": 0.0372,
+   "status": "open",
+   "placed_at": 1792656549,
+   "note": "EXPERIMENT (checklist only) 100% (8/8). PM 26%, DK fair 26%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
