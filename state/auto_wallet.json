@@ -1,6 +1,6 @@
 {
- "cash": 92.7412,
- "next_id": 38,
+ "cash": 89.673,
+ "next_id": 41,
  "positions": [
   {
    "id": 1,
@@ -823,11 +823,13 @@
    "shares": 1.7699,
    "price": 0.565,
    "fee": 0.0218,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792550311,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792636561
   },
   {
    "id": 33,
@@ -946,6 +948,78 @@
    "status": "open",
    "placed_at": 1792609390,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 78%, DK fair 78%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 38,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4950257",
+     "idx": 0,
+     "label": "Rangers to win",
+     "game": "Rangers vs. Maple Leafs",
+     "league": "nhl",
+     "price": 0.515,
+     "question": "Rangers vs. Maple Leafs"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9417,
+   "price": 0.515,
+   "fee": 0.0243,
+   "status": "open",
+   "placed_at": 1792636606,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 52%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 39,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4950297",
+     "idx": 1,
+     "label": "Oilers to win",
+     "game": "Hurricanes vs. Oilers",
+     "league": "nhl",
+     "price": 0.475,
+     "question": "Hurricanes vs. Oilers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.1053,
+   "price": 0.475,
+   "fee": 0.0262,
+   "status": "open",
+   "placed_at": 1792636610,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 48%, DK fair 48%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 40,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4950272",
+     "idx": 1,
+     "label": "Devils to win",
+     "game": "Ducks vs. Devils",
+     "league": "nhl",
+     "price": 0.645,
+     "question": "Ducks vs. Devils"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5504,
+   "price": 0.645,
+   "fee": 0.0177,
+   "status": "open",
+   "placed_at": 1792636613,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 64%, DK fair 64%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
