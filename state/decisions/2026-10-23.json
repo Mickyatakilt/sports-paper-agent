@@ -4636,5 +4636,1509 @@
    "Atlanta Hawks OUT: Mouhamed Gueye, Henri Veesaar"
   ],
   "ts": 1792781342
+ },
+ {
+  "league": "nba",
+  "game": "Pistons vs. Heat",
+  "start": "2026-10-24T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Rockets vs. Spurs",
+  "start": "2026-10-24T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Pelicans vs. Jazz",
+  "start": "2026-10-24T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Grizzlies vs. Warriors",
+  "start": "2026-10-24T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Clippers vs. Lakers",
+  "start": "2026-10-24T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Trail Blazers vs. Kings",
+  "start": "2026-10-24T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "wnba",
+  "game": "Golden State Valkyries vs. Atlanta Dream",
+  "start": "2026-10-24T19:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Canadiens vs. Blackhawks",
+  "start": "2026-10-24T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Lightning vs. Avalanche",
+  "start": "2026-10-24T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Ducks vs. Flyers",
+  "start": "2026-10-24T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Kings vs. Devils",
+  "start": "2026-10-24T19:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Golden Knights vs. Blue Jackets",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Sabres vs. Capitals",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Hurricanes vs. Blues",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Predators vs. Penguins",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Rangers vs. Senators",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Maple Leafs vs. Oilers",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Sharks vs. Bruins",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Wild vs. Kraken",
+  "start": "2026-10-25T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nhl",
+  "game": "Red Wings vs. Flames",
+  "start": "2026-10-25T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "epl",
+  "game": "Aston Villa FC vs. Manchester City FC",
+  "start": "2026-10-24T11:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "epl",
+  "game": "Arsenal FC vs. Everton FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "epl",
+  "game": "Coventry City FC vs. Fulham FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "epl",
+  "game": "Chelsea FC vs. Tottenham Hotspur FC",
+  "start": "2026-10-24T16:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "laliga",
+  "game": "Rayo Vallecano de Madrid vs. Elche CF",
+  "start": "2026-10-24T12:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "laliga",
+  "game": "Valencia CF vs. Villarreal CF",
+  "start": "2026-10-24T16:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "bundesliga",
+  "game": "1. FSV Mainz 05 vs. SV Werder Bremen",
+  "start": "2026-10-24T13:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "bundesliga",
+  "game": "FC Augsburg vs. 1. FC Union Berlin",
+  "start": "2026-10-24T13:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "seriea",
+  "game": "Como 1907 vs. US Sassuolo Calcio",
+  "start": "2026-10-24T13:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "seriea",
+  "game": "Cagliari Calcio vs. Bologna FC 1909",
+  "start": "2026-10-24T13:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "seriea",
+  "game": "SSC Napoli vs. AS Roma",
+  "start": "2026-10-24T16:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "seriea",
+  "game": "SS Lazio vs. Parma Calcio 1913",
+  "start": "2026-10-24T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "ligue1",
+  "game": "Racing Club de Lens vs. Paris FC",
+  "start": "2026-10-24T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "CF Montr\u00e9al vs. Nashville SC",
+  "start": "2026-10-24T17:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "Columbus Crew vs. Toronto FC",
+  "start": "2026-10-24T19:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "D.C. United SC vs. FC Cincinnati",
+  "start": "2026-10-24T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "Atlanta United FC vs. Chicago Fire FC",
+  "start": "2026-10-24T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "Orlando City SC vs. New York City FC",
+  "start": "2026-10-24T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "Philadelphia Union vs. New England Revolution",
+  "start": "2026-10-24T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "FC Dallas vs. San Jose Earthquakes",
+  "start": "2026-10-25T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "Colorado Rapids SC vs. Vancouver Whitecaps FC",
+  "start": "2026-10-25T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "Sporting Kansas City vs. Austin FC",
+  "start": "2026-10-25T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "Portland Timbers vs. Charlotte FC",
+  "start": "2026-10-25T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mls",
+  "game": "San Diego FC vs. Seattle Sounders FC",
+  "start": "2026-10-25T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Charlton Athletic FC vs. Norwich City FC",
+  "start": "2026-10-24T11:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Portsmouth FC vs. Millwall FC",
+  "start": "2026-10-24T11:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Sheffield United FC vs. Derby County FC",
+  "start": "2026-10-24T11:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Stoke City FC vs. Bristol City FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Cardiff City FC vs. Birmingham City FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Blackburn Rovers FC vs. Wrexham AFC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "West Ham United FC vs. Southampton FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Wolverhampton Wanderers FC vs. Watford FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Queens Park Rangers FC vs. Swansea City AFC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Preston North End FC vs. West Bromwich Albion FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "championship",
+  "game": "Lincoln City FC vs. Burnley FC",
+  "start": "2026-10-24T14:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "eredivisie",
+  "game": "FC Utrecht vs. PEC Zwolle",
+  "start": "2026-10-24T14:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "eredivisie",
+  "game": "Willem II Tilburg vs. SC Cambuur-Leeuwarden",
+  "start": "2026-10-24T16:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "eredivisie",
+  "game": "ADO Den Haag vs. SC Heerenveen",
+  "start": "2026-10-24T19:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "portugal",
+  "game": "CF Estrela da Amadora vs. Casa Pia AC",
+  "start": "2026-10-24T14:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "portugal",
+  "game": "FC Alverca vs. FC Arouca",
+  "start": "2026-10-24T17:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "portugal",
+  "game": "Gil Vicente FC vs. FC Porto",
+  "start": "2026-10-24T19:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mexico",
+  "game": "Club Necaxa vs. FC Ju\u00e1rez",
+  "start": "2026-10-24T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mexico",
+  "game": "Club Le\u00f3n FC vs. Deportivo Toluca FC",
+  "start": "2026-10-24T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "mexico",
+  "game": "CF Monterrey vs. CD Guadalajara",
+  "start": "2026-10-25T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "brazil",
+  "game": "Mirassol FC vs. S\u00e3o Paulo FC",
+  "start": "2026-10-24T19:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "brazil",
+  "game": "SC Internacional vs. Botafogo FR",
+  "start": "2026-10-24T19:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "brazil",
+  "game": "CR Vasco da Gama vs. SC Corinthians Paulista",
+  "start": "2026-10-24T21:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "brazil",
+  "game": "SE Palmeiras vs. Red Bull Bragantino",
+  "start": "2026-10-24T21:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "brazil",
+  "game": "Associa\u00e7\u00e3o Chapecoense de Futebol vs. Fluminense FC",
+  "start": "2026-10-24T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "brazil",
+  "game": "Santos FC vs. EC Bahia",
+  "start": "2026-10-25T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "argentina",
+  "game": "CA Banfield vs. CA Lan\u00fas",
+  "start": "2026-10-24T17:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "argentina",
+  "game": "CA San Lorenzo de Almagro vs. CA Newell's Old Boys",
+  "start": "2026-10-24T22:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "argentina",
+  "game": "CA Rosario Central vs. CA Hurac\u00e1n",
+  "start": "2026-10-25T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Trail Blazers vs. Kings",
+  "start": "2026-10-24T02:00:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Trail Blazers",
+  "price": 0.795,
+  "fair": 0.791,
+  "pass_pct": 0.667,
+  "passed": 8,
+  "applicable": 12,
+  "reason": "only 67% of checks passed (need 80%)",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 80% vs DK fair 79% = -0.4 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$1,318,512 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "80%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": false,
+    "detail": "PM spread 34.5 vs DK 9.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Portland Trail Blazers 100% vs Sacramento Kings 0%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+41.0 vs -25.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "2 vs 2 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "1-0 vs 0-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": false,
+    "detail": "Branden Carlson"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": false,
+    "detail": "ours 1 vs theirs 0 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": true,
+    "detail": "64 vs 64 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "0 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": false,
+    "detail": "0 of 4 meetings"
+   }
+  ],
+  "warnings": [
+   "Sacramento Kings OUT: Ben Simmons, Dylan Cardwell, Maxime Raynaud",
+   "Portland Trail Blazers OUT: Branden Carlson, Chris Youngblood, Shaedon Sharpe"
+  ],
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Grizzlies vs. Warriors",
+  "start": "2026-10-24T02:00:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Grizzlies",
+  "price": 0.395,
+  "fair": 0.407,
+  "pass_pct": 0.917,
+  "passed": 11,
+  "applicable": 12,
+  "reason": "experiment daily limit of 6 reached",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 40% vs DK fair 41% = +1.2 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$842,030 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "40%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 4.5 vs DK 3.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Memphis Grizzlies 100% vs Golden State Warriors 0%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+20.0 vs -22.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "2 vs 2 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "1-0 vs 0-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": true,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": true,
+    "detail": "ours 0 vs theirs 2 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": false,
+    "detail": "66 vs 71 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "2 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": true,
+    "detail": "3 of 3 meetings"
+   }
+  ],
+  "warnings": [
+   "Golden State Warriors OUT: Charles Bassey, Kristaps Porzingis, Moses Moody, Jimmy Butler III"
+  ],
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Pistons vs. Heat",
+  "start": "2026-10-24T00:00:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Pistons",
+  "price": 0.545,
+  "fair": 0.532,
+  "pass_pct": 0.917,
+  "passed": 11,
+  "applicable": 12,
+  "reason": "already have a bet on this game",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 55% vs DK fair 53% = -1.3 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$605,151 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "55%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 1.5 vs DK 1.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Detroit Pistons 100% vs Miami Heat 0%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+8.0 vs -25.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "4 vs 3 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "1-0 vs 0-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": true,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": true,
+    "detail": "ours 0 vs theirs 0 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": false,
+    "detail": "62 vs 62 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "0 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": true,
+    "detail": "2 of 3 meetings"
+   }
+  ],
+  "warnings": [],
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Clippers vs. Lakers",
+  "start": "2026-10-24T02:00:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Lakers",
+  "price": 0.755,
+  "fair": 0.751,
+  "pass_pct": 0.833,
+  "passed": 10,
+  "applicable": 12,
+  "reason": "experiment daily limit of 6 reached",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 76% vs DK fair 75% = -0.4 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$498,750 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "76%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 8.5 vs DK 8.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Los Angeles Lakers 100% vs LA Clippers 100%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": false,
+    "detail": "+22.0 vs +25.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "2 vs 2 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "1-0 vs 1-0"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": false,
+    "detail": "Cameron Carr"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": true,
+    "detail": "ours 1 vs theirs 2 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": true,
+    "detail": "72 vs 62 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "0 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": true,
+    "detail": "2 of 4 meetings"
+   }
+  ],
+  "warnings": [
+   "Los Angeles Lakers OUT: Jake LaRavia, Adou Thiero, Cameron Carr",
+   "LA Clippers OUT: Bradley Beal, Max Strus, Yanic Konan Niederhauser, Brandon Ingram, Jordan Miller"
+  ],
+  "ts": 1792798916
+ },
+ {
+  "league": "epl",
+  "game": "Chelsea FC vs. Tottenham Hotspur FC",
+  "start": "2026-10-24T16:30:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Chelsea FC",
+  "price": 0.525,
+  "fair": 0.526,
+  "pass_pct": 0.8,
+  "passed": 4,
+  "applicable": 5,
+  "reason": "only 5 checks had data (need 6+)",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 52% vs DK fair 53% = +0.1 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$333,697 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "52%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "season type not reported"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": null,
+    "detail": "n/a"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Chelsea 40% vs Tottenham Hotspur 0%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "-0.4 vs -1.2"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": false,
+    "detail": "61 vs 63 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "4-1-2 vs 1-3-3"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": null,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": null,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": null,
+    "detail": "ours 0 vs theirs 0 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": null,
+    "detail": "0 vs 0 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": null,
+    "detail": "basketball-only check"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": null,
+    "detail": "0 of 0 meetings"
+   }
+  ],
+  "warnings": [],
+  "ts": 1792798916
+ },
+ {
+  "league": "nba",
+  "game": "Rockets vs. Spurs",
+  "start": "2026-10-24T01:30:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Rockets",
+  "price": 0.355,
+  "fair": 0.378,
+  "pass_pct": 0.75,
+  "passed": 9,
+  "applicable": 12,
+  "reason": "only 75% of checks passed (need 80%)",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 36% vs DK fair 38% = +2.3 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$290,700 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "36%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": false,
+    "detail": "PM spread 35.5 vs DK 4.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Houston Rockets 100% vs San Antonio Spurs 0%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+18.0 vs -12.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": false,
+    "detail": "2 vs 3 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "1-0 vs 0-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": true,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "Reed Sheppard"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": true,
+    "detail": "ours 1 vs theirs 2 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": false,
+    "detail": "67 vs 68 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "2 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": true,
+    "detail": "3 of 4 meetings"
+   }
+  ],
+  "warnings": [
+   "San Antonio Spurs OUT: Tobias Harris, Jayden Quaintance"
+  ],
+  "ts": 1792798916
+ },
+ {
+  "league": "epl",
+  "game": "Aston Villa FC vs. Manchester City FC",
+  "start": "2026-10-24T11:30:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Manchester City FC",
+  "price": 0.605,
+  "fair": 0.588,
+  "pass_pct": 0.833,
+  "passed": 5,
+  "applicable": 6,
+  "reason": "experiment daily limit of 6 reached",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 60% vs DK fair 59% = -1.7 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$186,723 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "60%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "season type not reported"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": null,
+    "detail": "n/a"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Manchester City 100% vs Aston Villa 20%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+1.6 vs -1.0"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "62 vs 62 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "7-0-0 vs 2-2-3"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": null,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": null,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": null,
+    "detail": "ours 0 vs theirs 0 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": null,
+    "detail": "0 vs 0 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": null,
+    "detail": "basketball-only check"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": false,
+    "detail": "0 of 1 meetings"
+   }
+  ],
+  "warnings": [],
+  "ts": 1792798916
  }
 ]
