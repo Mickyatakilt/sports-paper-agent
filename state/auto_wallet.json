@@ -1,5 +1,5 @@
 {
- "cash": 86.8702,
+ "cash": 88.9802,
  "next_id": 50,
  "positions": [
   {
@@ -1005,11 +1005,13 @@
    "shares": 2.1053,
    "price": 0.475,
    "fee": 0.0262,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792636610,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 48%, DK fair 48%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 2.11,
+   "closed_at": 1792742833
   },
   {
    "id": 40,
@@ -1081,11 +1083,13 @@
    "shares": 2.4691,
    "price": 0.405,
    "fee": 0.0297,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792656546,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 40%, DK fair 42%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792742833
   },
   {
    "id": 43,
@@ -1105,11 +1109,13 @@
    "shares": 3.9216,
    "price": 0.255,
    "fee": 0.0372,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792656549,
    "note": "EXPERIMENT (checklist only) 100% (8/8). PM 26%, DK fair 26%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792742833
   },
   {
    "id": 44,
