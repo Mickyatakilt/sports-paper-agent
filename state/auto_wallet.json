@@ -1,6 +1,6 @@
 {
- "cash": 89.7553,
- "next_id": 44,
+ "cash": 86.8702,
+ "next_id": 50,
  "positions": [
   {
    "id": 1,
@@ -979,11 +979,13 @@
    "shares": 1.9417,
    "price": 0.515,
    "fee": 0.0243,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792636606,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 52%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792723231
   },
   {
    "id": 39,
@@ -1027,11 +1029,13 @@
    "shares": 1.5504,
    "price": 0.645,
    "fee": 0.0177,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792636613,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 64%, DK fair 64%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.55,
+   "closed_at": 1792723231
   },
   {
    "id": 41,
@@ -1051,11 +1055,13 @@
    "shares": 1.7094,
    "price": 0.585,
    "fee": 0.0208,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792656538,
    "note": "EXPERIMENT (checklist only) 88% (7/8). PM 58%, DK fair 57%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.71,
+   "closed_at": 1792723231
   },
   {
    "id": 42,
@@ -1102,6 +1108,150 @@
    "status": "open",
    "placed_at": 1792656549,
    "note": "EXPERIMENT (checklist only) 100% (8/8). PM 26%, DK fair 26%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 44,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5792081",
+     "idx": 1,
+     "label": "Bucks to win",
+     "game": "Bulls vs. Bucks",
+     "league": "nba",
+     "price": 0.515,
+     "question": "Bulls vs. Bucks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9417,
+   "price": 0.515,
+   "fee": 0.0243,
+   "status": "open",
+   "placed_at": 1792723249,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 52%, DK fair 51%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 45,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5797992",
+     "idx": 0,
+     "label": "Trail Blazers to win",
+     "game": "Trail Blazers vs. Kings",
+     "league": "nba",
+     "price": 0.735,
+     "question": "Trail Blazers vs. Kings"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3605,
+   "price": 0.735,
+   "fee": 0.0133,
+   "status": "open",
+   "placed_at": 1792723252,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 72%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 46,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5792066",
+     "idx": 0,
+     "label": "Hawks to win",
+     "game": "Hawks vs. Hornets",
+     "league": "nba",
+     "price": 0.555,
+     "question": "Hawks vs. Hornets"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.8018,
+   "price": 0.555,
+   "fee": 0.0222,
+   "status": "open",
+   "placed_at": 1792723256,
+   "note": "EXPERIMENT (checklist only) 100% (12/12). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 47,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5792078",
+     "idx": 0,
+     "label": "Pistons to win",
+     "game": "Pistons vs. Heat",
+     "league": "nba",
+     "price": 0.505,
+     "question": "Pistons vs. Heat"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9802,
+   "price": 0.505,
+   "fee": 0.0248,
+   "status": "open",
+   "placed_at": 1792723262,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 48,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5792063",
+     "idx": 0,
+     "label": "Knicks to win",
+     "game": "Knicks vs. Celtics",
+     "league": "nba",
+     "price": 0.445,
+     "question": "Knicks vs. Celtics"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.2472,
+   "price": 0.445,
+   "fee": 0.0277,
+   "status": "open",
+   "placed_at": 1792723266,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 44%, DK fair 44%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 49,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5797980",
+     "idx": 0,
+     "label": "Rockets to win",
+     "game": "Rockets vs. Spurs",
+     "league": "nba",
+     "price": 0.345,
+     "question": "Rockets vs. Spurs"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.8986,
+   "price": 0.345,
+   "fee": 0.0328,
+   "status": "open",
+   "placed_at": 1792723270,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 34%, DK fair 34%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
