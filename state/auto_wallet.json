@@ -1,6 +1,6 @@
 {
- "cash": 92.9355,
- "next_id": 54,
+ "cash": 90.878,
+ "next_id": 56,
  "positions": [
   {
    "id": 1,
@@ -1291,11 +1291,13 @@
    "shares": 1.6807,
    "price": 0.595,
    "fee": 0.0203,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792828002,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792863828
   },
   {
    "id": 51,
@@ -1366,6 +1368,54 @@
    "status": "open",
    "placed_at": 1792846876,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 52%, DK fair 51%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 54,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551294",
+     "idx": 1,
+     "label": "Raiders to win",
+     "game": "Rams vs. Raiders",
+     "league": "nfl",
+     "price": 0.385,
+     "question": "Rams vs. Raiders"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.5974,
+   "price": 0.385,
+   "fee": 0.0308,
+   "status": "open",
+   "placed_at": 1792863941,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 38%, DK fair 38%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 55,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5847758",
+     "idx": 0,
+     "label": "Wizards to win",
+     "game": "Wizards vs. Bulls",
+     "league": "nba",
+     "price": 0.465,
+     "question": "Wizards vs. Bulls"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.1505,
+   "price": 0.465,
+   "fee": 0.0267,
+   "status": "open",
+   "placed_at": 1792863946,
+   "note": "EXPERIMENT (checklist only) 100% (12/12). PM 46%, DK fair 47%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
