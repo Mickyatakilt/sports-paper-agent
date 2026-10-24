@@ -1,5 +1,5 @@
 # Paper agent report
-_2026-10-24 20:00 UTC_
+_2026-10-24 22:48 UTC_
 
 **Wallet:** total $95.91 (start $100) · cash $90.88 · open $5.04 · realized $-4.00
 
@@ -7,8 +7,7 @@ _2026-10-24 20:00 UTC_
 **Experiment (checklist alone, no price edge, not counted):** 46 settled · 25 won · profit $-1.20 · ROI -3%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 0 bet(s), 2 skipped, 78 no edge
-- Heat vs. Hornets: no edge. Polymarket price within 4 pts of DraftKings fair chance
+## This run: 0 bet(s), 2 skipped, 75 no edge
 - Nets vs. Cavaliers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Bucks vs. 76ers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Wizards vs. Bulls: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -29,6 +28,7 @@ _2026-10-24 20:00 UTC_
 - Islanders vs. Stars: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Canadiens vs. Jets: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Avalanche vs. Predators: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Wild vs. Canucks: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Tampa Bay Rays vs. Milwaukee Brewers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Steelers vs. Saints: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - 49ers vs. Falcons: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -78,31 +78,27 @@ _2026-10-24 20:00 UTC_
 - Atlas FC vs. Club Puebla: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Querétaro FC vs. CF Cruz Azul: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CF América vs. CF Pachuca: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- CR Vasco da Gama vs. SC Corinthians Paulista: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- SE Palmeiras vs. Red Bull Bragantino: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Associação Chapecoense de Futebol vs. Fluminense FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Club Tijuana vs. Club Santos Laguna: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Santos FC vs. EC Bahia: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- CA San Lorenzo de Almagro vs. CA Newell's Old Boys: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA Rosario Central vs. CA Huracán: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA Independiente vs. CA Boca Juniors: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA River Plate vs. Racing Club: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
-### SKIP: Chiefs vs. Seahawks → Chiefs
-Price 42% · DK fair 44% · checklist 5/6 (83%) · experiment daily limit of 6 reached
-- ⚠ Seattle Seahawks OUT: Chazz Surratt, Drake Thomas, Zach Charbonnet
-- ⚠ Seattle Seahawks has 22 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Kansas City Chiefs OUT: Jaylon Moore, Rashee Rice
-- ⚠ Kansas City Chiefs has 23 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 42% vs DK fair 44% = +2.2 pts
-- ✅ **Market** Market has $5,000+ traded: $857,299 traded
-- ✅ **Market** Price between 20% and 80%: 42%
+### SKIP: Bengals vs. Ravens → Bengals
+Price 58% · DK fair 57% · checklist 5/6 (83%) · already have a bet on this game
+- ⚠ Baltimore Ravens OUT: Lamar Jackson, Jaylinn Hawkins
+- ⚠ Baltimore Ravens has 23 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Cincinnati Bengals has 25 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 58% vs DK fair 57% = -1.3 pts
+- ✅ **Market** Market has $5,000+ traded: $830,984 traded
+- ✅ **Market** Price between 20% and 80%: 58%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 3.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Kansas City Chiefs 100% vs Seattle Seahawks 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +11.4 vs +4.6
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 2.5
+- ✅ **Team** Last-5 win rate at least the opponent's: Cincinnati Bengals 60% vs Baltimore Ravens 60%
+- ✅ **Team** Last-5 average margin at least the opponent's: +3.8 vs +1.2
 - ✅ **Team** Not on a back-to-back: rested
-- ❌ **Team** Rest days at least the opponent's: 8 vs 10 days
-- ✅ **Team** Overall record at least the opponent's: 5-0 vs 3-3
+- ✅ **Team** Rest days at least the opponent's: 14 vs 7 days
+- ❌ **Team** Overall record at least the opponent's: 3-2 vs 4-2
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
@@ -110,27 +106,26 @@ Price 42% · DK fair 44% · checklist 5/6 (83%) · experiment daily limit of 6 r
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
 - ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
-### SKIP: Pelicans vs. Nuggets → Nuggets
-Price 80% · DK fair 80% · checklist 9/12 (75%) · gate failed: price
-- ⚠ Denver Nuggets OUT: Spencer Jones, Cameron Johnson, Julian Strawther
-- ⚠ New Orleans Pelicans played yesterday (back-to-back).
-- ⚠ New Orleans Pelicans OUT: Yves Missi
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 80% vs DK fair 80% = -0.9 pts
-- ✅ **Market** Market has $5,000+ traded: $503,997 traded
-- ❌ **Market** Price between 20% and 80%: 80%
+### SKIP: Bucks vs. 76ers → 76ers
+Price 84% · DK fair 84% · checklist 8/12 (67%) · gate failed: price
+- ⚠ Philadelphia 76ers OUT: LeBron James, Tacko Fall, Dominick Barlow, Ariel Hukporti
+- ⚠ Milwaukee Bucks played yesterday (back-to-back).
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 84% vs DK fair 84% = -0.8 pts
+- ✅ **Market** Market has $5,000+ traded: $546,848 traded
+- ❌ **Market** Price between 20% and 80%: 84%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 11.5 vs DK 11.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Denver Nuggets 0% vs New Orleans Pelicans 0%
-- ❌ **Team** Last-5 average margin at least the opponent's: -12.0 vs -2.0
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 12.5 vs DK 13.5
+- ✅ **Team** Last-5 win rate at least the opponent's: Philadelphia 76ers 100% vs Milwaukee Bucks 0%
+- ✅ **Team** Last-5 average margin at least the opponent's: +7.0 vs -9.5
 - ✅ **Team** Not on a back-to-back: rested
 - ✅ **Team** Rest days at least the opponent's: 2 vs 1 days
-- ✅ **Team** Overall record at least the opponent's: 0-1 vs 0-2
-- ❌ **Players** None of our top-5 scorers is OUT: Cameron Johnson
+- ✅ **Team** Overall record at least the opponent's: 2-0 vs 0-2
+- ❌ **Players** None of our top-5 scorers is OUT: LeBron James
 - ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 56 vs 49 pts
+- ❌ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 0 unavailable
+- ❌ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 68 vs 72 pts
 - ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 1 day-to-day
-- ❌ **History** Won at least half of recent meetings: 0 of 3 meetings
+- ❌ **History** Won at least half of recent meetings: 0 of 4 meetings
 
 ## Open and recent positions
 - #55 [EXPERIMENT] OPEN Wizards to win (Wizards vs. Bulls) $1.00
