@@ -1,6 +1,6 @@
 {
- "cash": 94.9801,
- "next_id": 52,
+ "cash": 92.9355,
+ "next_id": 54,
  "positions": [
   {
    "id": 1,
@@ -1318,6 +1318,54 @@
    "status": "open",
    "placed_at": 1792828010,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 52,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551275",
+     "idx": 1,
+     "label": "Panthers to win",
+     "game": "Buccaneers vs. Panthers",
+     "league": "nfl",
+     "price": 0.585,
+     "question": "Buccaneers vs. Panthers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7094,
+   "price": 0.585,
+   "fee": 0.0208,
+   "status": "open",
+   "placed_at": 1792846869,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 58%, DK fair 58%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 53,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551273",
+     "idx": 0,
+     "label": "Bengals to win",
+     "game": "Bengals vs. Ravens",
+     "league": "nfl",
+     "price": 0.525,
+     "question": "Bengals vs. Ravens"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9048,
+   "price": 0.525,
+   "fee": 0.0238,
+   "status": "open",
+   "placed_at": 1792846876,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 52%, DK fair 51%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
