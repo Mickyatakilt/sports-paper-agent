@@ -1,6 +1,6 @@
 {
- "cash": 90.7802,
- "next_id": 50,
+ "cash": 94.9801,
+ "next_id": 52,
  "positions": [
   {
    "id": 1,
@@ -1161,11 +1161,13 @@
    "shares": 1.3605,
    "price": 0.735,
    "fee": 0.0133,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792723252,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 72%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.36,
+   "closed_at": 1792827966
   },
   {
    "id": 46,
@@ -1211,11 +1213,13 @@
    "shares": 1.9802,
    "price": 0.505,
    "fee": 0.0248,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792723262,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.98,
+   "closed_at": 1792827966
   },
   {
    "id": 48,
@@ -1261,9 +1265,59 @@
    "shares": 2.8986,
    "price": 0.345,
    "fee": 0.0328,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792723270,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 34%, DK fair 34%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's; Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false,
+   "payout": 2.9,
+   "closed_at": 1792827966
+  },
+  {
+   "id": 50,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5533914",
+     "idx": 0,
+     "label": "Manchester City FC to win",
+     "game": "Aston Villa FC vs. Manchester City FC",
+     "league": "epl",
+     "price": 0.595,
+     "question": "Will Manchester City FC win on 2026-10-24?"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.6807,
+   "price": 0.595,
+   "fee": 0.0203,
+   "status": "open",
+   "placed_at": 1792828002,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 51,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551269",
+     "idx": 0,
+     "label": "Steelers to win",
+     "game": "Steelers vs. Saints",
+     "league": "nfl",
+     "price": 0.605,
+     "question": "Steelers vs. Saints"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.6529,
+   "price": 0.605,
+   "fee": 0.0198,
+   "status": "open",
+   "placed_at": 1792828010,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
