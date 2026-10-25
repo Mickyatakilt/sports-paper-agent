@@ -1,5 +1,5 @@
 # Paper agent report
-_2026-10-25 07:57 UTC_
+_2026-10-25 09:17 UTC_
 
 **Wallet:** total $96.93 (start $100) · cash $89.95 · open $6.98 · realized $-2.88
 
@@ -7,7 +7,7 @@ _2026-10-25 07:57 UTC_
 **Experiment (checklist alone, no price edge, not counted):** 47 settled · 26 won · profit $-0.08 · ROI -0%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 2 bet(s), 1 skipped, 52 no edge
+## This run: 0 bet(s), 0 skipped, 52 no edge
 - Lakers vs. Jazz: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Pacers vs. Nets: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Magic vs. Knicks: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -60,73 +60,6 @@ _2026-10-25 07:57 UTC_
 - Club Tijuana vs. Club Santos Laguna: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA Independiente vs. CA Boca Juniors: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA River Plate vs. Racing Club: no edge. Polymarket price within 4 pts of DraftKings fair chance
-
-### SKIP: Bengals vs. Ravens → Bengals
-Price 58% · DK fair 57% · checklist 5/6 (83%) · already have a bet on this game
-- ⚠ Baltimore Ravens OUT: Lamar Jackson, Jaylinn Hawkins
-- ⚠ Baltimore Ravens has 23 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Cincinnati Bengals has 25 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 58% vs DK fair 57% = -1.3 pts
-- ✅ **Market** Market has $5,000+ traded: $1,106,451 traded
-- ✅ **Market** Price between 20% and 80%: 58%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 3.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Cincinnati Bengals 60% vs Baltimore Ravens 60%
-- ✅ **Team** Last-5 average margin at least the opponent's: +3.8 vs +1.2
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 14 vs 7 days
-- ❌ **Team** Overall record at least the opponent's: 3-2 vs 4-2
-- ➖ **Players** None of our top-5 scorers is OUT: all available
-- ➖ **Players** At most 1 top-5 scorer day-to-day: none
-- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
-- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
-
-### BET: Chiefs vs. Seahawks → Chiefs
-Price 42% · DK fair 44% · checklist 5/6 (83%)
-- ⚠ Seattle Seahawks OUT: Chazz Surratt, Drake Thomas, Zach Charbonnet
-- ⚠ Seattle Seahawks has 22 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Kansas City Chiefs OUT: Jaylon Moore, Rashee Rice
-- ⚠ Kansas City Chiefs has 23 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 42% vs DK fair 44% = +2.2 pts
-- ✅ **Market** Market has $5,000+ traded: $943,962 traded
-- ✅ **Market** Price between 20% and 80%: 42%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 3.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Kansas City Chiefs 100% vs Seattle Seahawks 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +11.4 vs +4.6
-- ✅ **Team** Not on a back-to-back: rested
-- ❌ **Team** Rest days at least the opponent's: 8 vs 10 days
-- ✅ **Team** Overall record at least the opponent's: 5-0 vs 3-3
-- ➖ **Players** None of our top-5 scorers is OUT: all available
-- ➖ **Players** At most 1 top-5 scorer day-to-day: none
-- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
-- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
-
-### BET: Colts vs. Vikings → Vikings
-Price 74% · DK fair 73% · checklist 5/6 (83%)
-- ⚠ Minnesota Vikings has 25 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Indianapolis Colts OUT: CJ Allen, Sauce Gardner, Tyler Warren, Anthony Gould
-- ⚠ Indianapolis Colts has 21 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 74% vs DK fair 73% = -0.1 pts
-- ✅ **Market** Market has $5,000+ traded: $493,603 traded
-- ✅ **Market** Price between 20% and 80%: 74%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 21.5 vs DK 6.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Minnesota Vikings 100% vs Indianapolis Colts 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +9.0 vs -0.4
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 14 vs 7 days
-- ✅ **Team** Overall record at least the opponent's: 5-0 vs 2-4
-- ➖ **Players** None of our top-5 scorers is OUT: all available
-- ➖ **Players** At most 1 top-5 scorer day-to-day: none
-- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
-- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
 ## Open and recent positions
 - #58 [EXPERIMENT] OPEN Vikings to win (Colts vs. Vikings) $1.00
