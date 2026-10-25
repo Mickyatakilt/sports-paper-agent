@@ -1,6 +1,6 @@
 {
- "cash": 89.8462,
- "next_id": 57,
+ "cash": 89.9537,
+ "next_id": 59,
  "positions": [
   {
    "id": 1,
@@ -1413,11 +1413,13 @@
    "shares": 2.1505,
    "price": 0.465,
    "fee": 0.0267,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792863946,
    "note": "EXPERIMENT (checklist only) 100% (12/12). PM 46%, DK fair 47%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 2.15,
+   "closed_at": 1792914988
   },
   {
    "id": 56,
@@ -1440,6 +1442,54 @@
    "status": "open",
    "placed_at": 1792895260,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 36%, DK fair 38%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 57,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551296",
+     "idx": 0,
+     "label": "Chiefs to win",
+     "game": "Chiefs vs. Seahawks",
+     "league": "nfl",
+     "price": 0.415,
+     "question": "Chiefs vs. Seahawks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.4096,
+   "price": 0.415,
+   "fee": 0.0292,
+   "status": "open",
+   "placed_at": 1792915019,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 42%, DK fair 44%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 58,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551282",
+     "idx": 1,
+     "label": "Vikings to win",
+     "game": "Colts vs. Vikings",
+     "league": "nfl",
+     "price": 0.735,
+     "question": "Colts vs. Vikings"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3605,
+   "price": 0.735,
+   "fee": 0.0133,
+   "status": "open",
+   "placed_at": 1792915026,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 74%, DK fair 73%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
