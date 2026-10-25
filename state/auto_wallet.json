@@ -1,6 +1,6 @@
 {
- "cash": 89.5627,
- "next_id": 61,
+ "cash": 91.8024,
+ "next_id": 62,
  "positions": [
   {
    "id": 1,
@@ -1343,11 +1343,13 @@
    "shares": 1.7094,
    "price": 0.585,
    "fee": 0.0208,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792846869,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 58%, DK fair 58%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1792960582
   },
   {
    "id": 53,
@@ -1367,11 +1369,13 @@
    "shares": 1.9048,
    "price": 0.525,
    "fee": 0.0238,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792846876,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 52%, DK fair 51%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.9,
+   "closed_at": 1792960582
   },
   {
    "id": 54,
@@ -1489,11 +1493,13 @@
    "shares": 1.3605,
    "price": 0.735,
    "fee": 0.0133,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792915026,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 74%, DK fair 73%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.36,
+   "closed_at": 1792960582
   },
   {
    "id": 59,
@@ -1540,6 +1546,30 @@
    "status": "open",
    "placed_at": 1792951281,
    "note": "EXPERIMENT (checklist only) 100% (12/12). PM 50%, DK fair 49%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 61,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5916778",
+     "idx": 0,
+     "label": "Grizzlies to win",
+     "game": "Grizzlies vs. Kings",
+     "league": "nba",
+     "price": 0.595,
+     "question": "Grizzlies vs. Kings"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.6807,
+   "price": 0.595,
+   "fee": 0.0203,
+   "status": "open",
+   "placed_at": 1792960622,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 60%, DK fair 60%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
    "bucket": "experiment",
    "practice": false
   }
