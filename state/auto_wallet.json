@@ -1,6 +1,6 @@
 {
- "cash": 89.9537,
- "next_id": 59,
+ "cash": 89.5627,
+ "next_id": 61,
  "positions": [
   {
    "id": 1,
@@ -1317,11 +1317,13 @@
    "shares": 1.6529,
    "price": 0.605,
    "fee": 0.0198,
-   "status": "open",
+   "status": "won",
    "placed_at": 1792828010,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.65,
+   "closed_at": 1792951182
   },
   {
    "id": 52,
@@ -1490,6 +1492,54 @@
    "status": "open",
    "placed_at": 1792915026,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 74%, DK fair 73%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 59,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551290",
+     "idx": 0,
+     "label": "Broncos to win",
+     "game": "Broncos vs. Cardinals",
+     "league": "nfl",
+     "price": 0.675,
+     "question": "Broncos vs. Cardinals"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.4815,
+   "price": 0.675,
+   "fee": 0.0162,
+   "status": "open",
+   "placed_at": 1792951275,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 68%, DK fair 68%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 60,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5911664",
+     "idx": 0,
+     "label": "Raptors to win",
+     "game": "Raptors vs. Timberwolves",
+     "league": "nba",
+     "price": 0.505,
+     "question": "Raptors vs. Timberwolves"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9802,
+   "price": 0.505,
+   "fee": 0.0248,
+   "status": "open",
+   "placed_at": 1792951281,
+   "note": "EXPERIMENT (checklist only) 100% (12/12). PM 50%, DK fair 49%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
