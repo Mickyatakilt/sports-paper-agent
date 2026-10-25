@@ -1,13 +1,13 @@
 # Paper agent report
-_2026-10-25 09:17 UTC_
+_2026-10-25 13:28 UTC_
 
-**Wallet:** total $96.93 (start $100) · cash $89.95 · open $6.98 · realized $-2.88
+**Wallet:** total $96.92 (start $100) · cash $89.95 · open $6.97 · realized $-2.88
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 47 settled · 26 won · profit $-0.08 · ROI -0%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 0 bet(s), 0 skipped, 52 no edge
+## This run: 0 bet(s), 5 skipped, 49 no edge
 - Lakers vs. Jazz: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Pacers vs. Nets: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Magic vs. Knicks: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -20,7 +20,6 @@ _2026-10-25 09:17 UTC_
 - Canadiens vs. Jets: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Avalanche vs. Predators: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Wild vs. Canucks: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Steelers vs. Saints: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - 49ers vs. Falcons: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Bengals vs. Ravens: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Buccaneers vs. Panthers: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -37,10 +36,8 @@ _2026-10-25 09:17 UTC_
 - Manchester United FC vs. AFC Bournemouth: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Hull City AFC vs. Brentford FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Sunderland AFC vs. Leeds United FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Athletic Club vs. Getafe CF: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Real Sociedad de Fútbol vs. Levante UD: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - FC Barcelona vs. Real Madrid CF: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- FC Internazionale Milano vs. ACF Fiorentina: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Atalanta BC vs. Frosinone Calcio: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Genoa CFC vs. Venezia FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - US Lecce vs. Juventus FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -51,15 +48,117 @@ _2026-10-25 09:17 UTC_
 - Stade Rennais FC 1901 vs. RC Strasbourg Alsace: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Olympique de Marseille vs. Le Havre AC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - AJ Auxerre vs. Le Mans FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Fortuna Sittard vs. SBV Excelsior: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Estoril Praia vs. Moreirense FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Sporting CP vs. Académico de Viseu FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- CD Santa Clara vs. Sport Lisboa e Benfica: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Atlas FC vs. Club Puebla: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Querétaro FC vs. CF Cruz Azul: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CF América vs. CF Pachuca: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Club Tijuana vs. Club Santos Laguna: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA Independiente vs. CA Boca Juniors: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA River Plate vs. Racing Club: no edge. Polymarket price within 4 pts of DraftKings fair chance
+
+### SKIP: FC Barcelona vs. Real Madrid CF → FC Barcelona
+Price 62% · DK fair 60% · checklist 4/5 (80%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 62% vs DK fair 60% = -1.1 pts
+- ✅ **Market** Market has $5,000+ traded: $2,798,721 traded
+- ✅ **Market** Price between 20% and 80%: 62%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
+- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
+- ✅ **Team** Last-5 win rate at least the opponent's: Barcelona 100% vs Real Madrid 80%
+- ✅ **Team** Last-5 average margin at least the opponent's: +3.4 vs +2.0
+- ✅ **Team** Not on a back-to-back: rested
+- ❌ **Team** Rest days at least the opponent's: 63 vs 64 days
+- ✅ **Team** Overall record at least the opponent's: 9-0-0 vs 7-0-2
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Buccaneers vs. Panthers → Panthers
+Price 60% · DK fair 59% · checklist 6/6 (100%) · already have a bet on this game
+- ⚠ Carolina Panthers OUT: Jaelan Phillips
+- ⚠ Carolina Panthers has 24 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Tampa Bay Buccaneers OUT: Luke Goedeke, Antoine Winfield Jr., Emeka Egbuka
+- ⚠ Tampa Bay Buccaneers has 22 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 60% vs DK fair 59% = -0.2 pts
+- ✅ **Market** Market has $5,000+ traded: $977,839 traded
+- ✅ **Market** Price between 20% and 80%: 60%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 3.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Carolina Panthers 60% vs Tampa Bay Buccaneers 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +4.6 vs -2.6
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 7 vs 7 days
+- ✅ **Team** Overall record at least the opponent's: 3-2 vs 1-5
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Liverpool FC vs. Brighton & Hove Albion FC → Brighton & Hove Albion FC
+Price 28% · DK fair 28% · checklist 5/5 (100%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 28% vs DK fair 28% = +0.9 pts
+- ✅ **Market** Market has $5,000+ traded: $870,988 traded
+- ✅ **Market** Price between 20% and 80%: 28%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
+- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
+- ✅ **Team** Last-5 win rate at least the opponent's: Brighton & Hove Albion 60% vs Liverpool 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +2.2 vs +0.6
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 63 vs 63 days
+- ✅ **Team** Overall record at least the opponent's: 5-1-1 vs 3-3-1
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Rams vs. Raiders → Rams
+Price 62% · DK fair 62% · checklist 4/6 (67%) · only 67% of checks passed (need 80%)
+- ⚠ Las Vegas Raiders has 25 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Los Angeles Rams OUT: Nate Landman
+- ⚠ Los Angeles Rams has 24 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 62% vs DK fair 62% = +0.1 pts
+- ✅ **Market** Market has $5,000+ traded: $703,781 traded
+- ✅ **Market** Price between 20% and 80%: 62%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 21.5 vs DK 3.5
+- ✅ **Team** Last-5 win rate at least the opponent's: Los Angeles Rams 40% vs Las Vegas Raiders 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +3.4 vs -2.8
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 7 vs 7 days
+- ❌ **Team** Overall record at least the opponent's: 2-4 vs 3-3
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Hull City AFC vs. Brentford FC → Brentford FC
+Price 58% · DK fair 57% · checklist 5/5 (100%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 58% vs DK fair 57% = -1.0 pts
+- ✅ **Market** Market has $5,000+ traded: $527,935 traded
+- ✅ **Market** Price between 20% and 80%: 58%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
+- ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
+- ✅ **Team** Last-5 win rate at least the opponent's: Brentford 40% vs Hull City 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +1.2 vs +0.4
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 64 vs 64 days
+- ✅ **Team** Overall record at least the opponent's: 2-4-1 vs 2-3-2
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
 ## Open and recent positions
 - #58 [EXPERIMENT] OPEN Vikings to win (Colts vs. Vikings) $1.00
