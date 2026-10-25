@@ -1,6 +1,6 @@
 {
- "cash": 90.878,
- "next_id": 56,
+ "cash": 89.8462,
+ "next_id": 57,
  "positions": [
   {
    "id": 1,
@@ -1416,6 +1416,30 @@
    "status": "open",
    "placed_at": 1792863946,
    "note": "EXPERIMENT (checklist only) 100% (12/12). PM 46%, DK fair 47%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 56,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "4551293",
+     "idx": 0,
+     "label": "Packers to win",
+     "game": "Packers vs. Lions",
+     "league": "nfl",
+     "price": 0.365,
+     "question": "Packers vs. Lions"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.7397,
+   "price": 0.365,
+   "fee": 0.0318,
+   "status": "open",
+   "placed_at": 1792895260,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 36%, DK fair 38%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
