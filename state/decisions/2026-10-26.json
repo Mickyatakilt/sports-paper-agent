@@ -1386,5 +1386,157 @@
    "fee": 0.0167
   },
   "ts": 1793002766
+ },
+ {
+  "league": "nba",
+  "game": "Wizards vs. Hornets",
+  "start": "2026-10-26T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Timberwolves vs. Cavaliers",
+  "start": "2026-10-26T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Bulls vs. Celtics",
+  "start": "2026-10-26T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Mavericks vs. Heat",
+  "start": "2026-10-26T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Pacers vs. Bucks",
+  "start": "2026-10-27T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Suns vs. Thunder",
+  "start": "2026-10-27T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Hawks vs. Rockets",
+  "start": "2026-10-27T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Grizzlies vs. Jazz",
+  "start": "2026-10-27T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nba",
+  "game": "Warriors vs. Nuggets",
+  "start": "2026-10-27T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "wnba",
+  "game": "Atlanta Dream vs. Golden State Valkyries",
+  "start": "2026-10-27T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nhl",
+  "game": "Kings vs. Rangers",
+  "start": "2026-10-26T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nhl",
+  "game": "Maple Leafs vs. Flames",
+  "start": "2026-10-27T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nhl",
+  "game": "Red Wings vs. Oilers",
+  "start": "2026-10-27T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "mlb",
+  "game": "Milwaukee Brewers vs. Tampa Bay Rays",
+  "start": "2026-10-27T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "nfl",
+  "game": "Cowboys vs. Eagles",
+  "start": "2026-10-27T00:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "laliga",
+  "game": "Sevilla FC vs. CA Osasuna",
+  "start": "2026-10-26T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "ligue1",
+  "game": "Paris Saint-Germain FC vs. Olympique Lyonnais",
+  "start": "2026-10-26T19:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "portugal",
+  "game": "CD Santa Clara vs. Sport Lisboa e Benfica",
+  "start": "2026-10-26T18:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
+ },
+ {
+  "league": "brazil",
+  "game": "Coritiba FBC vs. Gr\u00eamio FBPA",
+  "start": "2026-10-26T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793010211
  }
 ]
