@@ -2446,5 +2446,355 @@
   ],
   "warnings": [],
   "ts": 1793099948
+ },
+ {
+  "league": "nba",
+  "game": "Nets vs. Celtics",
+  "start": "2026-10-27T23:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nba",
+  "game": "Pistons vs. Knicks",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nba",
+  "game": "Kings vs. Spurs",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nba",
+  "game": "Trail Blazers vs. Lakers",
+  "start": "2026-10-28T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nba",
+  "game": "76ers vs. Pacers",
+  "start": "2026-10-28T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Blue Jackets vs. Flyers",
+  "start": "2026-10-27T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Panthers vs. Jets",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Islanders vs. Predators",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Canadiens vs. Blues",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Devils vs. Stars",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Bruins vs. Hurricanes",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Kings vs. Blackhawks",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Senators vs. Golden Knights",
+  "start": "2026-10-28T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Canucks vs. Ducks",
+  "start": "2026-10-28T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Sabres vs. Sharks",
+  "start": "2026-10-28T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "US Sassuolo Calcio vs. SS Lazio",
+  "start": "2026-10-27T17:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "AS Roma vs. Cagliari Calcio",
+  "start": "2026-10-27T19:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "Torino FC vs. Como 1907",
+  "start": "2026-10-27T19:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "Parma Calcio 1913 vs. Udinese Calcio",
+  "start": "2026-10-28T17:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "Venezia FC vs. FC Internazionale Milano",
+  "start": "2026-10-28T17:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "AC Milan vs. Bologna FC 1909",
+  "start": "2026-10-28T17:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "Genoa CFC vs. Juventus FC",
+  "start": "2026-10-28T19:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "seriea",
+  "game": "AC Monza vs. SSC Napoli",
+  "start": "2026-10-28T19:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "brazil",
+  "game": "Red Bull Bragantino vs. Associa\u00e7\u00e3o Chapecoense de Futebol",
+  "start": "2026-10-28T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "brazil",
+  "game": "Santos FC vs. SE Palmeiras",
+  "start": "2026-10-28T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "brazil",
+  "game": "Fluminense FC vs. SC Internacional",
+  "start": "2026-10-28T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "argentina",
+  "game": "AA Argentinos Juniors vs. CS Independiente Rivadavia",
+  "start": "2026-10-27T22:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793120707
+ },
+ {
+  "league": "nhl",
+  "game": "Canadiens vs. Blues",
+  "start": "2026-10-28T00:00:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Canadiens",
+  "price": 0.495,
+  "fair": 0.483,
+  "pass_pct": 0.714,
+  "passed": 5,
+  "applicable": 7,
+  "reason": "only 71% of checks passed (need 80%)",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 50% vs DK fair 48% = -1.2 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$77,344 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": true,
+    "detail": "50%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": false,
+    "detail": "PM spread 1.5 vs DK 118.0"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Montreal Canadiens 60% vs St. Louis Blues 40%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+0.6 vs -0.6"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": false,
+    "detail": "3 vs 4 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "6-3-2 vs 5-5-1"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": null,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": null,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": null,
+    "detail": "ours 0 vs theirs 0 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": null,
+    "detail": "0 vs 0 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": null,
+    "detail": "basketball-only check"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": true,
+    "detail": "2 of 2 meetings"
+   }
+  ],
+  "warnings": [
+   "St. Louis Blues has 6 day-to-day players (rest/injury): lineup uncertain.",
+   "Montreal Canadiens OUT: Nick Suzuki",
+   "Montreal Canadiens has 4 day-to-day players (rest/injury): lineup uncertain."
+  ],
+  "ts": 1793120707
  }
 ]
