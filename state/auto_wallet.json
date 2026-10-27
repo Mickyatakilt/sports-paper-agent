@@ -1,6 +1,6 @@
 {
- "cash": 91.9152,
- "next_id": 65,
+ "cash": 90.8834,
+ "next_id": 66,
  "positions": [
   {
    "id": 1,
@@ -1654,6 +1654,30 @@
    "status": "open",
    "placed_at": 1793002765,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 66%, DK fair 64%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 65,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5156488",
+     "idx": 0,
+     "label": "Bruins to win",
+     "game": "Bruins vs. Hurricanes",
+     "league": "nhl",
+     "price": 0.365,
+     "question": "Bruins vs. Hurricanes"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.7397,
+   "price": 0.365,
+   "fee": 0.0318,
+   "status": "open",
+   "placed_at": 1793070106,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 36%, DK fair 37%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
