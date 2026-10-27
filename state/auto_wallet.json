@@ -1,6 +1,6 @@
 {
- "cash": 93.8634,
- "next_id": 66,
+ "cash": 92.8416,
+ "next_id": 67,
  "positions": [
   {
    "id": 1,
@@ -1684,6 +1684,30 @@
    "status": "open",
    "placed_at": 1793070106,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 36%, DK fair 37%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 66,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6004693",
+     "idx": 1,
+     "label": "Lakers to win",
+     "game": "Trail Blazers vs. Lakers",
+     "league": "nba",
+     "price": 0.565,
+     "question": "Trail Blazers vs. Lakers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7699,
+   "price": 0.565,
+   "fee": 0.0218,
+   "status": "open",
+   "placed_at": 1793099941,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's; Rest days at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
