@@ -1,5 +1,5 @@
 {
- "cash": 90.8834,
+ "cash": 93.8634,
  "next_id": 66,
  "positions": [
   {
@@ -1603,11 +1603,13 @@
    "shares": 1.3986,
    "price": 0.715,
    "fee": 0.0143,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1792981592,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 72%, DK fair 71%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1793095050
   },
   {
    "id": 63,
@@ -1627,11 +1629,13 @@
    "shares": 1.4815,
    "price": 0.675,
    "fee": 0.0162,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793002739,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 68%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.48,
+   "closed_at": 1793095050
   },
   {
    "id": 64,
@@ -1651,11 +1655,13 @@
    "shares": 1.5038,
    "price": 0.665,
    "fee": 0.0167,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793002765,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 66%, DK fair 64%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.5,
+   "closed_at": 1793095050
   },
   {
    "id": 65,
