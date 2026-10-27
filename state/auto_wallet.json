@@ -1,6 +1,6 @@
 {
- "cash": 92.8416,
- "next_id": 67,
+ "cash": 91.8158,
+ "next_id": 68,
  "positions": [
   {
    "id": 1,
@@ -1708,6 +1708,30 @@
    "status": "open",
    "placed_at": 1793099941,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 67,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5156473",
+     "idx": 0,
+     "label": "Islanders to win",
+     "game": "Islanders vs. Predators",
+     "league": "nhl",
+     "price": 0.485,
+     "question": "Islanders vs. Predators"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.0619,
+   "price": 0.485,
+   "fee": 0.0258,
+   "status": "open",
+   "placed_at": 1793137095,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 48%, DK fair 47%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
