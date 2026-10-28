@@ -1,6 +1,6 @@
 {
- "cash": 91.8358,
- "next_id": 70,
+ "cash": 90.824,
+ "next_id": 71,
  "positions": [
   {
    "id": 1,
@@ -1786,6 +1786,30 @@
    "status": "open",
    "placed_at": 1793157228,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 58%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance; Not on a back-to-back; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 70,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6032749",
+     "idx": 1,
+     "label": "Cavaliers to win",
+     "game": "Wizards vs. Cavaliers",
+     "league": "nba",
+     "price": 0.765,
+     "question": "Wizards vs. Cavaliers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3072,
+   "price": 0.765,
+   "fee": 0.0118,
+   "status": "open",
+   "placed_at": 1793209319,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 76%, DK fair 77%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
    "practice": false
   }
