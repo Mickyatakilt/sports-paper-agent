@@ -1,6 +1,6 @@
 {
- "cash": 89.6515,
- "next_id": 75,
+ "cash": 88.6262,
+ "next_id": 76,
  "positions": [
   {
    "id": 1,
@@ -1912,6 +1912,30 @@
    "status": "open",
    "placed_at": 1793245243,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 75,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5406645",
+     "idx": 0,
+     "label": "Capitals to win",
+     "game": "Capitals vs. Predators",
+     "league": "nhl",
+     "price": 0.495,
+     "question": "Capitals vs. Predators"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.0202,
+   "price": 0.495,
+   "fee": 0.0253,
+   "status": "open",
+   "placed_at": 1793271685,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
