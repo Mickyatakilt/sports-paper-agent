@@ -1,6 +1,6 @@
 {
- "cash": 90.824,
- "next_id": 71,
+ "cash": 89.6515,
+ "next_id": 75,
  "positions": [
   {
    "id": 1,
@@ -1759,11 +1759,13 @@
    "shares": 1.626,
    "price": 0.615,
    "fee": 0.0192,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793157180,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 62%, DK fair 60%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.63,
+   "closed_at": 1793245192
   },
   {
    "id": 69,
@@ -1783,11 +1785,13 @@
    "shares": 1.7094,
    "price": 0.585,
    "fee": 0.0208,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1793157228,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 58%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance; Not on a back-to-back; Rest days at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1793245192
   },
   {
    "id": 70,
@@ -1807,9 +1811,107 @@
    "shares": 1.3072,
    "price": 0.765,
    "fee": 0.0118,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793209319,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 76%, DK fair 77%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false,
+   "payout": 1.31,
+   "closed_at": 1793245192
+  },
+  {
+   "id": 71,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5455706",
+     "idx": 1,
+     "label": "Packers to win",
+     "game": "Panthers vs. Packers",
+     "league": "nfl",
+     "price": 0.645,
+     "question": "Panthers vs. Packers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5504,
+   "price": 0.645,
+   "fee": 0.0177,
+   "status": "open",
+   "placed_at": 1793245211,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 64%, DK fair 63%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 72,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6075679",
+     "idx": 0,
+     "label": "Grizzlies to win",
+     "game": "Grizzlies vs. Trail Blazers",
+     "league": "nba",
+     "price": 0.275,
+     "question": "Grizzlies vs. Trail Blazers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 3.6364,
+   "price": 0.275,
+   "fee": 0.0362,
+   "status": "open",
+   "placed_at": 1793245219,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 28%, DK fair 30%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 73,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6071106",
+     "idx": 0,
+     "label": "Kings to win",
+     "game": "Kings vs. Pelicans",
+     "league": "nba",
+     "price": 0.335,
+     "question": "Kings vs. Pelicans"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.9851,
+   "price": 0.335,
+   "fee": 0.0333,
+   "status": "open",
+   "placed_at": 1793245231,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 34%, DK fair 36%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's; None of our top-5 scorers is OUT",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 74,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6071103",
+     "idx": 0,
+     "label": "Cavaliers to win",
+     "game": "Cavaliers vs. Hawks",
+     "league": "nba",
+     "price": 0.495,
+     "question": "Cavaliers vs. Hawks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.0202,
+   "price": 0.495,
+   "fee": 0.0253,
+   "status": "open",
+   "placed_at": 1793245243,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
