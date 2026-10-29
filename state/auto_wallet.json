@@ -1,6 +1,6 @@
 {
- "cash": 88.6262,
- "next_id": 76,
+ "cash": 87.6054,
+ "next_id": 77,
  "positions": [
   {
    "id": 1,
@@ -1936,6 +1936,30 @@
    "status": "open",
    "placed_at": 1793271685,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 50%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 76,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5406624",
+     "idx": 1,
+     "label": "Red Wings to win",
+     "game": "Blackhawks vs. Red Wings",
+     "league": "nhl",
+     "price": 0.585,
+     "question": "Blackhawks vs. Red Wings"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7094,
+   "price": 0.585,
+   "fee": 0.0208,
+   "status": "open",
+   "placed_at": 1793297796,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 58%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
