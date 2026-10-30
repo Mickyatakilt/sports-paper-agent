@@ -1,6 +1,6 @@
 {
- "cash": 95.19309999999999,
- "next_id": 80,
+ "cash": 94.1713,
+ "next_id": 81,
  "positions": [
   {
    "id": 1,
@@ -2046,6 +2046,30 @@
    "status": "open",
    "placed_at": 1793320278,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 52%, DK fair 50%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 win rate at least the opponent's; Overall record at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 80,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6110056",
+     "idx": 0,
+     "label": "Lakers to win",
+     "game": "Lakers vs. Warriors",
+     "league": "nba",
+     "price": 0.565,
+     "question": "Lakers vs. Warriors"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7699,
+   "price": 0.565,
+   "fee": 0.0218,
+   "status": "open",
+   "placed_at": 1793381409,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 57%, DK fair 57%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
    "practice": false
   }
