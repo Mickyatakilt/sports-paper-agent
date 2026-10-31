@@ -1,6 +1,6 @@
 {
- "cash": 97.2485,
- "next_id": 82,
+ "cash": 94.1916,
+ "next_id": 85,
  "positions": [
   {
    "id": 1,
@@ -2100,6 +2100,78 @@
    "status": "open",
    "placed_at": 1793442685,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 82,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5603334",
+     "idx": 1,
+     "label": "Commanders to win",
+     "game": "Eagles vs. Commanders",
+     "league": "nfl",
+     "price": 0.705,
+     "question": "Eagles vs. Commanders"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.4184,
+   "price": 0.705,
+   "fee": 0.0148,
+   "status": "open",
+   "placed_at": 1793479762,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 70%, DK fair 69%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 83,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6167328",
+     "idx": 0,
+     "label": "Hawks to win",
+     "game": "Hawks vs. Pelicans",
+     "league": "nba",
+     "price": 0.625,
+     "question": "Hawks vs. Pelicans"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.6,
+   "price": 0.625,
+   "fee": 0.0188,
+   "status": "open",
+   "placed_at": 1793479767,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 62%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance; Not on a back-to-back; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 84,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5603314",
+     "idx": 1,
+     "label": "Jets to win",
+     "game": "Raiders vs. Jets",
+     "league": "nfl",
+     "price": 0.535,
+     "question": "Raiders vs. Jets"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.8692,
+   "price": 0.535,
+   "fee": 0.0233,
+   "status": "open",
+   "placed_at": 1793479774,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 54%, DK fair 53%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
