@@ -1,6 +1,6 @@
 {
- "cash": 98.2613,
- "next_id": 81,
+ "cash": 97.2485,
+ "next_id": 82,
  "positions": [
   {
    "id": 1,
@@ -2071,9 +2071,35 @@
    "shares": 1.7699,
    "price": 0.565,
    "fee": 0.0218,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1793381409,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 57%, DK fair 57%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1793442658
+  },
+  {
+   "id": 81,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6167334",
+     "idx": 0,
+     "label": "Cavaliers to win",
+     "game": "Cavaliers vs. Bucks",
+     "league": "nba",
+     "price": 0.745,
+     "question": "Cavaliers vs. Bucks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3423,
+   "price": 0.745,
+   "fee": 0.0128,
+   "status": "open",
+   "placed_at": 1793442685,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
    "practice": false
   }
