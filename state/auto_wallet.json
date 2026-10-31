@@ -1,6 +1,6 @@
 {
- "cash": 94.1916,
- "next_id": 85,
+ "cash": 92.1547,
+ "next_id": 87,
  "positions": [
   {
    "id": 1,
@@ -2172,6 +2172,54 @@
    "status": "open",
    "placed_at": 1793479774,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 54%, DK fair 53%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 85,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5603316",
+     "idx": 1,
+     "label": "Steelers to win",
+     "game": "Browns vs. Steelers",
+     "league": "nfl",
+     "price": 0.645,
+     "question": "Browns vs. Steelers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5504,
+   "price": 0.645,
+   "fee": 0.0177,
+   "status": "open",
+   "placed_at": 1793490743,
+   "note": "EXPERIMENT (checklist only) 100% (7/7). PM 64%, DK fair 63%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 86,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5603301",
+     "idx": 1,
+     "label": "Bills to win",
+     "game": "Ravens vs. Bills",
+     "league": "nfl",
+     "price": 0.615,
+     "question": "Ravens vs. Bills"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.626,
+   "price": 0.615,
+   "fee": 0.0192,
+   "status": "open",
+   "placed_at": 1793490757,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }

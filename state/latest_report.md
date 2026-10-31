@@ -1,21 +1,16 @@
 # Paper agent report
-_2026-10-31 20:49 UTC_
+_2026-10-31 23:53 UTC_
 
-**Wallet:** total $98.16 (start $100) · cash $94.19 · open $3.96 · realized $-1.74
+**Wallet:** total $97.66 (start $100) · cash $92.15 · open $5.50 · realized $-1.74
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 76 settled · 43 won · profit $+1.06 · ROI +1%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 3 bet(s), 2 skipped, 58 no edge
-- 76ers vs. Hornets: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Hawks vs. Pelicans: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Kings vs. Grizzlies: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Cavaliers vs. Bucks: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Timberwolves vs. Spurs: no edge. Polymarket price within 4 pts of DraftKings fair chance
+## This run: 2 bet(s), 4 skipped, 49 no edge
 - Thunder vs. Rockets: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Notre Dame Fighting Irish vs. Villanova Wildcats: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Atlanta Dream vs. Golden State Valkyries: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- High Point Panthers vs. Liberty Flames: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
 ### SKIP: Notre Dame Fighting Irish vs. Villanova Wildcats (W) → Notre Dame Fighting Irish
 Price 72% · DK fair 78% · checklist 4/5 (80%) · mandatory gate failed: volume
@@ -35,9 +30,6 @@ Price 72% · DK fair 78% · checklist 4/5 (80%) · mandatory gate failed: volume
 - ❌ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 41 vs 57 pts
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
 - ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
-- Maple Leafs vs. Canucks: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Penguins vs. Canadiens: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Blue Jackets vs. Stars: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Flames vs. Avalanche: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Jets vs. Hurricanes: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Wild vs. Capitals: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -83,45 +75,23 @@ Price 72% · DK fair 78% · checklist 4/5 (80%) · mandatory gate failed: volume
 - CF América vs. Deportivo Toluca FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Club Santos Laguna vs. Club Necaxa: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CF Cruz Azul vs. Club León FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- CA Vélez Sarsfield vs. CA San Lorenzo de Almagro: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CA Boca Juniors vs. CA River Plate: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
-### SKIP: Cavaliers vs. Bucks → Cavaliers
-Price 76% · DK fair 76% · checklist 10/12 (83%) · already have a bet on this game
-- ⚠ Cleveland Cavaliers OUT: Jaylon Tyson
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 76% vs DK fair 76% = -0.5 pts
-- ✅ **Market** Market has $5,000+ traded: $976,682 traded
-- ✅ **Market** Price between 20% and 80%: 76%
+### BET: Browns vs. Steelers → Steelers
+Price 64% · DK fair 63% · checklist 7/7 (100%)
+- ⚠ Pittsburgh Steelers OUT: Doneiko Slaughter, Brandin Echols
+- ⚠ Pittsburgh Steelers has 23 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Cleveland Browns has 25 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 64% vs DK fair 63% = -1.4 pts
+- ✅ **Market** Market has $5,000+ traded: $221,641 traded
+- ✅ **Market** Price between 20% and 80%: 64%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 9.5 vs DK 9.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Cleveland Cavaliers 60% vs Milwaukee Bucks 20%
-- ✅ **Team** Last-5 average margin at least the opponent's: +1.0 vs -10.8
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 3.5 vs DK 3.5
+- ✅ **Team** Last-5 win rate at least the opponent's: Pittsburgh Steelers 80% vs Cleveland Browns 80%
+- ✅ **Team** Last-5 average margin at least the opponent's: +5.0 vs +1.4
 - ✅ **Team** Not on a back-to-back: rested
-- ❌ **Team** Rest days at least the opponent's: 2 vs 3 days
-- ✅ **Team** Overall record at least the opponent's: 3-2 vs 1-4
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 82 vs 72 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 1 day-to-day
-- ❌ **History** Won at least half of recent meetings: 1 of 4 meetings
-
-### BET: Eagles vs. Commanders → Commanders
-Price 70% · DK fair 69% · checklist 6/7 (86%)
-- ⚠ Washington Commanders OUT: Daron Payne, Javon Kinlaw
-- ⚠ Washington Commanders has 23 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Philadelphia Eagles OUT: Jihaad Campbell, Britain Covey, Dontayvion Wicks, DeVonta Smith, Jonathan Jones
-- ⚠ Philadelphia Eagles has 20 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 70% vs DK fair 69% = -1.4 pts
-- ✅ **Market** Market has $5,000+ traded: $557,368 traded
-- ✅ **Market** Price between 20% and 80%: 70%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 6.5 vs DK 6.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Washington Commanders 20% vs Philadelphia Eagles 0%
-- ✅ **Team** Last-5 average margin at least the opponent's: -7.6 vs -10.8
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 13 vs 6 days
-- ❌ **Team** Overall record at least the opponent's: 1-4-1 vs 2-5
+- ✅ **Team** Rest days at least the opponent's: 7 vs 7 days
+- ✅ **Team** Overall record at least the opponent's: 5-2 vs 5-2
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
@@ -129,44 +99,91 @@ Price 70% · DK fair 69% · checklist 6/7 (86%)
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
 - ✅ **History** Won at least half of recent meetings: 1 of 1 meetings
 
-### BET: Hawks vs. Pelicans → Hawks
-Price 62% · DK fair 62% · checklist 10/12 (83%)
-- ⚠ New Orleans Pelicans played yesterday (back-to-back).
-- ⚠ New Orleans Pelicans OUT: Yves Missi, Jordan Poole
-- ⚠ Atlanta Hawks played yesterday (back-to-back).
-- ⚠ Atlanta Hawks OUT: Mouhamed Gueye, Henri Veesaar
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 62% vs DK fair 62% = -0.3 pts
-- ✅ **Market** Market has $5,000+ traded: $273,716 traded
+### BET: Ravens vs. Bills → Bills
+Price 62% · DK fair 59% · checklist 6/6 (100%)
+- ⚠ Buffalo Bills OUT: Tyrell Shavers
+- ⚠ Buffalo Bills has 24 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Baltimore Ravens OUT: Olaivavega Ioane, Jaylinn Hawkins
+- ⚠ Baltimore Ravens has 23 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 62% vs DK fair 59% = -2.2 pts
+- ✅ **Market** Market has $5,000+ traded: $205,883 traded
 - ✅ **Market** Price between 20% and 80%: 62%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 4.5 vs DK 4.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Atlanta Hawks 40% vs New Orleans Pelicans 20%
-- ✅ **Team** Last-5 average margin at least the opponent's: +4.2 vs -2.2
-- ❌ **Team** Not on a back-to-back: played yesterday
-- ✅ **Team** Rest days at least the opponent's: 1 vs 1 days
-- ✅ **Team** Overall record at least the opponent's: 3-3 vs 1-4
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 62 vs 49 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ❌ **History** Won at least half of recent meetings: 0 of 2 meetings
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 3.5 vs DK 3.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Buffalo Bills 80% vs Baltimore Ravens 60%
+- ✅ **Team** Last-5 average margin at least the opponent's: +4.2 vs -1.8
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 14 vs 7 days
+- ✅ **Team** Overall record at least the opponent's: 5-1 vs 4-3
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
-### BET: Raiders vs. Jets → Jets
-Price 54% · DK fair 53% · checklist 5/6 (83%)
-- ⚠ New York Jets OUT: Max Mitchell, Joseph Ossai
-- ⚠ New York Jets has 23 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Las Vegas Raiders has 25 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 54% vs DK fair 53% = -0.9 pts
-- ✅ **Market** Market has $5,000+ traded: $177,806 traded
-- ✅ **Market** Price between 20% and 80%: 54%
+### SKIP: Patriots vs. Dolphins → Patriots
+Price 76% · DK fair 73% · checklist 6/6 (100%) · experiment daily limit of 6 reached
+- ⚠ Miami Dolphins OUT: Kadyn Proctor
+- ⚠ Miami Dolphins has 24 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ New England Patriots OUT: TreVeyon Henderson, A.J. Brown
+- ⚠ New England Patriots has 23 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 76% vs DK fair 73% = -2.9 pts
+- ✅ **Market** Market has $5,000+ traded: $162,492 traded
+- ✅ **Market** Price between 20% and 80%: 76%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 6.5 vs DK 7.0
+- ✅ **Team** Last-5 win rate at least the opponent's: New England Patriots 60% vs Miami Dolphins 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.6 vs -9.0
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 9 vs 7 days
+- ✅ **Team** Overall record at least the opponent's: 4-3 vs 1-5
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Chiefs vs. Broncos → Broncos
+Price 48% · DK fair 48% · checklist 5/7 (71%) · only 71% of checks passed (need 80%)
+- ⚠ Denver Broncos OUT: Talanoa Hufanga
+- ⚠ Denver Broncos has 24 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Kansas City Chiefs OUT: Mansoor Delane, Omarr Norman-Lott
+- ⚠ Kansas City Chiefs has 23 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 48% vs DK fair 48% = +0.8 pts
+- ✅ **Market** Market has $5,000+ traded: $159,995 traded
+- ✅ **Market** Price between 20% and 80%: 48%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
 - ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 1.5
-- ✅ **Team** Last-5 win rate at least the opponent's: New York Jets 20% vs Las Vegas Raiders 20%
-- ✅ **Team** Last-5 average margin at least the opponent's: -4.6 vs -8.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Denver Broncos 80% vs Kansas City Chiefs 80%
+- ❌ **Team** Last-5 average margin at least the opponent's: +3.4 vs +3.8
 - ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 7 vs 7 days
-- ❌ **Team** Overall record at least the opponent's: 2-5 vs 3-4
+- ✅ **Team** Rest days at least the opponent's: 7 vs 6 days
+- ❌ **Team** Overall record at least the opponent's: 5-2 vs 5-1
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ✅ **History** Won at least half of recent meetings: 1 of 1 meetings
+
+### SKIP: Cardinals vs. Cowboys → Cowboys
+Price 74% · DK fair 73% · checklist 5/6 (83%) · experiment daily limit of 6 reached
+- ⚠ Dallas Cowboys OUT: Dee Winters, KaVontae Turpin
+- ⚠ Dallas Cowboys has 23 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Arizona Cardinals OUT: Jon Gaines II, Walter Nolen III, Tip Reiman
+- ⚠ Arizona Cardinals has 22 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 74% vs DK fair 73% = -1.9 pts
+- ✅ **Market** Market has $5,000+ traded: $158,925 traded
+- ✅ **Market** Price between 20% and 80%: 74%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 7.5 vs DK 7.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Dallas Cowboys 40% vs Arizona Cardinals 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.0 vs -10.8
+- ✅ **Team** Not on a back-to-back: rested
+- ❌ **Team** Rest days at least the opponent's: 5 vs 7 days
+- ✅ **Team** Overall record at least the opponent's: 3-4 vs 2-5
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
@@ -175,6 +192,8 @@ Price 54% · DK fair 53% · checklist 5/6 (83%)
 - ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
 ## Open and recent positions
+- #86 [EXPERIMENT] OPEN Bills to win (Ravens vs. Bills) $1.00
+- #85 [EXPERIMENT] OPEN Steelers to win (Browns vs. Steelers) $1.00
 - #84 [EXPERIMENT] OPEN Jets to win (Raiders vs. Jets) $1.00
 - #83 [EXPERIMENT] OPEN Hawks to win (Hawks vs. Pelicans) $1.00
 - #82 [EXPERIMENT] OPEN Commanders to win (Eagles vs. Commanders) $1.00
@@ -188,5 +207,3 @@ Price 54% · DK fair 53% · checklist 5/6 (83%)
 - #74 [EXPERIMENT] LOST Cavaliers to win (Cavaliers vs. Hawks) $1.00 → $0.00
 - #73 [EXPERIMENT] LOST Kings to win (Kings vs. Pelicans) $1.00 → $0.00
 - #72 [EXPERIMENT] WON Grizzlies to win (Grizzlies vs. Trail Blazers) $1.00 → $3.64
-- #71 [EXPERIMENT] WON Packers to win (Panthers vs. Packers) $1.00 → $1.55
-- #70 [EXPERIMENT] WON Cavaliers to win (Wizards vs. Cavaliers) $1.00 → $1.31
