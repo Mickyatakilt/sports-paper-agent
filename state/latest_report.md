@@ -1,97 +1,90 @@
 # Paper agent report
-_2026-11-01 12:23 UTC_
+_2026-11-01 19:18 UTC_
 
-**Wallet:** total $97.35 (start $100) · cash $91.45 · open $5.90 · realized $-2.43
+**Wallet:** total $98.88 (start $100) · cash $90.42 · open $8.46 · realized $-2.43
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 78 settled · 44 won · profit $+0.37 · ROI +0%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 0 bet(s), 2 skipped, 46 no edge
+## This run: 1 bet(s), 3 skipped, 40 no edge
 - Celtics vs. Magic: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Nets vs. Pacers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Clippers vs. Warriors: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Raptors vs. Lakers: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Notre Dame Fighting Irish vs. Villanova Wildcats: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - High Point Panthers vs. Liberty Flames: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Notre Dame Fighting Irish vs. Villanova Wildcats (W): no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Jets vs. Hurricanes: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Miami Hurricanes vs. Florida Gators: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Oakland Golden Grizzlies vs. Michigan Wolverines: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Monmouth Hawks vs. St. John's Red Storm: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Memphis Tigers vs. Iowa State Cyclones: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Quinnipiac Bobcats vs. Michigan State Spartans: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Gonzaga Bulldogs vs. Purdue Boilermakers: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Fordham Rams vs. Kansas Jayhawks: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Wild vs. Capitals: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Oilers vs. Rangers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Senators vs. Ducks: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Ravens vs. Bills: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Titans vs. Bengals: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Cardinals vs. Cowboys: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Vikings vs. Lions: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Colts vs. Jaguars: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Raiders vs. Jets: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Browns vs. Steelers: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Falcons vs. Buccaneers: no edge. Polymarket price within 4 pts of DraftKings fair chance
-
-### SKIP: Chargers vs. Rams → Chargers
-Price 26% · DK fair 31% · checklist 2/6 (33%) · only 33% of checks passed (need 80%)
-- ⚠ Los Angeles Rams has 25 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Los Angeles Chargers OUT: Kayode Awosika, Deane Leonard, Brenen Thompson
-- ⚠ Los Angeles Chargers has 22 day-to-day players (rest/injury): lineup uncertain.
-- ✅ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 26% vs DK fair 31% = +4.4 pts
-- ✅ **Market** Market has $5,000+ traded: $270,415 traded
-- ✅ **Market** Price between 20% and 80%: 26%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 21.5 vs DK 6.5
-- ❌ **Team** Last-5 win rate at least the opponent's: Los Angeles Chargers 0% vs Los Angeles Rams 40%
-- ❌ **Team** Last-5 average margin at least the opponent's: -9.8 vs +1.8
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 14 vs 7 days
-- ❌ **Team** Overall record at least the opponent's: 0-6 vs 3-4
-- ➖ **Players** None of our top-5 scorers is OUT: all available
-- ➖ **Players** At most 1 top-5 scorer day-to-day: none
-- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
-- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+- Red Wings vs. Panthers: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Golden Knights vs. Bruins: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Avalanche vs. Blackhawks: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Chargers vs. Rams: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Chiefs vs. Broncos: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Patriots vs. Dolphins: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Eagles vs. Commanders: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Liverpool FC vs. Arsenal FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Getafe CF vs. Sevilla FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Elche CF vs. Valencia CF: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Bears vs. Seahawks: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Newcastle United FC vs. Everton FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Athletic Club vs. Real Sociedad de Fútbol: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Frosinone Calcio vs. Torino FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- SS Lazio vs. Cagliari Calcio: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- US Lecce vs. Genoa CFC: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- RC Deportivo A Coruña vs. CA Osasuna: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Juventus FC vs. SSC Napoli: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - US Sassuolo Calcio vs. ACF Fiorentina: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- RC Strasbourg Alsace vs. AJ Auxerre: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Olympique Lyonnais vs. Angers SCO: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Paris FC vs. AS Monaco FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Atalanta BC vs. Parma Calcio 1913: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Olympique de Marseille vs. Toulouse FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- FC Lorient vs. Stade Brestois 29: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Vancouver Whitecaps FC vs. Seattle Sounders FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Atlanta United FC vs. Toronto FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - New England Revolution vs. Inter Miami CF: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- SBV Excelsior vs. FC Twente: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Telstar 1963 vs. FC Utrecht: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- FC Groningen vs. Sparta Rotterdam: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Académico de Viseu FC vs. Rio Ave FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- Trabzonspor vs. Gaziantep FK: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Sport Lisboa e Benfica vs. FC Alverca: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Club Santos Laguna vs. Club Necaxa: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CF Cruz Azul vs. Club León FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
-- CA Boca Juniors vs. CA River Plate: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Red Bull Bragantino vs. Santos FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- CSyD Defensa y Justicia vs. CA Independiente: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- CS Independiente Rivadavia vs. CA Banfield: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
-### SKIP: Vikings vs. Lions → Vikings
-Price 38% · DK fair 40% · checklist 5/6 (83%) · already have a bet on this game
-- ⚠ Detroit Lions OUT: Kerby Joseph
-- ⚠ Detroit Lions has 24 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Minnesota Vikings has 25 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 38% vs DK fair 40% = +2.1 pts
-- ✅ **Market** Market has $5,000+ traded: $290,725 traded
-- ✅ **Market** Price between 20% and 80%: 38%
+### SKIP: Celtics vs. Magic → Celtics
+Price 72% · DK fair 72% · checklist 9/12 (75%) · only 75% of checks passed (need 80%)
+- ⚠ Orlando Magic OUT: Jonathan Isaac, Jalen Suggs, Paolo Banchero, Noah Penda, Izaiyah Nelson
+- ⚠ Boston Celtics OUT: Mitchell Robinson, Devin Carter
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 72% vs DK fair 72% = -0.7 pts
+- ✅ **Market** Market has $5,000+ traded: $506,124 traded
+- ✅ **Market** Price between 20% and 80%: 72%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 21.5 vs DK 3.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Minnesota Vikings 100% vs Detroit Lions 60%
-- ✅ **Team** Last-5 average margin at least the opponent's: +6.8 vs +3.6
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 7.5 vs DK 7.5
+- ✅ **Team** Last-5 win rate at least the opponent's: Boston Celtics 80% vs Orlando Magic 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +9.2 vs -8.6
 - ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 7 vs 7 days
-- ✅ **Team** Overall record at least the opponent's: 6-0 vs 4-2
+- ✅ **Team** Rest days at least the opponent's: 2 vs 2 days
+- ✅ **Team** Overall record at least the opponent's: 4-1 vs 2-3
+- ❌ **Players** None of our top-5 scorers is OUT: Devin Carter
+- ✅ **Players** At most 1 top-5 scorer day-to-day: none
+- ✅ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 1 unavailable
+- ❌ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 67 vs 81 pts
+- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
+- ❌ **History** Won at least half of recent meetings: 1 of 4 meetings
+
+### SKIP: Chargers vs. Rams → Rams
+Price 74% · DK fair 71% · checklist 4/6 (67%) · only 67% of checks passed (need 80%)
+- ⚠ Los Angeles Rams has 25 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Los Angeles Chargers OUT: Kayode Awosika, Deane Leonard, Brenen Thompson
+- ⚠ Los Angeles Chargers has 22 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 74% vs DK fair 71% = -2.5 pts
+- ✅ **Market** Market has $5,000+ traded: $445,323 traded
+- ✅ **Market** Price between 20% and 80%: 74%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 21.5 vs DK 6.5
+- ✅ **Team** Last-5 win rate at least the opponent's: Los Angeles Rams 40% vs Los Angeles Chargers 0%
+- ✅ **Team** Last-5 average margin at least the opponent's: +1.8 vs -9.8
+- ✅ **Team** Not on a back-to-back: rested
+- ❌ **Team** Rest days at least the opponent's: 7 vs 14 days
+- ✅ **Team** Overall record at least the opponent's: 3-4 vs 0-6
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
@@ -99,7 +92,52 @@ Price 38% · DK fair 40% · checklist 5/6 (83%) · already have a bet on this ga
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
 - ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
 
+### BET: Bears vs. Seahawks → Bears
+Price 38% · DK fair 40% · checklist 6/6 (100%)
+- ⚠ Seattle Seahawks OUT: Charles Cross, Velus Jones Jr., Rashid Shaheed
+- ⚠ Seattle Seahawks has 22 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Chicago Bears OUT: Kyle Monangai
+- ⚠ Chicago Bears has 24 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 38% vs DK fair 40% = +1.5 pts
+- ✅ **Market** Market has $5,000+ traded: $405,986 traded
+- ✅ **Market** Price between 20% and 80%: 38%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 3.5 vs DK 3.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Chicago Bears 80% vs Seattle Seahawks 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +4.2 vs +3.2
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 11 vs 8 days
+- ✅ **Team** Overall record at least the opponent's: 5-2 vs 4-3
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
+
+### SKIP: Raptors vs. Lakers → Lakers
+Price 58% · DK fair 57% · checklist 9/12 (75%) · only 75% of checks passed (need 80%)
+- ⚠ Los Angeles Lakers OUT: Adou Thiero
+- ⚠ Toronto Raptors OUT: Kawhi Leonard, Nate Bittle
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 58% vs DK fair 57% = -1.3 pts
+- ✅ **Market** Market has $5,000+ traded: $354,078 traded
+- ✅ **Market** Price between 20% and 80%: 58%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 2.5
+- ✅ **Team** Last-5 win rate at least the opponent's: Los Angeles Lakers 60% vs Toronto Raptors 60%
+- ❌ **Team** Last-5 average margin at least the opponent's: +1.8 vs +10.6
+- ✅ **Team** Not on a back-to-back: rested
+- ❌ **Team** Rest days at least the opponent's: 2 vs 3 days
+- ✅ **Team** Overall record at least the opponent's: 4-2 vs 3-2
+- ✅ **Players** None of our top-5 scorers is OUT: all available
+- ✅ **Players** At most 1 top-5 scorer day-to-day: none
+- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
+- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 74 vs 71 pts
+- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 1 day-to-day
+- ❌ **History** Won at least half of recent meetings: 0 of 2 meetings
+
 ## Open and recent positions
+- #89 [EXPERIMENT] OPEN Bears to win (Bears vs. Seahawks) $1.00
 - #88 [EXPERIMENT] OPEN Patriots to win (Patriots vs. Dolphins) $1.00
 - #87 [EXPERIMENT] OPEN Vikings to win (Vikings vs. Lions) $1.00
 - #86 [EXPERIMENT] OPEN Bills to win (Ravens vs. Bills) $1.00
@@ -114,4 +152,3 @@ Price 38% · DK fair 40% · checklist 5/6 (83%) · already have a bet on this ga
 - #77 [EXPERIMENT] WON 76ers to win (Knicks vs. 76ers) $1.00 → $2.15
 - #76 [EXPERIMENT] WON Red Wings to win (Blackhawks vs. Red Wings) $1.00 → $1.71
 - #75 [EXPERIMENT] WON Capitals to win (Capitals vs. Predators) $1.00 → $2.02
-- #74 [EXPERIMENT] LOST Cavaliers to win (Cavaliers vs. Hawks) $1.00 → $0.00

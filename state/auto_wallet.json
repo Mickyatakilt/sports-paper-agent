@@ -1,6 +1,6 @@
 {
- "cash": 91.4512,
- "next_id": 89,
+ "cash": 90.4204,
+ "next_id": 90,
  "positions": [
   {
    "id": 1,
@@ -2272,6 +2272,30 @@
    "status": "open",
    "placed_at": 1793532472,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 76%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 89,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5647429",
+     "idx": 0,
+     "label": "Bears to win",
+     "game": "Bears vs. Seahawks",
+     "league": "nfl",
+     "price": 0.385,
+     "question": "Bears vs. Seahawks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.5974,
+   "price": 0.385,
+   "fee": 0.0308,
+   "status": "open",
+   "placed_at": 1793560682,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
