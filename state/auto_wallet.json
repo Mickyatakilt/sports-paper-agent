@@ -1,6 +1,6 @@
 {
- "cash": 92.1547,
- "next_id": 87,
+ "cash": 92.4635,
+ "next_id": 88,
  "positions": [
   {
    "id": 1,
@@ -2097,11 +2097,13 @@
    "shares": 1.3423,
    "price": 0.745,
    "fee": 0.0128,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793442685,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.34,
+   "closed_at": 1793503611
   },
   {
    "id": 82,
@@ -2145,11 +2147,13 @@
    "shares": 1.6,
    "price": 0.625,
    "fee": 0.0188,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1793479767,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 62%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance; Not on a back-to-back; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1793503611
   },
   {
    "id": 84,
@@ -2220,6 +2224,30 @@
    "status": "open",
    "placed_at": 1793490757,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 87,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5603308",
+     "idx": 0,
+     "label": "Vikings to win",
+     "game": "Vikings vs. Lions",
+     "league": "nfl",
+     "price": 0.375,
+     "question": "Vikings vs. Lions"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.6667,
+   "price": 0.375,
+   "fee": 0.0312,
+   "status": "open",
+   "placed_at": 1793503633,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
