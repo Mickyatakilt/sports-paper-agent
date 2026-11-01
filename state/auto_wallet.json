@@ -1,6 +1,6 @@
 {
- "cash": 92.4635,
- "next_id": 88,
+ "cash": 91.4512,
+ "next_id": 89,
  "positions": [
   {
    "id": 1,
@@ -2248,6 +2248,30 @@
    "status": "open",
    "placed_at": 1793503633,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 88,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5603328",
+     "idx": 0,
+     "label": "Patriots to win",
+     "game": "Patriots vs. Dolphins",
+     "league": "nfl",
+     "price": 0.755,
+     "question": "Patriots vs. Dolphins"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3245,
+   "price": 0.755,
+   "fee": 0.0123,
+   "status": "open",
+   "placed_at": 1793532472,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 76%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
