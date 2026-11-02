@@ -1,13 +1,13 @@
 # Paper agent report
-_2026-11-02 10:21 UTC_
+_2026-11-02 12:45 UTC_
 
-**Wallet:** total $97.94 (start $100) · cash $94.08 · open $3.86 · realized $-1.82
+**Wallet:** total $97.90 (start $100) · cash $94.08 · open $3.82 · realized $-1.82
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 85 settled · 49 won · profit $+0.98 · ROI +1%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 2 bet(s), 8 skipped, 40 no edge
+## This run: 0 bet(s), 3 skipped, 42 no edge
 - Thunder vs. Cavaliers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Pistons vs. Hornets: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Hawks vs. Pacers: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -35,11 +35,11 @@ _2026-11-02 10:21 UTC_
 - UCLA Bruins vs. Arizona Wildcats: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
 ### SKIP: Milwaukee Panthers vs. USC Trojans → USC Trojans
-Price 89% · DK fair 97% · checklist 6/6 (100%) · mandatory gate failed: volume, price
+Price 87% · DK fair 97% · checklist 6/6 (100%) · mandatory gate failed: volume, price
 - ⚠ THIN market: under $1,000 traded, so the price is not trustworthy.
-- ✅ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 89% vs DK fair 97% = +8.6 pts
+- ✅ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 87% vs DK fair 97% = +10.1 pts
 - ❌ **Market** Market has $5,000+ traded: $0 traded
-- ❌ **Market** Price between 20% and 80%: 89%
+- ❌ **Market** Price between 20% and 80%: 87%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
 - ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
 - ➖ **Team** Last-5 win rate at least the opponent's: USC Trojans None vs Milwaukee Panthers None
@@ -57,7 +57,7 @@ Price 89% · DK fair 97% · checklist 6/6 (100%) · mandatory gate failed: volum
 ### SKIP: Maryland Terrapins vs. South Carolina Gamecocks (W) → Maryland Terrapins
 Price 8% · DK fair 14% · checklist 5/5 (100%) · mandatory gate failed: volume, price
 - ⚠ THIN market: under $1,000 traded, so the price is not trustworthy.
-- ✅ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 8% vs DK fair 14% = +5.7 pts
+- ✅ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 8% vs DK fair 14% = +5.2 pts
 - ❌ **Market** Market has $5,000+ traded: $0 traded
 - ❌ **Market** Price between 20% and 80%: 8%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
@@ -84,179 +84,31 @@ Price 8% · DK fair 14% · checklist 5/5 (100%) · mandatory gate failed: volume
 - US Sassuolo Calcio vs. ACF Fiorentina: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Atalanta BC vs. Parma Calcio 1913: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - FC Lorient vs. Stade Brestois 29: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Galatasaray SK vs. VfB Stuttgart: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- FK Shakhtar Donetsk vs. Sporting CP: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Sport Lisboa e Benfica vs. FC Alverca: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Red Bull Bragantino vs. Santos FC: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CSyD Defensa y Justicia vs. CA Independiente: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - CS Independiente Rivadavia vs. CA Banfield: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
-### SKIP: Newcastle United FC vs. Everton FC → Everton FC
-Price 28% · DK fair 29% · checklist 4/6 (67%) · only 67% of checks passed (need 80%)
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 28% vs DK fair 29% = +0.8 pts
-- ✅ **Market** Market has $5,000+ traded: $676,201 traded
-- ✅ **Market** Price between 20% and 80%: 28%
+### SKIP: RC Deportivo A Coruña vs. CA Osasuna → RC Deportivo A Coruña
+Price 46% · DK fair 45% · checklist 4/5 (80%) · only 5 checks had data (need 6+)
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 46% vs DK fair 45% = -0.2 pts
+- ✅ **Market** Market has $5,000+ traded: $160,505 traded
+- ✅ **Market** Price between 20% and 80%: 46%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): season type not reported
 - ➖ **Market** Polymarket and DraftKings spreads agree (within 1.5): n/a
-- ✅ **Team** Last-5 win rate at least the opponent's: Everton 40% vs Newcastle United 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +0.6 vs +0.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Deportivo 40% vs Osasuna 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.6 vs -0.6
 - ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 72 vs 71 days
-- ❌ **Team** Overall record at least the opponent's: 2-4-2 vs 3-2-3
-- ➖ **Players** None of our top-5 scorers is OUT: all available
-- ➖ **Players** At most 1 top-5 scorer day-to-day: none
-- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
-- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ❌ **History** Won at least half of recent meetings: 0 of 1 meetings
-
-### SKIP: Bears vs. Seahawks → Bears
-Price 38% · DK fair 39% · checklist 6/6 (100%) · already have a bet on this game
-- ⚠ Seattle Seahawks OUT: Charles Cross, Velus Jones Jr., Rashid Shaheed
-- ⚠ Seattle Seahawks has 22 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Chicago Bears OUT: Kyle Monangai
-- ⚠ Chicago Bears has 24 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 38% vs DK fair 39% = +0.6 pts
-- ✅ **Market** Market has $5,000+ traded: $572,026 traded
-- ✅ **Market** Price between 20% and 80%: 38%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 3.5 vs DK 3.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Chicago Bears 80% vs Seattle Seahawks 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +4.2 vs +3.2
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 11 vs 8 days
-- ✅ **Team** Overall record at least the opponent's: 5-2 vs 4-3
+- ✅ **Team** Rest days at least the opponent's: 77 vs 70 days
+- ❌ **Team** Overall record at least the opponent's: 2-5-3 vs 3-2-5
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
 - ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
 - ➖ **History** Won at least half of recent meetings: 0 of 0 meetings
-
-### BET: Thunder vs. Cavaliers → Cavaliers
-Price 60% · DK fair 62% · checklist 12/12 (100%)
-- ⚠ Cleveland Cavaliers OUT: Jaylon Tyson
-- ⚠ Oklahoma City Thunder OUT: Thomas Sorber, Cason Wallace, Chet Holmgren, Jalen Williams, Alex Caruso
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 60% vs DK fair 62% = +1.1 pts
-- ✅ **Market** Market has $5,000+ traded: $95,423 traded
-- ✅ **Market** Price between 20% and 80%: 60%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 4.5 vs DK 4.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Cleveland Cavaliers 80% vs Oklahoma City Thunder 60%
-- ✅ **Team** Last-5 average margin at least the opponent's: +7.6 vs -3.0
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 2 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 4-2 vs 4-2
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 83 vs 75 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 1 day-to-day
-- ✅ **History** Won at least half of recent meetings: 2 of 2 meetings
-
-### SKIP: Suns vs. Warriors → Suns
-Price 38% · DK fair 38% · checklist 8/12 (67%) · only 67% of checks passed (need 80%)
-- ⚠ Golden State Warriors played yesterday (back-to-back).
-- ⚠ Golden State Warriors OUT: Draymond Green, Stephen Curry, Kristaps Porzingis, Moses Moody, Jimmy Butler III
-- ⚠ Phoenix Suns OUT: Mark Williams
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 38% vs DK fair 38% = -0.1 pts
-- ✅ **Market** Market has $5,000+ traded: $90,272 traded
-- ✅ **Market** Price between 20% and 80%: 38%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 4.5 vs DK 4.5
-- ❌ **Team** Last-5 win rate at least the opponent's: Phoenix Suns 25% vs Golden State Warriors 80%
-- ❌ **Team** Last-5 average margin at least the opponent's: -12.5 vs +9.0
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 3 vs 1 days
-- ❌ **Team** Overall record at least the opponent's: 1-3 vs 4-3
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 2 unavailable
-- ❌ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 74 vs 98 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ✅ **History** Won at least half of recent meetings: 3 of 5 meetings
-
-### SKIP: Wizards vs. Magic → Wizards
-Price 44% · DK fair 46% · checklist 11/12 (92%) · already have a bet on this game
-- ⚠ Orlando Magic OUT: Jonathan Isaac, Jalen Suggs, Paolo Banchero, Noah Penda, Izaiyah Nelson
-- ⚠ Washington Wizards OUT: Tristan Vukcevic, Justin Champagnie, Jamir Watkins
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 44% vs DK fair 46% = +1.2 pts
-- ✅ **Market** Market has $5,000+ traded: $59,547 traded
-- ✅ **Market** Price between 20% and 80%: 44%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 1.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Washington Wizards 40% vs Orlando Magic 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: -1.4 vs -9.4
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 4 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 3-3 vs 2-4
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ❌ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 68 vs 82 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 2 day-to-day
-- ✅ **History** Won at least half of recent meetings: 3 of 4 meetings
-
-### SKIP: Heat vs. Lakers → Lakers
-Price 55% · DK fair 55% · checklist 9/12 (75%) · only 75% of checks passed (need 80%)
-- ⚠ Los Angeles Lakers played yesterday (back-to-back).
-- ⚠ Los Angeles Lakers OUT: Ziaire Williams, Adou Thiero
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 55% vs DK fair 55% = +0.6 pts
-- ✅ **Market** Market has $5,000+ traded: $57,145 traded
-- ✅ **Market** Price between 20% and 80%: 55%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 2.5 vs DK 2.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Los Angeles Lakers 60% vs Miami Heat 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +1.4 vs +1.2
-- ❌ **Team** Not on a back-to-back: played yesterday
-- ❌ **Team** Rest days at least the opponent's: 1 vs 3 days
-- ✅ **Team** Overall record at least the opponent's: 5-2 vs 2-4
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 71 vs 63 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ❌ **History** Won at least half of recent meetings: 0 of 2 meetings
-
-### SKIP: Bulls vs. 76ers → 76ers
-Price 82% · DK fair 82% · checklist 11/12 (92%) · gate failed: price
-- ⚠ Philadelphia 76ers OUT: Dominick Barlow, Ariel Hukporti
-- ⚠ Chicago Bulls OUT: Nic Claxton
-- ⚠ Chicago Bulls has 3 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 82% vs DK fair 82% = -0.8 pts
-- ✅ **Market** Market has $5,000+ traded: $55,497 traded
-- ❌ **Market** Price between 20% and 80%: 82%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 11.5 vs DK 11.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Philadelphia 76ers 80% vs Chicago Bulls 20%
-- ✅ **Team** Last-5 average margin at least the opponent's: +2.6 vs -10.4
-- ✅ **Team** Not on a back-to-back: rested
-- ❌ **Team** Rest days at least the opponent's: 3 vs 4 days
-- ✅ **Team** Overall record at least the opponent's: 6-1 vs 1-5
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: Joel Embiid
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 74 vs 54 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 1 day-to-day
-- ✅ **History** Won at least half of recent meetings: 2 of 3 meetings
-
-### BET: Pelicans vs. Grizzlies → Grizzlies
-Price 66% · DK fair 66% · checklist 11/12 (92%)
-- ⚠ New Orleans Pelicans OUT: Jordan Poole, Yves Missi
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 66% vs DK fair 66% = -0.8 pts
-- ✅ **Market** Market has $5,000+ traded: $53,657 traded
-- ✅ **Market** Price between 20% and 80%: 66%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 6.5 vs DK 6.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Memphis Grizzlies 100% vs New Orleans Pelicans 40%
-- ✅ **Team** Last-5 average margin at least the opponent's: +14.2 vs +2.8
-- ✅ **Team** Not on a back-to-back: rested
-- ❌ **Team** Rest days at least the opponent's: 2 vs 3 days
-- ✅ **Team** Overall record at least the opponent's: 6-0 vs 2-4
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 75 vs 52 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 2 day-to-day
-- ✅ **History** Won at least half of recent meetings: 2 of 4 meetings
 
 ## Open and recent positions
 - #93 [EXPERIMENT] OPEN Grizzlies to win (Pelicans vs. Grizzlies) $1.00
