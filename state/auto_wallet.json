@@ -1,6 +1,6 @@
 {
- "cash": 94.0849,
- "next_id": 94,
+ "cash": 92.0539,
+ "next_id": 96,
  "positions": [
   {
    "id": 1,
@@ -2406,6 +2406,54 @@
    "status": "open",
    "placed_at": 1793614883,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 94,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6293059",
+     "idx": 1,
+     "label": "Rockets to win",
+     "game": "Celtics vs. Rockets",
+     "league": "nba",
+     "price": 0.635,
+     "question": "Celtics vs. Rockets"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5748,
+   "price": 0.635,
+   "fee": 0.0182,
+   "status": "open",
+   "placed_at": 1793653757,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 64%, DK fair 64%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 win rate at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 95,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6293050",
+     "idx": 1,
+     "label": "Mavericks to win",
+     "game": "Kings vs. Mavericks",
+     "league": "nba",
+     "price": 0.745,
+     "question": "Kings vs. Mavericks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3423,
+   "price": 0.745,
+   "fee": 0.0128,
+   "status": "open",
+   "placed_at": 1793653782,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
