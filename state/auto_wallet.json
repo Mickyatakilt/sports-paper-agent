@@ -1,6 +1,6 @@
 {
- "cash": 91.5514,
- "next_id": 92,
+ "cash": 94.0849,
+ "next_id": 94,
  "positions": [
   {
    "id": 1,
@@ -2123,11 +2123,13 @@
    "shares": 1.4184,
    "price": 0.705,
    "fee": 0.0148,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793479762,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 70%, DK fair 69%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.42,
+   "closed_at": 1793614834
   },
   {
    "id": 83,
@@ -2277,11 +2279,13 @@
    "shares": 1.3245,
    "price": 0.755,
    "fee": 0.0123,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793532472,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 76%, DK fair 74%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.32,
+   "closed_at": 1793614834
   },
   {
    "id": 89,
@@ -2325,11 +2329,13 @@
    "shares": 1.8349,
    "price": 0.545,
    "fee": 0.0228,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793577875,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 55%, DK fair 53%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Our top-5 availability at least as good as theirs",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.83,
+   "closed_at": 1793614834
   },
   {
    "id": 91,
@@ -2352,6 +2358,54 @@
    "status": "open",
    "placed_at": 1793577890,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 48%, DK fair 48%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5); Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 92,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6281392",
+     "idx": 1,
+     "label": "Cavaliers to win",
+     "game": "Thunder vs. Cavaliers",
+     "league": "nba",
+     "price": 0.605,
+     "question": "Thunder vs. Cavaliers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.6529,
+   "price": 0.605,
+   "fee": 0.0198,
+   "status": "open",
+   "placed_at": 1793614863,
+   "note": "EXPERIMENT (checklist only) 100% (12/12). PM 60%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 93,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6293053",
+     "idx": 1,
+     "label": "Grizzlies to win",
+     "game": "Pelicans vs. Grizzlies",
+     "league": "nba",
+     "price": 0.665,
+     "question": "Pelicans vs. Grizzlies"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5038,
+   "price": 0.665,
+   "fee": 0.0167,
+   "status": "open",
+   "placed_at": 1793614883,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
