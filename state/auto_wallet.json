@@ -1,6 +1,6 @@
 {
- "cash": 98.33389999999999,
- "next_id": 96,
+ "cash": 96.289,
+ "next_id": 98,
  "positions": [
   {
    "id": 1,
@@ -2468,6 +2468,54 @@
    "practice": false,
    "payout": 0.0,
    "closed_at": 1793680875
+  },
+  {
+   "id": 96,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5406813",
+     "idx": 0,
+     "label": "Blues to win",
+     "game": "Blues vs. Rangers",
+     "league": "nhl",
+     "price": 0.465,
+     "question": "Blues vs. Rangers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.1505,
+   "price": 0.465,
+   "fee": 0.0267,
+   "status": "open",
+   "placed_at": 1793738588,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 46%, DK fair 48%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 97,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5406799",
+     "idx": 0,
+     "label": "Wild to win",
+     "game": "Wild vs. Flyers",
+     "league": "nhl",
+     "price": 0.635,
+     "question": "Wild vs. Flyers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5748,
+   "price": 0.635,
+   "fee": 0.0182,
+   "status": "open",
+   "placed_at": 1793738593,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 64%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
   }
  ]
 }
