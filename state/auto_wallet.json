@@ -1,6 +1,6 @@
 {
- "cash": 96.289,
- "next_id": 98,
+ "cash": 94.2336,
+ "next_id": 100,
  "positions": [
   {
    "id": 1,
@@ -2514,6 +2514,54 @@
    "status": "open",
    "placed_at": 1793738593,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 64%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 98,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6374089",
+     "idx": 0,
+     "label": "76ers to win",
+     "game": "76ers vs. Pistons",
+     "league": "nba",
+     "price": 0.455,
+     "question": "76ers vs. Pistons"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.1978,
+   "price": 0.455,
+   "fee": 0.0272,
+   "status": "open",
+   "placed_at": 1793753937,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 46%, DK fair 46%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 99,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6374092",
+     "idx": 1,
+     "label": "Wizards to win",
+     "game": "Hawks vs. Wizards",
+     "league": "nba",
+     "price": 0.435,
+     "question": "Hawks vs. Wizards"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.2989,
+   "price": 0.435,
+   "fee": 0.0282,
+   "status": "open",
+   "placed_at": 1793753951,
+   "note": "EXPERIMENT (checklist only) 100% (12/12). PM 44%, DK fair 45%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
