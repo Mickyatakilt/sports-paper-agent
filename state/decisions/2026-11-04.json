@@ -2856,5 +2856,450 @@
    "Dallas Mavericks OUT: Max Christie, Santi Aldama, Tarik Biberovic, Dereck Lively II, Sergio de Larrea"
   ],
   "ts": 1793787169
+ },
+ {
+  "league": "nba",
+  "game": "76ers vs. Pistons",
+  "start": "2026-11-05T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Hawks vs. Wizards",
+  "start": "2026-11-05T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Bucks vs. Celtics",
+  "start": "2026-11-05T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Hornets vs. Nets",
+  "start": "2026-11-05T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Bulls vs. Knicks",
+  "start": "2026-11-05T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Pacers vs. Grizzlies",
+  "start": "2026-11-05T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Jazz vs. Pelicans",
+  "start": "2026-11-05T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Cavaliers vs. Thunder",
+  "start": "2026-11-05T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Timberwolves vs. Rockets",
+  "start": "2026-11-05T01:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Raptors vs. Nuggets",
+  "start": "2026-11-05T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Trail Blazers vs. Suns",
+  "start": "2026-11-05T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Mavericks vs. Spurs",
+  "start": "2026-11-05T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Lakers vs. Kings",
+  "start": "2026-11-05T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Heat vs. Clippers",
+  "start": "2026-11-05T03:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Fairleigh Dickinson Knights vs. Butler Bulldogs",
+  "start": "2026-11-05T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Maryland Eastern Shore Hawks vs. High Point Panthers",
+  "start": "2026-11-05T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Longwood Lancers vs. Saint Joseph's Hawks",
+  "start": "2026-11-05T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "CSUN Matadors vs. Wichita State Shockers",
+  "start": "2026-11-05T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Southeastern Louisiana Lions vs. Auburn Tigers",
+  "start": "2026-11-05T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Northern Kentucky Norse vs. South Dakota Coyotes",
+  "start": "2026-11-05T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Radford Highlanders vs. California Golden Bears",
+  "start": "2026-11-05T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Milwaukee Panthers vs. Santa Clara Broncos",
+  "start": "2026-11-05T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "North Dakota State Bison vs. Saint Mary's Gaels",
+  "start": "2026-11-05T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ncaam",
+  "game": "Queens (NC) Royals vs. Loyola Marymount Lions",
+  "start": "2026-11-05T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nhl",
+  "game": "Blackhawks vs. Panthers",
+  "start": "2026-11-05T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nhl",
+  "game": "Senators vs. Sabres",
+  "start": "2026-11-05T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nhl",
+  "game": "Flames vs. Kraken",
+  "start": "2026-11-05T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nhl",
+  "game": "Sharks vs. Kings",
+  "start": "2026-11-05T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ucl",
+  "game": "FC Porto vs. SSC Napoli",
+  "start": "2026-11-04T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ucl",
+  "game": "Racing Club de Lens vs. Como 1907",
+  "start": "2026-11-04T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ucl",
+  "game": "Viking FK vs. Sabah FK",
+  "start": "2026-11-04T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "ucl",
+  "game": "RB Leipzig vs. Manchester City FC",
+  "start": "2026-11-04T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "uel",
+  "game": "Real Sociedad de F\u00fatbol vs. Olympique Lyonnais",
+  "start": "2026-11-05T17:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "championship",
+  "game": "Wrexham AFC vs. Middlesbrough FC",
+  "start": "2026-11-04T19:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "championship",
+  "game": "Cardiff City FC vs. West Ham United FC",
+  "start": "2026-11-04T19:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "championship",
+  "game": "Bristol City FC vs. Wolverhampton Wanderers FC",
+  "start": "2026-11-04T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "brazil",
+  "game": "CR Flamengo vs. Gr\u00eamio FBPA",
+  "start": "2026-11-04T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "brazil",
+  "game": "S\u00e3o Paulo FC vs. SC Corinthians Paulista",
+  "start": "2026-11-05T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "argentina",
+  "game": "CA Aldosivi vs. CA River Plate",
+  "start": "2026-11-05T18:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793795083
+ },
+ {
+  "league": "nba",
+  "game": "Lakers vs. Kings",
+  "start": "2026-11-05T03:00:00+00:00",
+  "action": "SKIP",
+  "bucket": "experiment",
+  "selection": "Lakers",
+  "price": 0.825,
+  "fair": 0.818,
+  "pass_pct": 0.833,
+  "passed": 10,
+  "applicable": 12,
+  "reason": "gate failed: price",
+  "checks": [
+   {
+    "id": "edge",
+    "group": "Market",
+    "label": "Price at least 4.0 pts below DraftKings fair chance",
+    "ok": false,
+    "detail": "PM 82% vs DK fair 82% = -0.7 pts"
+   },
+   {
+    "id": "volume",
+    "group": "Market",
+    "label": "Market has $5,000+ traded",
+    "ok": true,
+    "detail": "$40,416 traded"
+   },
+   {
+    "id": "price",
+    "group": "Market",
+    "label": "Price between 20% and 80%",
+    "ok": false,
+    "detail": "82%"
+   },
+   {
+    "id": "season",
+    "group": "History",
+    "label": "Regular season or later (preseason = PRACTICE bet only)",
+    "ok": true,
+    "detail": "regular season"
+   },
+   {
+    "id": "lines",
+    "group": "Market",
+    "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+    "ok": true,
+    "detail": "PM spread 11.5 vs DK 11.5"
+   },
+   {
+    "id": "form",
+    "group": "Team",
+    "label": "Last-5 win rate at least the opponent's",
+    "ok": true,
+    "detail": "Los Angeles Lakers 60% vs Sacramento Kings 20%"
+   },
+   {
+    "id": "margin",
+    "group": "Team",
+    "label": "Last-5 average margin at least the opponent's",
+    "ok": true,
+    "detail": "+3.8 vs -13.2"
+   },
+   {
+    "id": "b2b",
+    "group": "Team",
+    "label": "Not on a back-to-back",
+    "ok": true,
+    "detail": "rested"
+   },
+   {
+    "id": "rest",
+    "group": "Team",
+    "label": "Rest days at least the opponent's",
+    "ok": true,
+    "detail": "2 vs 2 days"
+   },
+   {
+    "id": "record",
+    "group": "Team",
+    "label": "Overall record at least the opponent's",
+    "ok": true,
+    "detail": "6-2 vs 1-6"
+   },
+   {
+    "id": "star_out",
+    "group": "Players",
+    "label": "None of our top-5 scorers is OUT",
+    "ok": true,
+    "detail": "all available"
+   },
+   {
+    "id": "star_dtd",
+    "group": "Players",
+    "label": "At most 1 top-5 scorer day-to-day",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "id": "opp_hurt",
+    "group": "Players",
+    "label": "Our top-5 availability at least as good as theirs",
+    "ok": true,
+    "detail": "ours 0 vs theirs 1 unavailable"
+   },
+   {
+    "id": "depth",
+    "group": "Players",
+    "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+    "ok": false,
+    "detail": "77 vs 85 pts"
+   },
+   {
+    "id": "lineup",
+    "group": "Players",
+    "label": "Lineup not uncertain (under 3 day-to-day players)",
+    "ok": true,
+    "detail": "0 day-to-day"
+   },
+   {
+    "id": "h2h",
+    "group": "History",
+    "label": "Won at least half of recent meetings",
+    "ok": false,
+    "detail": "1 of 4 meetings"
+   }
+  ],
+  "warnings": [
+   "Sacramento Kings OUT: Maxime Raynaud, Keegan Murray, Ben Simmons",
+   "Los Angeles Lakers OUT: Adou Thiero"
+  ],
+  "ts": 1793795083
  }
 ]
