@@ -2449,5 +2449,197 @@
    "Pittsburgh Penguins has 5 day-to-day players (rest/injury): lineup uncertain."
   ],
   "ts": 1793873152
+ },
+ {
+  "league": "nba",
+  "game": "Magic vs. Suns",
+  "start": "2026-11-06T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nba",
+  "game": "Heat vs. Warriors",
+  "start": "2026-11-06T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "ncaam",
+  "game": "Wake Forest Demon Deacons vs. Vanderbilt Commodores",
+  "start": "2026-11-05T23:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "ncaam",
+  "game": "Toledo Rockets vs. Michigan State Spartans",
+  "start": "2026-11-06T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "ncaam",
+  "game": "Bethune-Cookman Wildcats vs. Texas Tech Red Raiders",
+  "start": "2026-11-06T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "ncaam",
+  "game": "Cal Poly Mustangs vs. Arizona Wildcats",
+  "start": "2026-11-06T03:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Stars vs. Blue Jackets",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Bruins vs. Penguins",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Blackhawks vs. Lightning",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Flyers vs. Rangers",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Hurricanes vs. Islanders",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Blues vs. Devils",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Golden Knights vs. Red Wings",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Canucks vs. Jets",
+  "start": "2026-11-06T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Ducks vs. Oilers",
+  "start": "2026-11-06T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nhl",
+  "game": "Predators vs. Avalanche",
+  "start": "2026-11-06T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "nfl",
+  "game": "Jaguars vs. Ravens",
+  "start": "2026-11-06T01:15:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "uel",
+  "game": "Real Sociedad de F\u00fatbol vs. Olympique Lyonnais",
+  "start": "2026-11-05T17:45:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "uel",
+  "game": "Sunderland AFC vs. GNK Dinamo Zagreb",
+  "start": "2026-11-05T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "uel",
+  "game": "SC Uni\u00e3o Torreense vs. Ararat-Armenia FA",
+  "start": "2026-11-05T20:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "brazil",
+  "game": "SE Palmeiras vs. Clube do Remo",
+  "start": "2026-11-05T22:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "brazil",
+  "game": "Cruzeiro EC vs. EC Bahia",
+  "start": "2026-11-06T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "argentina",
+  "game": "CA Aldosivi vs. CA River Plate",
+  "start": "2026-11-05T18:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
+ },
+ {
+  "league": "argentina",
+  "game": "CA Barracas Central vs. Racing Club",
+  "start": "2026-11-06T18:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1793882347
  }
 ]
