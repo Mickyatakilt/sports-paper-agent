@@ -1,6 +1,6 @@
 {
- "cash": 94.6347,
- "next_id": 105,
+ "cash": 93.6129,
+ "next_id": 106,
  "positions": [
   {
    "id": 1,
@@ -2696,6 +2696,30 @@
    "status": "open",
    "placed_at": 1793873151,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 80%, DK fair 77%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 105,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428596",
+     "idx": 0,
+     "label": "76ers to win",
+     "game": "76ers vs. Cavaliers",
+     "league": "nba",
+     "price": 0.565,
+     "question": "76ers vs. Cavaliers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7699,
+   "price": 0.565,
+   "fee": 0.0218,
+   "status": "open",
+   "placed_at": 1793927850,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 56%, DK fair 54%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
