@@ -1,6 +1,6 @@
 {
- "cash": 93.6129,
- "next_id": 106,
+ "cash": 94.2289,
+ "next_id": 108,
  "positions": [
   {
    "id": 1,
@@ -2669,11 +2669,13 @@
    "shares": 1.4184,
    "price": 0.705,
    "fee": 0.0148,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793873143,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 70%, DK fair 71%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Our top-5 availability at least as good as theirs",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.42,
+   "closed_at": 1793959812
   },
   {
    "id": 104,
@@ -2693,11 +2695,13 @@
    "shares": 1.2579,
    "price": 0.795,
    "fee": 0.0102,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793873151,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 80%, DK fair 77%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.26,
+   "closed_at": 1793959812
   },
   {
    "id": 105,
@@ -2720,6 +2724,54 @@
    "status": "open",
    "placed_at": 1793927850,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 56%, DK fair 54%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 106,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428583",
+     "idx": 0,
+     "label": "Wizards to win",
+     "game": "Wizards vs. Hawks",
+     "league": "nba",
+     "price": 0.315,
+     "question": "Wizards vs. Hawks"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 3.1746,
+   "price": 0.315,
+   "fee": 0.0343,
+   "status": "open",
+   "placed_at": 1793959834,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 32%, DK fair 31%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 win rate at least the opponent's; Overall record at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 107,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428601",
+     "idx": 1,
+     "label": "Grizzlies to win",
+     "game": "Thunder vs. Grizzlies",
+     "league": "nba",
+     "price": 0.405,
+     "question": "Thunder vs. Grizzlies"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.4691,
+   "price": 0.405,
+   "fee": 0.0297,
+   "status": "open",
+   "placed_at": 1793959844,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 40%, DK fair 42%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
