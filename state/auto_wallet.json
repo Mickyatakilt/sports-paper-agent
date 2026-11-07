@@ -1,6 +1,6 @@
 {
- "cash": 92.1938,
- "next_id": 110,
+ "cash": 94.2846,
+ "next_id": 111,
  "positions": [
   {
    "id": 1,
@@ -2721,11 +2721,13 @@
    "shares": 1.7699,
    "price": 0.565,
    "fee": 0.0218,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1793927850,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 56%, DK fair 54%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794043592
   },
   {
    "id": 106,
@@ -2745,11 +2747,13 @@
    "shares": 3.1746,
    "price": 0.315,
    "fee": 0.0343,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1793959834,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 32%, DK fair 31%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 win rate at least the opponent's; Overall record at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794043592
   },
   {
    "id": 107,
@@ -2769,11 +2773,13 @@
    "shares": 2.4691,
    "price": 0.405,
    "fee": 0.0297,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1793959844,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 40%, DK fair 42%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794043592
   },
   {
    "id": 108,
@@ -2793,11 +2799,13 @@
    "shares": 1.3986,
    "price": 0.715,
    "fee": 0.0143,
-   "status": "open",
+   "status": "won",
    "placed_at": 1793967690,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 72%, DK fair 71%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.4,
+   "closed_at": 1794043592
   },
   {
    "id": 109,
@@ -2817,9 +2825,35 @@
    "shares": 1.7094,
    "price": 0.585,
    "fee": 0.0208,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794011506,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 58%, DK fair 58%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
+   "bucket": "experiment",
+   "practice": false,
+   "payout": 1.71,
+   "closed_at": 1794043592
+  },
+  {
+   "id": 110,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920615",
+     "idx": 0,
+     "label": "Bengals to win",
+     "game": "Bengals vs. Falcons",
+     "league": "nfl",
+     "price": 0.615,
+     "question": "Bengals vs. Falcons"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.626,
+   "price": 0.615,
+   "fee": 0.0192,
+   "status": "open",
+   "placed_at": 1794043620,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
