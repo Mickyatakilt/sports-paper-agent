@@ -1,6 +1,6 @@
 {
- "cash": 93.2146,
- "next_id": 109,
+ "cash": 92.1938,
+ "next_id": 110,
  "positions": [
   {
    "id": 1,
@@ -2796,6 +2796,30 @@
    "status": "open",
    "placed_at": 1793967690,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 72%, DK fair 71%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 109,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428604",
+     "idx": 1,
+     "label": "Lakers to win",
+     "game": "Trail Blazers vs. Lakers",
+     "league": "nba",
+     "price": 0.585,
+     "question": "Trail Blazers vs. Lakers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7094,
+   "price": 0.585,
+   "fee": 0.0208,
+   "status": "open",
+   "placed_at": 1794011506,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 58%, DK fair 58%. Failed: Price at least 4.0 pts below DraftKings fair chance; Overall record at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
