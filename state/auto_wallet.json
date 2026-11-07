@@ -1,6 +1,6 @@
 {
- "cash": 94.2846,
- "next_id": 111,
+ "cash": 91.2348,
+ "next_id": 114,
  "positions": [
   {
    "id": 1,
@@ -2854,6 +2854,78 @@
    "status": "open",
    "placed_at": 1794043620,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 111,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920629",
+     "idx": 0,
+     "label": "Giants to win",
+     "game": "Giants vs. Eagles",
+     "league": "nfl",
+     "price": 0.605,
+     "question": "Giants vs. Eagles"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.6529,
+   "price": 0.605,
+   "fee": 0.0198,
+   "status": "open",
+   "placed_at": 1794071578,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 112,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428606",
+     "idx": 0,
+     "label": "Nuggets to win",
+     "game": "Nuggets vs. Pacers",
+     "league": "nba",
+     "price": 0.735,
+     "question": "Nuggets vs. Pacers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3605,
+   "price": 0.735,
+   "fee": 0.0133,
+   "status": "open",
+   "placed_at": 1794071590,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 72%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 113,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428610",
+     "idx": 1,
+     "label": "Warriors to win",
+     "game": "Magic vs. Warriors",
+     "league": "nba",
+     "price": 0.665,
+     "question": "Magic vs. Warriors"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.5038,
+   "price": 0.665,
+   "fee": 0.0167,
+   "status": "open",
+   "placed_at": 1794071594,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Lineup not uncertain (under 3 day-to-day players)",
    "bucket": "experiment",
    "practice": false
   }
