@@ -1,5 +1,5 @@
 {
- "cash": 88.5243,
+ "cash": 90.0243,
  "next_id": 118,
  "positions": [
   {
@@ -2925,11 +2925,13 @@
    "shares": 1.5038,
    "price": 0.665,
    "fee": 0.0167,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794071594,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Lineup not uncertain (under 3 day-to-day players)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.5,
+   "closed_at": 1794137220
   },
   {
    "id": 114,
