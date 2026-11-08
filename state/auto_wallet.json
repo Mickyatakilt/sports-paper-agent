@@ -1,6 +1,6 @@
 {
- "cash": 90.0243,
- "next_id": 118,
+ "cash": 89.6069,
+ "next_id": 120,
  "positions": [
   {
    "id": 1,
@@ -2851,11 +2851,13 @@
    "shares": 1.626,
    "price": 0.615,
    "fee": 0.0192,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794043620,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 62%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.63,
+   "closed_at": 1794165293
   },
   {
    "id": 111,
@@ -3026,6 +3028,54 @@
    "status": "open",
    "placed_at": 1794108827,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 80%, DK fair 80%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 118,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920637",
+     "idx": 0,
+     "label": "Texans to win",
+     "game": "Texans vs. Chargers",
+     "league": "nfl",
+     "price": 0.675,
+     "question": "Texans vs. Chargers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.4815,
+   "price": 0.675,
+   "fee": 0.0162,
+   "status": "open",
+   "placed_at": 1794165306,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 68%, DK fair 67%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 119,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920641",
+     "idx": 0,
+     "label": "Packers to win",
+     "game": "Packers vs. Patriots",
+     "league": "nfl",
+     "price": 0.375,
+     "question": "Packers vs. Patriots"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.6667,
+   "price": 0.375,
+   "fee": 0.0312,
+   "status": "open",
+   "placed_at": 1794165324,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
