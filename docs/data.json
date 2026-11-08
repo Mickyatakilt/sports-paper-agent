@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T21:15:35+00:00",
+ "updated": "2026-11-08T03:33:47+00:00",
  "wallet": {
-  "total": 95.25,
-  "cash": 91.23,
-  "open_value": 4.01,
-  "realized": -4.7,
+  "total": 95.32,
+  "cash": 88.52,
+  "open_value": 6.79,
+  "realized": -4.35,
   "start": 100.0
  },
  "official": {
@@ -19,10 +19,10 @@
   "profit": -2.8
  },
  "experiment": {
-  "settled": 105,
-  "wins": 59,
-  "profit": -1.9,
-  "roi": -0.018
+  "settled": 106,
+  "wins": 60,
+  "profit": -1.55,
+  "roi": -0.015
  },
  "readiness": {
   "ready": false,
@@ -50,12 +50,68 @@
    {
     "label": "Experiment (checklist alone) 30+ bets, profit above $0",
     "ok": false,
-    "detail": "105 bets, $-1.90"
+    "detail": "106 bets, $-1.55"
    }
   ],
   "note": "Paper results only. A pass means 'worth considering real money later', not a guarantee."
  },
  "positions": [
+  {
+   "id": 117,
+   "status": "open",
+   "label": "49ers to win",
+   "game": "Raiders vs. 49ers",
+   "stake": 1.0,
+   "price": 0.795,
+   "payout": null,
+   "value": 0.99,
+   "practice": false,
+   "bucket": "experiment",
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 80%, DK fair 80%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "placed_at": 1794108827
+  },
+  {
+   "id": 116,
+   "status": "open",
+   "label": "Browns to win",
+   "game": "Browns vs. Saints",
+   "stake": 1.0,
+   "price": 0.385,
+   "payout": null,
+   "value": 0.97,
+   "practice": false,
+   "bucket": "experiment",
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
+   "placed_at": 1794108818
+  },
+  {
+   "id": 115,
+   "status": "open",
+   "label": "Cowboys to win",
+   "game": "Cowboys vs. Colts",
+   "stake": 1.0,
+   "price": 0.675,
+   "payout": null,
+   "value": 0.99,
+   "practice": false,
+   "bucket": "experiment",
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 68%, DK fair 67%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "placed_at": 1794108805
+  },
+  {
+   "id": 114,
+   "status": "open",
+   "label": "Lions to win",
+   "game": "Lions vs. Dolphins",
+   "stake": 1.0,
+   "price": 0.735,
+   "payout": null,
+   "value": 0.99,
+   "practice": false,
+   "bucket": "experiment",
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 74%, DK fair 71%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "placed_at": 1794108795
+  },
   {
    "id": 113,
    "status": "open",
@@ -64,7 +120,7 @@
    "stake": 1.0,
    "price": 0.665,
    "payout": null,
-   "value": 1.06,
+   "value": 0.91,
    "practice": false,
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Lineup not uncertain (under 3 day-to-day players)",
@@ -72,13 +128,13 @@
   },
   {
    "id": 112,
-   "status": "open",
+   "status": "won",
    "label": "Nuggets to win",
    "game": "Nuggets vs. Pacers",
    "stake": 1.0,
    "price": 0.735,
-   "payout": null,
-   "value": 0.99,
+   "payout": 1.36,
+   "value": null,
    "practice": false,
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 72%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
@@ -92,7 +148,7 @@
    "stake": 1.0,
    "price": 0.605,
    "payout": null,
-   "value": 0.98,
+   "value": 0.97,
    "practice": false,
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
@@ -839,65 +895,975 @@
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 74%, DK fair 73%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "placed_at": 1792915026
-  },
-  {
-   "id": 57,
-   "status": "lost",
-   "label": "Chiefs to win",
-   "game": "Chiefs vs. Seahawks",
-   "stake": 1.0,
-   "price": 0.415,
-   "payout": 0.0,
-   "value": null,
-   "practice": false,
-   "bucket": "experiment",
-   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 42%, DK fair 44%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
-   "placed_at": 1792915019
-  },
-  {
-   "id": 56,
-   "status": "lost",
-   "label": "Packers to win",
-   "game": "Packers vs. Lions",
-   "stake": 1.0,
-   "price": 0.365,
-   "payout": 0.0,
-   "value": null,
-   "practice": false,
-   "bucket": "experiment",
-   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 36%, DK fair 38%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
-   "placed_at": 1792895260
-  },
-  {
-   "id": 55,
-   "status": "won",
-   "label": "Wizards to win",
-   "game": "Wizards vs. Bulls",
-   "stake": 1.0,
-   "price": 0.465,
-   "payout": 2.15,
-   "value": null,
-   "practice": false,
-   "bucket": "experiment",
-   "note": "EXPERIMENT (checklist only) 100% (12/12). PM 46%, DK fair 47%. Failed: Price at least 4.0 pts below DraftKings fair chance",
-   "placed_at": 1792863946
-  },
-  {
-   "id": 54,
-   "status": "lost",
-   "label": "Raiders to win",
-   "game": "Rams vs. Raiders",
-   "stake": 1.0,
-   "price": 0.385,
-   "payout": 0.0,
-   "value": null,
-   "practice": false,
-   "bucket": "experiment",
-   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 38%, DK fair 38%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
-   "placed_at": 1792863941
   }
  ],
  "decisions": [
+  {
+   "league": "epl",
+   "game": "Crystal Palace FC vs. Liverpool FC",
+   "start": "2026-11-08T14:00:00+00:00",
+   "action": "SKIP",
+   "bucket": "experiment",
+   "selection": "Liverpool FC",
+   "price": 0.625,
+   "fair": 0.601,
+   "pass_pct": 0.8,
+   "passed": 4,
+   "applicable": 5,
+   "reason": "only 5 checks had data (need 6+)",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 62% vs DK fair 60% = -2.4 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$374,234 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "62%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "season type not reported"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": null,
+     "detail": "n/a"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "Liverpool 40% vs Crystal Palace 20%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "+0.6 vs -1.0"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": false,
+     "detail": "77 vs 78 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "4-3-2 vs 2-1-6"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [],
+   "ts": 1794108827
+  },
+  {
+   "league": "nfl",
+   "game": "Giants vs. Eagles",
+   "start": "2026-11-08T18:00:00+00:00",
+   "action": "SKIP",
+   "bucket": "experiment",
+   "selection": "Giants",
+   "price": 0.595,
+   "fair": 0.583,
+   "pass_pct": 1.0,
+   "passed": 6,
+   "applicable": 6,
+   "reason": "already have a bet on this game",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 60% vs DK fair 58% = -1.2 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$351,952 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "60%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "regular season"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": true,
+     "detail": "PM spread 2.5 vs DK 3.0"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "New York Giants 60% vs Philadelphia Eagles 0%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "+3.2 vs -10.2"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": true,
+     "detail": "14 vs 6 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "4-2-1 vs 2-6"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [
+    "Philadelphia Eagles OUT: Jonathan Jones, Michael Carter II, Jihaad Campbell, Britain Covey, DeVonta Smith",
+    "Philadelphia Eagles has 19 day-to-day players (rest/injury): lineup uncertain.",
+    "New York Giants has 25 day-to-day players (rest/injury): lineup uncertain."
+   ],
+   "ts": 1794108827
+  },
+  {
+   "league": "epl",
+   "game": "Brighton & Hove Albion FC vs. Brentford FC",
+   "start": "2026-11-08T14:00:00+00:00",
+   "action": "SKIP",
+   "bucket": "experiment",
+   "selection": "Brighton & Hove Albion FC",
+   "price": 0.525,
+   "fair": 0.502,
+   "pass_pct": 0.8,
+   "passed": 4,
+   "applicable": 5,
+   "reason": "only 5 checks had data (need 6+)",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 52% vs DK fair 50% = -2.3 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$285,842 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "52%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "season type not reported"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": null,
+     "detail": "n/a"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "Brighton & Hove Albion 60% vs Brentford 40%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "+2.2 vs +1.2"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": false,
+     "detail": "77 vs 78 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "6-1-2 vs 3-5-1"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [],
+   "ts": 1794108827
+  },
+  {
+   "league": "nfl",
+   "game": "Lions vs. Dolphins",
+   "start": "2026-11-08T18:00:00+00:00",
+   "action": "BET",
+   "bucket": "experiment",
+   "selection": "Lions",
+   "price": 0.735,
+   "fair": 0.714,
+   "pass_pct": 1.0,
+   "passed": 6,
+   "applicable": 6,
+   "reason": "",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 74% vs DK fair 71% = -2.1 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$198,809 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "74%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "regular season"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": true,
+     "detail": "PM spread 6.5 vs DK 6.5"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "Detroit Lions 80% vs Miami Dolphins 20%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "+6.4 vs -5.6"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": true,
+     "detail": "7 vs 7 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "5-2 vs 1-6"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [
+    "Miami Dolphins OUT: Darrell Baker Jr.",
+    "Miami Dolphins has 24 day-to-day players (rest/injury): lineup uncertain.",
+    "Detroit Lions OUT: Cade Mays, DJ Wonnum, D.J. Reed, Kerby Joseph",
+    "Detroit Lions has 21 day-to-day players (rest/injury): lineup uncertain."
+   ],
+   "placed": {
+    "ok": true,
+    "id": 114,
+    "status": "open",
+    "shares": 1.36,
+    "price": 0.735,
+    "fee": 0.0133
+   },
+   "ts": 1794108827
+  },
+  {
+   "league": "nfl",
+   "game": "Cowboys vs. Colts",
+   "start": "2026-11-08T18:00:00+00:00",
+   "action": "BET",
+   "bucket": "experiment",
+   "selection": "Cowboys",
+   "price": 0.675,
+   "fair": 0.669,
+   "pass_pct": 1.0,
+   "passed": 6,
+   "applicable": 6,
+   "reason": "",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 68% vs DK fair 67% = -0.6 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$189,673 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "68%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "regular season"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": true,
+     "detail": "PM spread 4.5 vs DK 4.5"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "Dallas Cowboys 40% vs Indianapolis Colts 20%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "+0.0 vs -8.4"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": true,
+     "detail": "7 vs 7 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "3-5 vs 2-6"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [
+    "Indianapolis Colts OUT: A.J. Haulcy, Justin Walley, Akeem Davis-Gaither",
+    "Indianapolis Colts has 22 day-to-day players (rest/injury): lineup uncertain.",
+    "Dallas Cowboys OUT: KaVontae Turpin",
+    "Dallas Cowboys has 24 day-to-day players (rest/injury): lineup uncertain."
+   ],
+   "placed": {
+    "ok": true,
+    "id": 115,
+    "status": "open",
+    "shares": 1.48,
+    "price": 0.675,
+    "fee": 0.0162
+   },
+   "ts": 1794108827
+  },
+  {
+   "league": "nfl",
+   "game": "Browns vs. Saints",
+   "start": "2026-11-08T18:00:00+00:00",
+   "action": "BET",
+   "bucket": "experiment",
+   "selection": "Browns",
+   "price": 0.385,
+   "fair": 0.396,
+   "pass_pct": 0.833,
+   "passed": 5,
+   "applicable": 6,
+   "reason": "",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 38% vs DK fair 40% = +1.1 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$185,299 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "38%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "regular season"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": true,
+     "detail": "PM spread 3.5 vs DK 3.0"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "Cleveland Browns 60% vs New Orleans Saints 20%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "-3.4 vs -7.6"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": false,
+     "detail": "7 vs 14 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "5-3 vs 2-5"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [
+    "New Orleans Saints OUT: CJ Donaldson",
+    "New Orleans Saints has 24 day-to-day players (rest/injury): lineup uncertain.",
+    "Cleveland Browns OUT: Maliek Collins",
+    "Cleveland Browns has 24 day-to-day players (rest/injury): lineup uncertain."
+   ],
+   "placed": {
+    "ok": true,
+    "id": 116,
+    "status": "open",
+    "shares": 2.6,
+    "price": 0.385,
+    "fee": 0.0308
+   },
+   "ts": 1794108827
+  },
+  {
+   "league": "nfl",
+   "game": "Raiders vs. 49ers",
+   "start": "2026-11-08T21:25:00+00:00",
+   "action": "BET",
+   "bucket": "experiment",
+   "selection": "49ers",
+   "price": 0.795,
+   "fair": 0.8,
+   "pass_pct": 1.0,
+   "passed": 6,
+   "applicable": 6,
+   "reason": "",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 80% vs DK fair 80% = +0.5 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$184,240 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "80%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "regular season"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": true,
+     "detail": "PM spread 9.5 vs DK 9.5"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "San Francisco 49ers 80% vs Las Vegas Raiders 20%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "+3.2 vs -8.6"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": true,
+     "detail": "14 vs 7 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "6-1 vs 4-4"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [
+    "San Francisco 49ers OUT: Brandon Aiyuk, Mike Evans, Deebo Samuel Sr.",
+    "San Francisco 49ers has 22 day-to-day players (rest/injury): lineup uncertain.",
+    "Las Vegas Raiders OUT: Thomas Booker IV",
+    "Las Vegas Raiders has 24 day-to-day players (rest/injury): lineup uncertain."
+   ],
+   "placed": {
+    "ok": true,
+    "id": 117,
+    "status": "open",
+    "shares": 1.26,
+    "price": 0.795,
+    "fee": 0.0102
+   },
+   "ts": 1794108827
+  },
   {
    "league": "nfl",
    "game": "Bengals vs. Falcons",
@@ -3981,571 +4947,43 @@
    ],
    "warnings": [],
    "ts": 1794011511
-  },
-  {
-   "league": "ncaam",
-   "game": "Southern Miss Golden Eagles vs. Iowa State Cyclones",
-   "start": "2026-11-07T01:00:00+00:00",
-   "action": "SKIP",
-   "selection": "Iowa State Cyclones",
-   "price": 0.5005,
-   "fair": 0.981,
-   "pass_pct": 0.7,
-   "passed": 7,
-   "applicable": 10,
-   "reason": "mandatory gate failed: volume",
-   "checks": [
-    {
-     "id": "edge",
-     "group": "Market",
-     "label": "Price at least 4.0 pts below DraftKings fair chance",
-     "ok": true,
-     "detail": "PM 50% vs DK fair 98% = +48.0 pts"
-    },
-    {
-     "id": "volume",
-     "group": "Market",
-     "label": "Market has $5,000+ traded",
-     "ok": false,
-     "detail": "$1,450 traded"
-    },
-    {
-     "id": "price",
-     "group": "Market",
-     "label": "Price between 20% and 80%",
-     "ok": true,
-     "detail": "50%"
-    },
-    {
-     "id": "season",
-     "group": "History",
-     "label": "Regular season or later (preseason = PRACTICE bet only)",
-     "ok": true,
-     "detail": "regular season"
-    },
-    {
-     "id": "lines",
-     "group": "Market",
-     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": true,
-     "detail": "PM spread 30.5 vs DK 30.5"
-    },
-    {
-     "id": "form",
-     "group": "Team",
-     "label": "Last-5 win rate at least the opponent's",
-     "ok": false,
-     "detail": "Iowa State Cyclones 0% vs Southern Miss Golden Eagles 100%"
-    },
-    {
-     "id": "margin",
-     "group": "Team",
-     "label": "Last-5 average margin at least the opponent's",
-     "ok": false,
-     "detail": "-4.0 vs +47.0"
-    },
-    {
-     "id": "b2b",
-     "group": "Team",
-     "label": "Not on a back-to-back",
-     "ok": true,
-     "detail": "rested"
-    },
-    {
-     "id": "rest",
-     "group": "Team",
-     "label": "Rest days at least the opponent's",
-     "ok": true,
-     "detail": "4 vs 4 days"
-    },
-    {
-     "id": "record",
-     "group": "Team",
-     "label": "Overall record at least the opponent's",
-     "ok": false,
-     "detail": "0-1 vs 1-0"
-    },
-    {
-     "id": "star_out",
-     "group": "Players",
-     "label": "None of our top-5 scorers is OUT",
-     "ok": true,
-     "detail": "all available"
-    },
-    {
-     "id": "star_dtd",
-     "group": "Players",
-     "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
-     "detail": "none"
-    },
-    {
-     "id": "opp_hurt",
-     "group": "Players",
-     "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 0 vs theirs 0 unavailable"
-    },
-    {
-     "id": "depth",
-     "group": "Players",
-     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": true,
-     "detail": "61 vs 33 pts"
-    },
-    {
-     "id": "lineup",
-     "group": "Players",
-     "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": null,
-     "detail": "basketball-only check"
-    },
-    {
-     "id": "h2h",
-     "group": "History",
-     "label": "Won at least half of recent meetings",
-     "ok": null,
-     "detail": "0 of 0 meetings"
-    }
-   ],
-   "warnings": [],
-   "ts": 1793990562
-  },
-  {
-   "league": "nba",
-   "game": "76ers vs. Cavaliers",
-   "start": "2026-11-07T00:30:00+00:00",
-   "action": "SKIP",
-   "bucket": "experiment",
-   "selection": "76ers",
-   "price": 0.585,
-   "fair": 0.573,
-   "pass_pct": 0.833,
-   "passed": 10,
-   "applicable": 12,
-   "reason": "already have a bet on this game",
-   "checks": [
-    {
-     "id": "edge",
-     "group": "Market",
-     "label": "Price at least 4.0 pts below DraftKings fair chance",
-     "ok": false,
-     "detail": "PM 58% vs DK fair 57% = -1.2 pts"
-    },
-    {
-     "id": "volume",
-     "group": "Market",
-     "label": "Market has $5,000+ traded",
-     "ok": true,
-     "detail": "$311,624 traded"
-    },
-    {
-     "id": "price",
-     "group": "Market",
-     "label": "Price between 20% and 80%",
-     "ok": true,
-     "detail": "58%"
-    },
-    {
-     "id": "season",
-     "group": "History",
-     "label": "Regular season or later (preseason = PRACTICE bet only)",
-     "ok": true,
-     "detail": "regular season"
-    },
-    {
-     "id": "lines",
-     "group": "Market",
-     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": true,
-     "detail": "PM spread 2.5 vs DK 2.5"
-    },
-    {
-     "id": "form",
-     "group": "Team",
-     "label": "Last-5 win rate at least the opponent's",
-     "ok": true,
-     "detail": "Philadelphia 76ers 100% vs Cleveland Cavaliers 40%"
-    },
-    {
-     "id": "margin",
-     "group": "Team",
-     "label": "Last-5 average margin at least the opponent's",
-     "ok": true,
-     "detail": "+8.0 vs +3.8"
-    },
-    {
-     "id": "b2b",
-     "group": "Team",
-     "label": "Not on a back-to-back",
-     "ok": true,
-     "detail": "rested"
-    },
-    {
-     "id": "rest",
-     "group": "Team",
-     "label": "Rest days at least the opponent's",
-     "ok": true,
-     "detail": "2 vs 2 days"
-    },
-    {
-     "id": "record",
-     "group": "Team",
-     "label": "Overall record at least the opponent's",
-     "ok": true,
-     "detail": "8-1 vs 4-4"
-    },
-    {
-     "id": "star_out",
-     "group": "Players",
-     "label": "None of our top-5 scorers is OUT",
-     "ok": false,
-     "detail": "Dominick Barlow"
-    },
-    {
-     "id": "star_dtd",
-     "group": "Players",
-     "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
-     "detail": "none"
-    },
-    {
-     "id": "opp_hurt",
-     "group": "Players",
-     "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 1 vs theirs 1 unavailable"
-    },
-    {
-     "id": "depth",
-     "group": "Players",
-     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": false,
-     "detail": "74 vs 78 pts"
-    },
-    {
-     "id": "lineup",
-     "group": "Players",
-     "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": true,
-     "detail": "1 day-to-day"
-    },
-    {
-     "id": "h2h",
-     "group": "History",
-     "label": "Won at least half of recent meetings",
-     "ok": true,
-     "detail": "4 of 5 meetings"
-    }
-   ],
-   "warnings": [
-    "Cleveland Cavaliers OUT: Jaylon Tyson",
-    "Cleveland Cavaliers has 3 day-to-day players (rest/injury): lineup uncertain.",
-    "Philadelphia 76ers OUT: Dominick Barlow, Ariel Hukporti"
-   ],
-   "ts": 1793990562
-  },
-  {
-   "league": "nba",
-   "game": "Thunder vs. Grizzlies",
-   "start": "2026-11-07T01:00:00+00:00",
-   "action": "SKIP",
-   "bucket": "experiment",
-   "selection": "Grizzlies",
-   "price": 0.395,
-   "fair": 0.396,
-   "pass_pct": 0.917,
-   "passed": 11,
-   "applicable": 12,
-   "reason": "already have a bet on this game",
-   "checks": [
-    {
-     "id": "edge",
-     "group": "Market",
-     "label": "Price at least 4.0 pts below DraftKings fair chance",
-     "ok": false,
-     "detail": "PM 40% vs DK fair 40% = +0.1 pts"
-    },
-    {
-     "id": "volume",
-     "group": "Market",
-     "label": "Market has $5,000+ traded",
-     "ok": true,
-     "detail": "$303,930 traded"
-    },
-    {
-     "id": "price",
-     "group": "Market",
-     "label": "Price between 20% and 80%",
-     "ok": true,
-     "detail": "40%"
-    },
-    {
-     "id": "season",
-     "group": "History",
-     "label": "Regular season or later (preseason = PRACTICE bet only)",
-     "ok": true,
-     "detail": "regular season"
-    },
-    {
-     "id": "lines",
-     "group": "Market",
-     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": true,
-     "detail": "PM spread 4.5 vs DK 4.5"
-    },
-    {
-     "id": "form",
-     "group": "Team",
-     "label": "Last-5 win rate at least the opponent's",
-     "ok": true,
-     "detail": "Memphis Grizzlies 60% vs Oklahoma City Thunder 60%"
-    },
-    {
-     "id": "margin",
-     "group": "Team",
-     "label": "Last-5 average margin at least the opponent's",
-     "ok": true,
-     "detail": "+10.4 vs -4.2"
-    },
-    {
-     "id": "b2b",
-     "group": "Team",
-     "label": "Not on a back-to-back",
-     "ok": true,
-     "detail": "rested"
-    },
-    {
-     "id": "rest",
-     "group": "Team",
-     "label": "Rest days at least the opponent's",
-     "ok": true,
-     "detail": "2 vs 2 days"
-    },
-    {
-     "id": "record",
-     "group": "Team",
-     "label": "Overall record at least the opponent's",
-     "ok": true,
-     "detail": "6-2 vs 6-2"
-    },
-    {
-     "id": "star_out",
-     "group": "Players",
-     "label": "None of our top-5 scorers is OUT",
-     "ok": true,
-     "detail": "all available"
-    },
-    {
-     "id": "star_dtd",
-     "group": "Players",
-     "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
-     "detail": "none"
-    },
-    {
-     "id": "opp_hurt",
-     "group": "Players",
-     "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 0 vs theirs 1 unavailable"
-    },
-    {
-     "id": "depth",
-     "group": "Players",
-     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": false,
-     "detail": "75 vs 85 pts"
-    },
-    {
-     "id": "lineup",
-     "group": "Players",
-     "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": true,
-     "detail": "0 day-to-day"
-    },
-    {
-     "id": "h2h",
-     "group": "History",
-     "label": "Won at least half of recent meetings",
-     "ok": true,
-     "detail": "3 of 3 meetings"
-    }
-   ],
-   "warnings": [
-    "Memphis Grizzlies OUT: Isaiah Stewart, Scotty Pippen Jr.",
-    "Oklahoma City Thunder OUT: Jaylin Williams, Nikola Topic, Thomas Sorber, Cason Wallace, Chet Holmgren"
-   ],
-   "ts": 1793990562
-  },
-  {
-   "league": "nhl",
-   "game": "Ducks vs. Flames",
-   "start": "2026-11-07T01:00:00+00:00",
-   "action": "SKIP",
-   "bucket": "experiment",
-   "selection": "Ducks",
-   "price": 0.425,
-   "fair": 0.428,
-   "pass_pct": 0.429,
-   "passed": 3,
-   "applicable": 7,
-   "reason": "only 43% of checks passed (need 80%)",
-   "checks": [
-    {
-     "id": "edge",
-     "group": "Market",
-     "label": "Price at least 4.0 pts below DraftKings fair chance",
-     "ok": false,
-     "detail": "PM 42% vs DK fair 43% = +0.3 pts"
-    },
-    {
-     "id": "volume",
-     "group": "Market",
-     "label": "Market has $5,000+ traded",
-     "ok": true,
-     "detail": "$237,506 traded"
-    },
-    {
-     "id": "price",
-     "group": "Market",
-     "label": "Price between 20% and 80%",
-     "ok": true,
-     "detail": "42%"
-    },
-    {
-     "id": "season",
-     "group": "History",
-     "label": "Regular season or later (preseason = PRACTICE bet only)",
-     "ok": true,
-     "detail": "regular season"
-    },
-    {
-     "id": "lines",
-     "group": "Market",
-     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": false,
-     "detail": "PM spread 1.5 vs DK 148.0"
-    },
-    {
-     "id": "form",
-     "group": "Team",
-     "label": "Last-5 win rate at least the opponent's",
-     "ok": true,
-     "detail": "Anaheim Ducks 60% vs Calgary Flames 40%"
-    },
-    {
-     "id": "margin",
-     "group": "Team",
-     "label": "Last-5 average margin at least the opponent's",
-     "ok": true,
-     "detail": "+0.6 vs -0.6"
-    },
-    {
-     "id": "b2b",
-     "group": "Team",
-     "label": "Not on a back-to-back",
-     "ok": false,
-     "detail": "played yesterday"
-    },
-    {
-     "id": "rest",
-     "group": "Team",
-     "label": "Rest days at least the opponent's",
-     "ok": false,
-     "detail": "1 vs 2 days"
-    },
-    {
-     "id": "record",
-     "group": "Team",
-     "label": "Overall record at least the opponent's",
-     "ok": true,
-     "detail": "8-7-1 vs 7-8-1"
-    },
-    {
-     "id": "star_out",
-     "group": "Players",
-     "label": "None of our top-5 scorers is OUT",
-     "ok": null,
-     "detail": "all available"
-    },
-    {
-     "id": "star_dtd",
-     "group": "Players",
-     "label": "At most 1 top-5 scorer day-to-day",
-     "ok": null,
-     "detail": "none"
-    },
-    {
-     "id": "opp_hurt",
-     "group": "Players",
-     "label": "Our top-5 availability at least as good as theirs",
-     "ok": null,
-     "detail": "ours 0 vs theirs 0 unavailable"
-    },
-    {
-     "id": "depth",
-     "group": "Players",
-     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": null,
-     "detail": "0 vs 0 pts"
-    },
-    {
-     "id": "lineup",
-     "group": "Players",
-     "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": null,
-     "detail": "basketball-only check"
-    },
-    {
-     "id": "h2h",
-     "group": "History",
-     "label": "Won at least half of recent meetings",
-     "ok": false,
-     "detail": "2 of 6 meetings"
-    }
-   ],
-   "warnings": [
-    "Calgary Flames OUT: Brennan Othmann, Connor Zary",
-    "Anaheim Ducks played yesterday (back-to-back).",
-    "Anaheim Ducks has 4 day-to-day players (rest/injury): lineup uncertain."
-   ],
-   "ts": 1793990562
-  },
+  }
+ ],
+ "last_run": [
   {
    "league": "epl",
-   "game": "Everton FC vs. Coventry City FC",
-   "start": "2026-11-06T20:00:00+00:00",
+   "game": "Crystal Palace FC vs. Liverpool FC",
+   "start": "2026-11-08T14:00:00+00:00",
    "action": "SKIP",
    "bucket": "experiment",
-   "selection": "Everton FC",
-   "price": 0.585,
-   "fair": 0.571,
-   "pass_pct": 0.667,
+   "selection": "Liverpool FC",
+   "price": 0.625,
+   "fair": 0.601,
+   "pass_pct": 0.8,
    "passed": 4,
-   "applicable": 6,
-   "reason": "only 67% of checks passed (need 80%)",
+   "applicable": 5,
+   "reason": "only 5 checks had data (need 6+)",
    "checks": [
     {
      "id": "edge",
      "group": "Market",
      "label": "Price at least 4.0 pts below DraftKings fair chance",
      "ok": false,
-     "detail": "PM 58% vs DK fair 57% = -1.4 pts"
+     "detail": "PM 62% vs DK fair 60% = -2.4 pts"
     },
     {
      "id": "volume",
      "group": "Market",
      "label": "Market has $5,000+ traded",
      "ok": true,
-     "detail": "$191,565 traded"
+     "detail": "$374,234 traded"
     },
     {
      "id": "price",
      "group": "Market",
      "label": "Price between 20% and 80%",
      "ok": true,
-     "detail": "58%"
+     "detail": "62%"
     },
     {
      "id": "season",
@@ -4566,14 +5004,14 @@
      "group": "Team",
      "label": "Last-5 win rate at least the opponent's",
      "ok": true,
-     "detail": "Everton 40% vs Coventry City 20%"
+     "detail": "Liverpool 40% vs Crystal Palace 20%"
     },
     {
      "id": "margin",
      "group": "Team",
      "label": "Last-5 average margin at least the opponent's",
      "ok": true,
-     "detail": "+0.6 vs -1.8"
+     "detail": "+0.6 vs -1.0"
     },
     {
      "id": "b2b",
@@ -4587,14 +5025,14 @@
      "group": "Team",
      "label": "Rest days at least the opponent's",
      "ok": false,
-     "detail": "76 vs 77 days"
+     "detail": "77 vs 78 days"
     },
     {
      "id": "record",
      "group": "Team",
      "label": "Overall record at least the opponent's",
      "ok": true,
-     "detail": "3-4-2 vs 3-0-6"
+     "detail": "4-3-2 vs 2-1-6"
     },
     {
      "id": "star_out",
@@ -4635,290 +5073,22 @@
      "id": "h2h",
      "group": "History",
      "label": "Won at least half of recent meetings",
-     "ok": false,
-     "detail": "0 of 1 meetings"
+     "ok": null,
+     "detail": "0 of 0 meetings"
     }
    ],
    "warnings": [],
-   "ts": 1793990562
+   "ts": 1794108827
   },
-  {
-   "league": "nba",
-   "game": "Spurs vs. Kings",
-   "start": "2026-11-07T03:00:00+00:00",
-   "action": "SKIP",
-   "bucket": "experiment",
-   "selection": "Kings",
-   "price": 0.105,
-   "fair": 0.114,
-   "pass_pct": 0.75,
-   "passed": 9,
-   "applicable": 12,
-   "reason": "gate failed: price",
-   "checks": [
-    {
-     "id": "edge",
-     "group": "Market",
-     "label": "Price at least 4.0 pts below DraftKings fair chance",
-     "ok": false,
-     "detail": "PM 10% vs DK fair 11% = +0.9 pts"
-    },
-    {
-     "id": "volume",
-     "group": "Market",
-     "label": "Market has $5,000+ traded",
-     "ok": true,
-     "detail": "$179,807 traded"
-    },
-    {
-     "id": "price",
-     "group": "Market",
-     "label": "Price between 20% and 80%",
-     "ok": false,
-     "detail": "10%"
-    },
-    {
-     "id": "season",
-     "group": "History",
-     "label": "Regular season or later (preseason = PRACTICE bet only)",
-     "ok": true,
-     "detail": "regular season"
-    },
-    {
-     "id": "lines",
-     "group": "Market",
-     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": true,
-     "detail": "PM spread 16.5 vs DK 16.5"
-    },
-    {
-     "id": "form",
-     "group": "Team",
-     "label": "Last-5 win rate at least the opponent's",
-     "ok": false,
-     "detail": "Sacramento Kings 20% vs San Antonio Spurs 100%"
-    },
-    {
-     "id": "margin",
-     "group": "Team",
-     "label": "Last-5 average margin at least the opponent's",
-     "ok": false,
-     "detail": "-13.6 vs +13.2"
-    },
-    {
-     "id": "b2b",
-     "group": "Team",
-     "label": "Not on a back-to-back",
-     "ok": true,
-     "detail": "rested"
-    },
-    {
-     "id": "rest",
-     "group": "Team",
-     "label": "Rest days at least the opponent's",
-     "ok": true,
-     "detail": "2 vs 2 days"
-    },
-    {
-     "id": "record",
-     "group": "Team",
-     "label": "Overall record at least the opponent's",
-     "ok": false,
-     "detail": "1-7 vs 6-2"
-    },
-    {
-     "id": "star_out",
-     "group": "Players",
-     "label": "None of our top-5 scorers is OUT",
-     "ok": true,
-     "detail": "all available"
-    },
-    {
-     "id": "star_dtd",
-     "group": "Players",
-     "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
-     "detail": "none"
-    },
-    {
-     "id": "opp_hurt",
-     "group": "Players",
-     "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 0 vs theirs 1 unavailable"
-    },
-    {
-     "id": "depth",
-     "group": "Players",
-     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": true,
-     "detail": "84 vs 67 pts"
-    },
-    {
-     "id": "lineup",
-     "group": "Players",
-     "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": true,
-     "detail": "0 day-to-day"
-    },
-    {
-     "id": "h2h",
-     "group": "History",
-     "label": "Won at least half of recent meetings",
-     "ok": true,
-     "detail": "4 of 4 meetings"
-    }
-   ],
-   "warnings": [
-    "Sacramento Kings OUT: Maxime Raynaud, Keegan Murray, Ben Simmons",
-    "San Antonio Spurs OUT: Tobias Harris, Jayden Quaintance"
-   ],
-   "ts": 1793990562
-  },
-  {
-   "league": "nba",
-   "game": "Wizards vs. Hawks",
-   "start": "2026-11-07T00:00:00+00:00",
-   "action": "SKIP",
-   "bucket": "experiment",
-   "selection": "Wizards",
-   "price": 0.285,
-   "fair": 0.282,
-   "pass_pct": 0.833,
-   "passed": 10,
-   "applicable": 12,
-   "reason": "already have a bet on this game",
-   "checks": [
-    {
-     "id": "edge",
-     "group": "Market",
-     "label": "Price at least 4.0 pts below DraftKings fair chance",
-     "ok": false,
-     "detail": "PM 28% vs DK fair 28% = -0.3 pts"
-    },
-    {
-     "id": "volume",
-     "group": "Market",
-     "label": "Market has $5,000+ traded",
-     "ok": true,
-     "detail": "$153,808 traded"
-    },
-    {
-     "id": "price",
-     "group": "Market",
-     "label": "Price between 20% and 80%",
-     "ok": true,
-     "detail": "28%"
-    },
-    {
-     "id": "season",
-     "group": "History",
-     "label": "Regular season or later (preseason = PRACTICE bet only)",
-     "ok": true,
-     "detail": "regular season"
-    },
-    {
-     "id": "lines",
-     "group": "Market",
-     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": true,
-     "detail": "PM spread 7.5 vs DK 7.5"
-    },
-    {
-     "id": "form",
-     "group": "Team",
-     "label": "Last-5 win rate at least the opponent's",
-     "ok": false,
-     "detail": "Washington Wizards 40% vs Atlanta Hawks 60%"
-    },
-    {
-     "id": "margin",
-     "group": "Team",
-     "label": "Last-5 average margin at least the opponent's",
-     "ok": true,
-     "detail": "-1.4 vs -2.4"
-    },
-    {
-     "id": "b2b",
-     "group": "Team",
-     "label": "Not on a back-to-back",
-     "ok": true,
-     "detail": "rested"
-    },
-    {
-     "id": "rest",
-     "group": "Team",
-     "label": "Rest days at least the opponent's",
-     "ok": true,
-     "detail": "2 vs 2 days"
-    },
-    {
-     "id": "record",
-     "group": "Team",
-     "label": "Overall record at least the opponent's",
-     "ok": false,
-     "detail": "4-4 vs 5-4"
-    },
-    {
-     "id": "star_out",
-     "group": "Players",
-     "label": "None of our top-5 scorers is OUT",
-     "ok": true,
-     "detail": "all available"
-    },
-    {
-     "id": "star_dtd",
-     "group": "Players",
-     "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
-     "detail": "Anthony Davis"
-    },
-    {
-     "id": "opp_hurt",
-     "group": "Players",
-     "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 1 vs theirs 1 unavailable"
-    },
-    {
-     "id": "depth",
-     "group": "Players",
-     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": true,
-     "detail": "71 vs 69 pts"
-    },
-    {
-     "id": "lineup",
-     "group": "Players",
-     "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": true,
-     "detail": "1 day-to-day"
-    },
-    {
-     "id": "h2h",
-     "group": "History",
-     "label": "Won at least half of recent meetings",
-     "ok": true,
-     "detail": "4 of 5 meetings"
-    }
-   ],
-   "warnings": [
-    "Atlanta Hawks OUT: Keshon Gilbert, Asa Newell, Jock Landale, Mouhamed Gueye, Henri Veesaar",
-    "Washington Wizards OUT: Reece Beekman, Tristan Vukcevic, Justin Champagnie, Jamir Watkins"
-   ],
-   "ts": 1793990562
-  }
- ],
- "last_run": [
   {
    "league": "nfl",
-   "game": "Bengals vs. Falcons",
-   "start": "2026-11-08T14:30:00+00:00",
+   "game": "Giants vs. Eagles",
+   "start": "2026-11-08T18:00:00+00:00",
    "action": "SKIP",
    "bucket": "experiment",
-   "selection": "Bengals",
-   "price": 0.615,
-   "fair": 0.609,
+   "selection": "Giants",
+   "price": 0.595,
+   "fair": 0.583,
    "pass_pct": 1.0,
    "passed": 6,
    "applicable": 6,
@@ -4929,21 +5099,21 @@
      "group": "Market",
      "label": "Price at least 4.0 pts below DraftKings fair chance",
      "ok": false,
-     "detail": "PM 62% vs DK fair 61% = -0.6 pts"
+     "detail": "PM 60% vs DK fair 58% = -1.2 pts"
     },
     {
      "id": "volume",
      "group": "Market",
      "label": "Market has $5,000+ traded",
      "ok": true,
-     "detail": "$219,705 traded"
+     "detail": "$351,952 traded"
     },
     {
      "id": "price",
      "group": "Market",
      "label": "Price between 20% and 80%",
      "ok": true,
-     "detail": "62%"
+     "detail": "60%"
     },
     {
      "id": "season",
@@ -4957,21 +5127,21 @@
      "group": "Market",
      "label": "Polymarket and DraftKings spreads agree (within 1.5)",
      "ok": true,
-     "detail": "PM spread 3.5 vs DK 3.0"
+     "detail": "PM spread 2.5 vs DK 3.0"
     },
     {
      "id": "form",
      "group": "Team",
      "label": "Last-5 win rate at least the opponent's",
      "ok": true,
-     "detail": "Cincinnati Bengals 60% vs Atlanta Falcons 40%"
+     "detail": "New York Giants 60% vs Philadelphia Eagles 0%"
     },
     {
      "id": "margin",
      "group": "Team",
      "label": "Last-5 average margin at least the opponent's",
      "ok": true,
-     "detail": "+5.6 vs -0.2"
+     "detail": "+3.2 vs -10.2"
     },
     {
      "id": "b2b",
@@ -4985,14 +5155,14 @@
      "group": "Team",
      "label": "Rest days at least the opponent's",
      "ok": true,
-     "detail": "7 vs 7 days"
+     "detail": "14 vs 6 days"
     },
     {
      "id": "record",
      "group": "Team",
      "label": "Overall record at least the opponent's",
      "ok": true,
-     "detail": "5-2 vs 3-5"
+     "detail": "4-2-1 vs 2-6"
     },
     {
      "id": "star_out",
@@ -5038,75 +5208,74 @@
     }
    ],
    "warnings": [
-    "Atlanta Falcons OUT: Brian Robinson Jr., Zachariah Branch, Anterio Thompson",
-    "Atlanta Falcons has 22 day-to-day players (rest/injury): lineup uncertain.",
-    "Cincinnati Bengals OUT: Kyle Dugger",
-    "Cincinnati Bengals has 24 day-to-day players (rest/injury): lineup uncertain."
+    "Philadelphia Eagles OUT: Jonathan Jones, Michael Carter II, Jihaad Campbell, Britain Covey, DeVonta Smith",
+    "Philadelphia Eagles has 19 day-to-day players (rest/injury): lineup uncertain.",
+    "New York Giants has 25 day-to-day players (rest/injury): lineup uncertain."
    ],
-   "ts": 1794086134
+   "ts": 1794108827
   },
   {
-   "league": "nba",
-   "game": "Knicks vs. Cavaliers",
-   "start": "2026-11-08T01:00:00+00:00",
+   "league": "epl",
+   "game": "Brighton & Hove Albion FC vs. Brentford FC",
+   "start": "2026-11-08T14:00:00+00:00",
    "action": "SKIP",
    "bucket": "experiment",
-   "selection": "Knicks",
-   "price": 0.645,
-   "fair": 0.656,
-   "pass_pct": 0.667,
-   "passed": 8,
-   "applicable": 12,
-   "reason": "only 67% of checks passed (need 80%)",
+   "selection": "Brighton & Hove Albion FC",
+   "price": 0.525,
+   "fair": 0.502,
+   "pass_pct": 0.8,
+   "passed": 4,
+   "applicable": 5,
+   "reason": "only 5 checks had data (need 6+)",
    "checks": [
     {
      "id": "edge",
      "group": "Market",
      "label": "Price at least 4.0 pts below DraftKings fair chance",
      "ok": false,
-     "detail": "PM 64% vs DK fair 66% = +1.1 pts"
+     "detail": "PM 52% vs DK fair 50% = -2.3 pts"
     },
     {
      "id": "volume",
      "group": "Market",
      "label": "Market has $5,000+ traded",
      "ok": true,
-     "detail": "$209,524 traded"
+     "detail": "$285,842 traded"
     },
     {
      "id": "price",
      "group": "Market",
      "label": "Price between 20% and 80%",
      "ok": true,
-     "detail": "64%"
+     "detail": "52%"
     },
     {
      "id": "season",
      "group": "History",
      "label": "Regular season or later (preseason = PRACTICE bet only)",
      "ok": true,
-     "detail": "regular season"
+     "detail": "season type not reported"
     },
     {
      "id": "lines",
      "group": "Market",
      "label": "Polymarket and DraftKings spreads agree (within 1.5)",
-     "ok": true,
-     "detail": "PM spread 5.5 vs DK 5.5"
+     "ok": null,
+     "detail": "n/a"
     },
     {
      "id": "form",
      "group": "Team",
      "label": "Last-5 win rate at least the opponent's",
      "ok": true,
-     "detail": "New York Knicks 80% vs Cleveland Cavaliers 40%"
+     "detail": "Brighton & Hove Albion 60% vs Brentford 40%"
     },
     {
      "id": "margin",
      "group": "Team",
      "label": "Last-5 average margin at least the opponent's",
      "ok": true,
-     "detail": "+11.6 vs +6.6"
+     "detail": "+2.2 vs +1.2"
     },
     {
      "id": "b2b",
@@ -5119,100 +5288,96 @@
      "id": "rest",
      "group": "Team",
      "label": "Rest days at least the opponent's",
-     "ok": true,
-     "detail": "3 vs 1 days"
+     "ok": false,
+     "detail": "77 vs 78 days"
     },
     {
      "id": "record",
      "group": "Team",
      "label": "Overall record at least the opponent's",
-     "ok": false,
-     "detail": "4-4 vs 5-4"
+     "ok": true,
+     "detail": "6-1-2 vs 3-5-1"
     },
     {
      "id": "star_out",
      "group": "Players",
      "label": "None of our top-5 scorers is OUT",
-     "ok": false,
-     "detail": "Josh Hart"
+     "ok": null,
+     "detail": "all available"
     },
     {
      "id": "star_dtd",
      "group": "Players",
      "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
+     "ok": null,
      "detail": "none"
     },
     {
      "id": "opp_hurt",
      "group": "Players",
      "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 1 vs theirs 1 unavailable"
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
     },
     {
      "id": "depth",
      "group": "Players",
      "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": false,
-     "detail": "67 vs 80 pts"
+     "ok": null,
+     "detail": "0 vs 0 pts"
     },
     {
      "id": "lineup",
      "group": "Players",
      "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": true,
-     "detail": "0 day-to-day"
+     "ok": null,
+     "detail": "basketball-only check"
     },
     {
      "id": "h2h",
      "group": "History",
      "label": "Won at least half of recent meetings",
-     "ok": false,
-     "detail": "1 of 3 meetings"
+     "ok": null,
+     "detail": "0 of 0 meetings"
     }
    ],
-   "warnings": [
-    "Cleveland Cavaliers played yesterday (back-to-back).",
-    "Cleveland Cavaliers OUT: Jaylon Tyson, Sam Merrill, Jarrett Allen",
-    "New York Knicks OUT: Josh Hart"
-   ],
-   "ts": 1794086134
+   "warnings": [],
+   "ts": 1794108827
   },
   {
-   "league": "nba",
-   "game": "Nets vs. Hawks",
-   "start": "2026-11-08T00:30:00+00:00",
-   "action": "SKIP",
+   "league": "nfl",
+   "game": "Lions vs. Dolphins",
+   "start": "2026-11-08T18:00:00+00:00",
+   "action": "BET",
    "bucket": "experiment",
-   "selection": "Hawks",
-   "price": 0.715,
-   "fair": 0.71,
-   "pass_pct": 0.667,
-   "passed": 8,
-   "applicable": 12,
-   "reason": "only 67% of checks passed (need 80%)",
+   "selection": "Lions",
+   "price": 0.735,
+   "fair": 0.714,
+   "pass_pct": 1.0,
+   "passed": 6,
+   "applicable": 6,
+   "reason": "",
    "checks": [
     {
      "id": "edge",
      "group": "Market",
      "label": "Price at least 4.0 pts below DraftKings fair chance",
      "ok": false,
-     "detail": "PM 72% vs DK fair 71% = -0.5 pts"
+     "detail": "PM 74% vs DK fair 71% = -2.1 pts"
     },
     {
      "id": "volume",
      "group": "Market",
      "label": "Market has $5,000+ traded",
      "ok": true,
-     "detail": "$201,616 traded"
+     "detail": "$198,809 traded"
     },
     {
      "id": "price",
      "group": "Market",
      "label": "Price between 20% and 80%",
      "ok": true,
-     "detail": "72%"
+     "detail": "74%"
     },
     {
      "id": "season",
@@ -5233,120 +5398,129 @@
      "group": "Team",
      "label": "Last-5 win rate at least the opponent's",
      "ok": true,
-     "detail": "Atlanta Hawks 80% vs Brooklyn Nets 40%"
+     "detail": "Detroit Lions 80% vs Miami Dolphins 20%"
     },
     {
      "id": "margin",
      "group": "Team",
      "label": "Last-5 average margin at least the opponent's",
      "ok": true,
-     "detail": "+1.4 vs -2.4"
+     "detail": "+6.4 vs -5.6"
     },
     {
      "id": "b2b",
      "group": "Team",
      "label": "Not on a back-to-back",
-     "ok": false,
-     "detail": "played yesterday"
+     "ok": true,
+     "detail": "rested"
     },
     {
      "id": "rest",
      "group": "Team",
      "label": "Rest days at least the opponent's",
-     "ok": false,
-     "detail": "1 vs 3 days"
+     "ok": true,
+     "detail": "7 vs 7 days"
     },
     {
      "id": "record",
      "group": "Team",
      "label": "Overall record at least the opponent's",
      "ok": true,
-     "detail": "6-4 vs 2-6"
+     "detail": "5-2 vs 1-6"
     },
     {
      "id": "star_out",
      "group": "Players",
      "label": "None of our top-5 scorers is OUT",
-     "ok": false,
-     "detail": "Jalen Johnson"
+     "ok": null,
+     "detail": "all available"
     },
     {
      "id": "star_dtd",
      "group": "Players",
      "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
+     "ok": null,
      "detail": "none"
     },
     {
      "id": "opp_hurt",
      "group": "Players",
      "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 1 vs theirs 1 unavailable"
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
     },
     {
      "id": "depth",
      "group": "Players",
      "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": true,
-     "detail": "75 vs 38 pts"
+     "ok": null,
+     "detail": "0 vs 0 pts"
     },
     {
      "id": "lineup",
      "group": "Players",
      "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": true,
-     "detail": "0 day-to-day"
+     "ok": null,
+     "detail": "basketball-only check"
     },
     {
      "id": "h2h",
      "group": "History",
      "label": "Won at least half of recent meetings",
-     "ok": false,
-     "detail": "0 of 4 meetings"
+     "ok": null,
+     "detail": "0 of 0 meetings"
     }
    ],
    "warnings": [
-    "Atlanta Hawks played yesterday (back-to-back).",
-    "Atlanta Hawks OUT: Keshon Gilbert, Asa Newell, Jock Landale, Jalen Johnson, Mouhamed Gueye",
-    "Brooklyn Nets OUT: Egor Demin"
+    "Miami Dolphins OUT: Darrell Baker Jr.",
+    "Miami Dolphins has 24 day-to-day players (rest/injury): lineup uncertain.",
+    "Detroit Lions OUT: Cade Mays, DJ Wonnum, D.J. Reed, Kerby Joseph",
+    "Detroit Lions has 21 day-to-day players (rest/injury): lineup uncertain."
    ],
-   "ts": 1794086134
+   "placed": {
+    "ok": true,
+    "id": 114,
+    "status": "open",
+    "shares": 1.36,
+    "price": 0.735,
+    "fee": 0.0133
+   },
+   "ts": 1794108827
   },
   {
-   "league": "nba",
-   "game": "Spurs vs. Trail Blazers",
-   "start": "2026-11-08T03:00:00+00:00",
-   "action": "SKIP",
+   "league": "nfl",
+   "game": "Cowboys vs. Colts",
+   "start": "2026-11-08T18:00:00+00:00",
+   "action": "BET",
    "bucket": "experiment",
-   "selection": "Trail Blazers",
-   "price": 0.345,
-   "fair": 0.354,
-   "pass_pct": 0.667,
-   "passed": 8,
-   "applicable": 12,
-   "reason": "only 67% of checks passed (need 80%)",
+   "selection": "Cowboys",
+   "price": 0.675,
+   "fair": 0.669,
+   "pass_pct": 1.0,
+   "passed": 6,
+   "applicable": 6,
+   "reason": "",
    "checks": [
     {
      "id": "edge",
      "group": "Market",
      "label": "Price at least 4.0 pts below DraftKings fair chance",
      "ok": false,
-     "detail": "PM 34% vs DK fair 35% = +0.9 pts"
+     "detail": "PM 68% vs DK fair 67% = -0.6 pts"
     },
     {
      "id": "volume",
      "group": "Market",
      "label": "Market has $5,000+ traded",
      "ok": true,
-     "detail": "$199,691 traded"
+     "detail": "$189,673 traded"
     },
     {
      "id": "price",
      "group": "Market",
      "label": "Price between 20% and 80%",
      "ok": true,
-     "detail": "34%"
+     "detail": "68%"
     },
     {
      "id": "season",
@@ -5360,115 +5534,400 @@
      "group": "Market",
      "label": "Polymarket and DraftKings spreads agree (within 1.5)",
      "ok": true,
-     "detail": "PM spread 5.5 vs DK 5.5"
+     "detail": "PM spread 4.5 vs DK 4.5"
     },
     {
      "id": "form",
      "group": "Team",
      "label": "Last-5 win rate at least the opponent's",
-     "ok": false,
-     "detail": "Portland Trail Blazers 60% vs San Antonio Spurs 100%"
+     "ok": true,
+     "detail": "Dallas Cowboys 40% vs Indianapolis Colts 20%"
     },
     {
      "id": "margin",
      "group": "Team",
      "label": "Last-5 average margin at least the opponent's",
-     "ok": false,
-     "detail": "+3.2 vs +10.8"
+     "ok": true,
+     "detail": "+0.0 vs -8.4"
     },
     {
      "id": "b2b",
      "group": "Team",
      "label": "Not on a back-to-back",
-     "ok": false,
-     "detail": "played yesterday"
+     "ok": true,
+     "detail": "rested"
     },
     {
      "id": "rest",
      "group": "Team",
      "label": "Rest days at least the opponent's",
      "ok": true,
-     "detail": "1 vs 1 days"
+     "detail": "7 vs 7 days"
     },
     {
      "id": "record",
      "group": "Team",
      "label": "Overall record at least the opponent's",
-     "ok": false,
-     "detail": "6-2 vs 7-2"
+     "ok": true,
+     "detail": "3-5 vs 2-6"
     },
     {
      "id": "star_out",
      "group": "Players",
      "label": "None of our top-5 scorers is OUT",
-     "ok": true,
+     "ok": null,
      "detail": "all available"
     },
     {
      "id": "star_dtd",
      "group": "Players",
      "label": "At most 1 top-5 scorer day-to-day",
-     "ok": true,
+     "ok": null,
      "detail": "none"
     },
     {
      "id": "opp_hurt",
      "group": "Players",
      "label": "Our top-5 availability at least as good as theirs",
-     "ok": true,
-     "detail": "ours 0 vs theirs 1 unavailable"
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
     },
     {
      "id": "depth",
      "group": "Players",
      "label": "Top-5 scoring (last-5 avg) at least the opponent's",
-     "ok": true,
-     "detail": "73 vs 69 pts"
+     "ok": null,
+     "detail": "0 vs 0 pts"
     },
     {
      "id": "lineup",
      "group": "Players",
      "label": "Lineup not uncertain (under 3 day-to-day players)",
-     "ok": true,
-     "detail": "0 day-to-day"
+     "ok": null,
+     "detail": "basketball-only check"
     },
     {
      "id": "h2h",
      "group": "History",
      "label": "Won at least half of recent meetings",
-     "ok": true,
-     "detail": "2 of 3 meetings"
+     "ok": null,
+     "detail": "0 of 0 meetings"
     }
    ],
    "warnings": [
-    "Portland Trail Blazers played yesterday (back-to-back).",
-    "Portland Trail Blazers OUT: Robert Williams III, Vit Krejci, Ja Morant, Shaedon Sharpe",
-    "San Antonio Spurs played yesterday (back-to-back).",
-    "San Antonio Spurs OUT: Tobias Harris, Jayden Quaintance"
+    "Indianapolis Colts OUT: A.J. Haulcy, Justin Walley, Akeem Davis-Gaither",
+    "Indianapolis Colts has 22 day-to-day players (rest/injury): lineup uncertain.",
+    "Dallas Cowboys OUT: KaVontae Turpin",
+    "Dallas Cowboys has 24 day-to-day players (rest/injury): lineup uncertain."
    ],
-   "ts": 1794086134
+   "placed": {
+    "ok": true,
+    "id": 115,
+    "status": "open",
+    "shares": 1.48,
+    "price": 0.675,
+    "fee": 0.0162
+   },
+   "ts": 1794108827
+  },
+  {
+   "league": "nfl",
+   "game": "Browns vs. Saints",
+   "start": "2026-11-08T18:00:00+00:00",
+   "action": "BET",
+   "bucket": "experiment",
+   "selection": "Browns",
+   "price": 0.385,
+   "fair": 0.396,
+   "pass_pct": 0.833,
+   "passed": 5,
+   "applicable": 6,
+   "reason": "",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 38% vs DK fair 40% = +1.1 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$185,299 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "38%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "regular season"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": true,
+     "detail": "PM spread 3.5 vs DK 3.0"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "Cleveland Browns 60% vs New Orleans Saints 20%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "-3.4 vs -7.6"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": false,
+     "detail": "7 vs 14 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "5-3 vs 2-5"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [
+    "New Orleans Saints OUT: CJ Donaldson",
+    "New Orleans Saints has 24 day-to-day players (rest/injury): lineup uncertain.",
+    "Cleveland Browns OUT: Maliek Collins",
+    "Cleveland Browns has 24 day-to-day players (rest/injury): lineup uncertain."
+   ],
+   "placed": {
+    "ok": true,
+    "id": 116,
+    "status": "open",
+    "shares": 2.6,
+    "price": 0.385,
+    "fee": 0.0308
+   },
+   "ts": 1794108827
+  },
+  {
+   "league": "nfl",
+   "game": "Raiders vs. 49ers",
+   "start": "2026-11-08T21:25:00+00:00",
+   "action": "BET",
+   "bucket": "experiment",
+   "selection": "49ers",
+   "price": 0.795,
+   "fair": 0.8,
+   "pass_pct": 1.0,
+   "passed": 6,
+   "applicable": 6,
+   "reason": "",
+   "checks": [
+    {
+     "id": "edge",
+     "group": "Market",
+     "label": "Price at least 4.0 pts below DraftKings fair chance",
+     "ok": false,
+     "detail": "PM 80% vs DK fair 80% = +0.5 pts"
+    },
+    {
+     "id": "volume",
+     "group": "Market",
+     "label": "Market has $5,000+ traded",
+     "ok": true,
+     "detail": "$184,240 traded"
+    },
+    {
+     "id": "price",
+     "group": "Market",
+     "label": "Price between 20% and 80%",
+     "ok": true,
+     "detail": "80%"
+    },
+    {
+     "id": "season",
+     "group": "History",
+     "label": "Regular season or later (preseason = PRACTICE bet only)",
+     "ok": true,
+     "detail": "regular season"
+    },
+    {
+     "id": "lines",
+     "group": "Market",
+     "label": "Polymarket and DraftKings spreads agree (within 1.5)",
+     "ok": true,
+     "detail": "PM spread 9.5 vs DK 9.5"
+    },
+    {
+     "id": "form",
+     "group": "Team",
+     "label": "Last-5 win rate at least the opponent's",
+     "ok": true,
+     "detail": "San Francisco 49ers 80% vs Las Vegas Raiders 20%"
+    },
+    {
+     "id": "margin",
+     "group": "Team",
+     "label": "Last-5 average margin at least the opponent's",
+     "ok": true,
+     "detail": "+3.2 vs -8.6"
+    },
+    {
+     "id": "b2b",
+     "group": "Team",
+     "label": "Not on a back-to-back",
+     "ok": true,
+     "detail": "rested"
+    },
+    {
+     "id": "rest",
+     "group": "Team",
+     "label": "Rest days at least the opponent's",
+     "ok": true,
+     "detail": "14 vs 7 days"
+    },
+    {
+     "id": "record",
+     "group": "Team",
+     "label": "Overall record at least the opponent's",
+     "ok": true,
+     "detail": "6-1 vs 4-4"
+    },
+    {
+     "id": "star_out",
+     "group": "Players",
+     "label": "None of our top-5 scorers is OUT",
+     "ok": null,
+     "detail": "all available"
+    },
+    {
+     "id": "star_dtd",
+     "group": "Players",
+     "label": "At most 1 top-5 scorer day-to-day",
+     "ok": null,
+     "detail": "none"
+    },
+    {
+     "id": "opp_hurt",
+     "group": "Players",
+     "label": "Our top-5 availability at least as good as theirs",
+     "ok": null,
+     "detail": "ours 0 vs theirs 0 unavailable"
+    },
+    {
+     "id": "depth",
+     "group": "Players",
+     "label": "Top-5 scoring (last-5 avg) at least the opponent's",
+     "ok": null,
+     "detail": "0 vs 0 pts"
+    },
+    {
+     "id": "lineup",
+     "group": "Players",
+     "label": "Lineup not uncertain (under 3 day-to-day players)",
+     "ok": null,
+     "detail": "basketball-only check"
+    },
+    {
+     "id": "h2h",
+     "group": "History",
+     "label": "Won at least half of recent meetings",
+     "ok": null,
+     "detail": "0 of 0 meetings"
+    }
+   ],
+   "warnings": [
+    "San Francisco 49ers OUT: Brandon Aiyuk, Mike Evans, Deebo Samuel Sr.",
+    "San Francisco 49ers has 22 day-to-day players (rest/injury): lineup uncertain.",
+    "Las Vegas Raiders OUT: Thomas Booker IV",
+    "Las Vegas Raiders has 24 day-to-day players (rest/injury): lineup uncertain."
+   ],
+   "placed": {
+    "ok": true,
+    "id": 117,
+    "status": "open",
+    "shares": 1.26,
+    "price": 0.795,
+    "fee": 0.0102
+   },
+   "ts": 1794108827
   }
  ],
  "no_edge": [
-  "Nuggets vs. Pacers",
-  "Nets vs. Hawks",
-  "Knicks vs. Cavaliers",
-  "Wizards vs. Thunder",
-  "Magic vs. Warriors",
-  "Rockets vs. Suns",
-  "Spurs vs. Trail Blazers",
+  "76ers vs. Bulls",
   "Lakers vs. Pistons",
-  "New Mexico State Aggies vs. Gonzaga Bulldogs",
+  "Jazz vs. Timberwolves",
+  "Celtics vs. Bucks",
+  "Pelicans vs. Clippers",
+  "Heat vs. Kings",
+  "Iona Gaels vs. St. John's Red Storm",
   "Arkansas Razorbacks vs. Virginia Cavaliers",
-  "Rangers vs. Kraken",
-  "Canadiens vs. Maple Leafs",
-  "Devils vs. Islanders",
-  "Lightning vs. Wild",
-  "Sharks vs. Stars",
-  "Blackhawks vs. Hurricanes",
-  "Red Wings vs. Avalanche",
-  "Penguins vs. Kings",
-  "Canucks vs. Oilers",
+  "Houston Cougars vs. California Golden Bears",
+  "USC Trojans vs. Wichita State Shockers",
   "Panthers vs. Bruins",
   "Golden Knights vs. Sabres",
   "Lightning vs. Jets",
@@ -5508,17 +5967,11 @@
   "Stade Brestois 29 vs. Olympique Lyonnais",
   "Angers SCO vs. OGC Nice",
   "Racing Club de Lens vs. Olympique de Marseille",
-  "San Diego FC vs. Sporting Kansas City",
-  "Minnesota United FC vs. San Jose Earthquakes",
-  "Austin FC vs. Portland Timbers",
-  "FC Dallas vs. Colorado Rapids SC",
   "SC Heerenveen vs. Feyenoord Rotterdam",
   "CD Santa Clara vs. Gil Vicente FC",
   "CF Estrela da Amadora vs. Sport Lisboa e Benfica",
   "Rio Ave FC vs. SC Braga",
   "Alanyaspor vs. Trabzonspor",
-  "Atlas FC vs. CF Pachuca",
-  "Deportivo Toluca FC vs. CF Monterrey",
   "Quer\u00e9taro FC vs. Club Puebla",
   "Club Le\u00f3n FC vs. CD Guadalajara"
  ]

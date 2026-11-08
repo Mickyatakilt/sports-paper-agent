@@ -1,6 +1,6 @@
 {
- "cash": 91.2348,
- "next_id": 114,
+ "cash": 88.5243,
+ "next_id": 118,
  "positions": [
   {
    "id": 1,
@@ -2899,11 +2899,13 @@
    "shares": 1.3605,
    "price": 0.735,
    "fee": 0.0133,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794071590,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 74%, DK fair 72%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.36,
+   "closed_at": 1794108759
   },
   {
    "id": 113,
@@ -2926,6 +2928,102 @@
    "status": "open",
    "placed_at": 1794071594,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 66%, DK fair 66%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Lineup not uncertain (under 3 day-to-day players)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 114,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920626",
+     "idx": 0,
+     "label": "Lions to win",
+     "game": "Lions vs. Dolphins",
+     "league": "nfl",
+     "price": 0.735,
+     "question": "Lions vs. Dolphins"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.3605,
+   "price": 0.735,
+   "fee": 0.0133,
+   "status": "open",
+   "placed_at": 1794108795,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 74%, DK fair 71%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 115,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920618",
+     "idx": 0,
+     "label": "Cowboys to win",
+     "game": "Cowboys vs. Colts",
+     "league": "nfl",
+     "price": 0.675,
+     "question": "Cowboys vs. Colts"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.4815,
+   "price": 0.675,
+   "fee": 0.0162,
+   "status": "open",
+   "placed_at": 1794108805,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 68%, DK fair 67%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 116,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920627",
+     "idx": 0,
+     "label": "Browns to win",
+     "game": "Browns vs. Saints",
+     "league": "nfl",
+     "price": 0.385,
+     "question": "Browns vs. Saints"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.5974,
+   "price": 0.385,
+   "fee": 0.0308,
+   "status": "open",
+   "placed_at": 1794108818,
+   "note": "EXPERIMENT (checklist only) 83% (5/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 117,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5920639",
+     "idx": 1,
+     "label": "49ers to win",
+     "game": "Raiders vs. 49ers",
+     "league": "nfl",
+     "price": 0.795,
+     "question": "Raiders vs. 49ers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.2579,
+   "price": 0.795,
+   "fee": 0.0102,
+   "status": "open",
+   "placed_at": 1794108827,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 80%, DK fair 80%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
