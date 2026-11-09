@@ -1,6 +1,6 @@
 {
- "cash": 89.6069,
- "next_id": 120,
+ "cash": 93.0777,
+ "next_id": 121,
  "positions": [
   {
    "id": 1,
@@ -2877,11 +2877,13 @@
    "shares": 1.6529,
    "price": 0.605,
    "fee": 0.0198,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794071578,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 60%, DK fair 59%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.65,
+   "closed_at": 1794183684
   },
   {
    "id": 112,
@@ -2953,11 +2955,13 @@
    "shares": 1.3605,
    "price": 0.735,
    "fee": 0.0133,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794108795,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 74%, DK fair 71%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.36,
+   "closed_at": 1794183685
   },
   {
    "id": 115,
@@ -2977,11 +2981,13 @@
    "shares": 1.4815,
    "price": 0.675,
    "fee": 0.0162,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794108805,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 68%, DK fair 67%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.48,
+   "closed_at": 1794183685
   },
   {
    "id": 116,
@@ -3001,11 +3007,13 @@
    "shares": 2.5974,
    "price": 0.385,
    "fee": 0.0308,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1794108818,
    "note": "EXPERIMENT (checklist only) 83% (5/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794183685
   },
   {
    "id": 117,
@@ -3076,6 +3084,30 @@
    "status": "open",
    "placed_at": 1794165324,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 38%, DK fair 40%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 120,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5968098",
+     "idx": 0,
+     "label": "Bills to win",
+     "game": "Bills vs. Vikings",
+     "league": "nfl",
+     "price": 0.615,
+     "question": "Bills vs. Vikings"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.626,
+   "price": 0.615,
+   "fee": 0.0192,
+   "status": "open",
+   "placed_at": 1794183719,
+   "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 61%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
    "practice": false
   }
