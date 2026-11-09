@@ -1,6 +1,6 @@
 {
- "cash": 95.4414,
- "next_id": 124,
+ "cash": 94.4132,
+ "next_id": 125,
  "positions": [
   {
    "id": 1,
@@ -3186,6 +3186,30 @@
    "status": "open",
    "placed_at": 1794220858,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 78%, DK fair 76%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 124,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428646",
+     "idx": 0,
+     "label": "Grizzlies to win",
+     "game": "Grizzlies vs. Raptors",
+     "league": "nba",
+     "price": 0.435,
+     "question": "Grizzlies vs. Raptors"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.2989,
+   "price": 0.435,
+   "fee": 0.0282,
+   "status": "open",
+   "placed_at": 1794260813,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 44%, DK fair 45%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
    "bucket": "experiment",
    "practice": false
   }
