@@ -1,6 +1,6 @@
 {
- "cash": 94.4132,
- "next_id": 125,
+ "cash": 96.1693,
+ "next_id": 129,
  "positions": [
   {
    "id": 1,
@@ -3111,11 +3111,13 @@
    "shares": 1.626,
    "price": 0.615,
    "fee": 0.0192,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794183719,
    "note": "EXPERIMENT (checklist only) 100% (6/6). PM 62%, DK fair 61%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.63,
+   "closed_at": 1794288128
   },
   {
    "id": 121,
@@ -3135,11 +3137,13 @@
    "shares": 1.9048,
    "price": 0.525,
    "fee": 0.0238,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794220843,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 52%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Our top-5 availability at least as good as theirs",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.9,
+   "closed_at": 1794288128
   },
   {
    "id": 122,
@@ -3159,11 +3163,13 @@
    "shares": 1.3072,
    "price": 0.765,
    "fee": 0.0118,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1794220852,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 76%, DK fair 75%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794288128
   },
   {
    "id": 123,
@@ -3207,9 +3213,107 @@
    "shares": 2.2989,
    "price": 0.435,
    "fee": 0.0282,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794260813,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 44%, DK fair 45%. Failed: Price at least 4.0 pts below DraftKings fair chance; Top-5 scoring (last-5 avg) at least the opponent's",
+   "bucket": "experiment",
+   "practice": false,
+   "payout": 2.3,
+   "closed_at": 1794288128
+  },
+  {
+   "id": 125,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428652",
+     "idx": 1,
+     "label": "76ers to win",
+     "game": "Celtics vs. 76ers",
+     "league": "nba",
+     "price": 0.475,
+     "question": "Celtics vs. 76ers"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 2.1053,
+   "price": 0.475,
+   "fee": 0.0262,
+   "status": "open",
+   "placed_at": 1794288141,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 48%, DK fair 48%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 average margin at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 126,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428654",
+     "idx": 0,
+     "label": "Heat to win",
+     "game": "Heat vs. Jazz",
+     "league": "nba",
+     "price": 0.785,
+     "question": "Heat vs. Jazz"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.2739,
+   "price": 0.785,
+   "fee": 0.0107,
+   "status": "open",
+   "placed_at": 1794288148,
+   "note": "EXPERIMENT (checklist only) 100% (12/12). PM 78%, DK fair 77%. Failed: Price at least 4.0 pts below DraftKings fair chance",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 127,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5689447",
+     "idx": 0,
+     "label": "Avalanche to win",
+     "game": "Avalanche vs. Maple Leafs",
+     "league": "nhl",
+     "price": 0.585,
+     "question": "Avalanche vs. Maple Leafs"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.7094,
+   "price": 0.585,
+   "fee": 0.0208,
+   "status": "open",
+   "placed_at": 1794288159,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 58%, DK fair 58%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 128,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428655",
+     "idx": 0,
+     "label": "Magic to win",
+     "game": "Magic vs. Kings",
+     "league": "nba",
+     "price": 0.675,
+     "question": "Magic vs. Kings"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.4815,
+   "price": 0.675,
+   "fee": 0.0162,
+   "status": "open",
+   "placed_at": 1794288163,
+   "note": "EXPERIMENT (checklist only) 83% (10/12). PM 68%, DK fair 68%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Won at least half of recent meetings",
    "bucket": "experiment",
    "practice": false
   }
