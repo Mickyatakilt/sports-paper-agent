@@ -1,13 +1,13 @@
 # Paper agent report
-_2026-11-10 13:59 UTC_
+_2026-11-10 21:07 UTC_
 
-**Wallet:** total $101.39 (start $100) · cash $97.44 · open $3.95 · realized $+1.51
+**Wallet:** total $101.38 (start $100) · cash $97.44 · open $3.94 · realized $+1.51
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 120 settled · 72 won · profit $+4.31 · ROI +4%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
-## This run: 0 bet(s), 7 skipped, 19 no edge
+## This run: 0 bet(s), 3 skipped, 24 no edge
 - Bucks vs. Knicks: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Celtics vs. 76ers: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Clippers vs. Suns: no edge. Polymarket price within 4 pts of DraftKings fair chance
@@ -27,150 +27,75 @@ _2026-11-10 13:59 UTC_
 - Panthers vs. Blue Jackets: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Red Wings vs. Blues: no edge. Polymarket price within 4 pts of DraftKings fair chance
 - Predators vs. Kings: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Lightning vs. Sabres: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Rangers vs. Flames: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Flyers vs. Oilers: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Predators vs. Ducks: no edge. Polymarket price within 4 pts of DraftKings fair chance
+- Penguins vs. Sharks: no edge. Polymarket price within 4 pts of DraftKings fair chance
 
-### SKIP: Celtics vs. 76ers → 76ers
-Price 48% · DK fair 48% · checklist 11/12 (92%) · already have a bet on this game
-- ⚠ Philadelphia 76ers OUT: Adem Bona, Dominick Barlow, Ariel Hukporti
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 48% vs DK fair 48% = -0.3 pts
-- ✅ **Market** Market has $5,000+ traded: $156,264 traded
-- ✅ **Market** Price between 20% and 80%: 48%
+### SKIP: Avalanche vs. Maple Leafs → Avalanche
+Price 62% · DK fair 61% · checklist 6/7 (86%) · already have a bet on this game
+- ⚠ Toronto Maple Leafs OUT: Morgan Rielly, Colton Sissons
+- ⚠ Toronto Maple Leafs has 8 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 62% vs DK fair 61% = -0.6 pts
+- ✅ **Market** Market has $5,000+ traded: $240,919 traded
+- ✅ **Market** Price between 20% and 80%: 62%
 - ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 1.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Philadelphia 76ers 80% vs Boston Celtics 80%
-- ❌ **Team** Last-5 average margin at least the opponent's: +2.4 vs +12.2
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 175.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Colorado Avalanche 60% vs Toronto Maple Leafs 20%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.8 vs -1.2
 - ✅ **Team** Not on a back-to-back: rested
 - ✅ **Team** Rest days at least the opponent's: 3 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 9-2 vs 8-2
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 74 vs 62 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ✅ **History** Won at least half of recent meetings: 2 of 4 meetings
-
-### SKIP: Heat vs. Jazz → Heat
-Price 76% · DK fair 77% · checklist 12/12 (100%) · already have a bet on this game
-- ⚠ Utah Jazz OUT: Keyonte George, Jusuf Nurkic, Jaren Jackson Jr.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 76% vs DK fair 77% = +0.2 pts
-- ✅ **Market** Market has $5,000+ traded: $146,310 traded
-- ✅ **Market** Price between 20% and 80%: 76%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 8.5 vs DK 9.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Miami Heat 60% vs Utah Jazz 0%
-- ✅ **Team** Last-5 average margin at least the opponent's: -2.8 vs -15.6
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 2 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 4-6 vs 1-9
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: Giannis Antetokounmpo
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 68 vs 49 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 1 day-to-day
-- ✅ **History** Won at least half of recent meetings: 1 of 2 meetings
-
-### SKIP: Bucks vs. Knicks → Knicks
-Price 90% · DK fair 88% · checklist 11/12 (92%) · gate failed: price
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 90% vs DK fair 88% = -2.0 pts
-- ✅ **Market** Market has $5,000+ traded: $117,241 traded
-- ❌ **Market** Price between 20% and 80%: 90%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 15.5 vs DK 15.5
-- ✅ **Team** Last-5 win rate at least the opponent's: New York Knicks 80% vs Milwaukee Bucks 0%
-- ✅ **Team** Last-5 average margin at least the opponent's: +11.2 vs -15.6
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 3 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 5-4 vs 1-9
-- ✅ **Players** None of our top-5 scorers is OUT: all available
-- ✅ **Players** At most 1 top-5 scorer day-to-day: Josh Hart
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 70 vs 69 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 1 day-to-day
-- ❌ **History** Won at least half of recent meetings: 1 of 3 meetings
-
-### SKIP: Thunder vs. Trail Blazers → Thunder
-Price 55% · DK fair 54% · checklist 9/12 (75%) · only 75% of checks passed (need 80%)
-- ⚠ Portland Trail Blazers OUT: Ja Morant, Vit Krejci, Shaedon Sharpe
-- ⚠ Oklahoma City Thunder OUT: Jaylin Williams, Thomas Sorber, Cason Wallace, Chet Holmgren, Jalen Williams
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 55% vs DK fair 54% = -0.2 pts
-- ✅ **Market** Market has $5,000+ traded: $68,254 traded
-- ✅ **Market** Price between 20% and 80%: 55%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 1.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Oklahoma City Thunder 80% vs Portland Trail Blazers 60%
-- ✅ **Team** Last-5 average margin at least the opponent's: +12.4 vs +3.0
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 3 vs 3 days
-- ✅ **Team** Overall record at least the opponent's: 8-2 vs 6-3
-- ❌ **Players** None of our top-5 scorers is OUT: Chet Holmgren
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ❌ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 0 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 89 vs 70 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ❌ **History** Won at least half of recent meetings: 1 of 4 meetings
-
-### SKIP: Magic vs. Kings → Magic
-Price 68% · DK fair 67% · checklist 10/12 (83%) · already have a bet on this game
-- ⚠ Sacramento Kings OUT: Maxime Raynaud, Ben Simmons
-- ⚠ Orlando Magic OUT: Jalen Suggs, Jonathan Isaac, Paolo Banchero, Noah Penda, Izaiyah Nelson
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 68% vs DK fair 67% = -0.6 pts
-- ✅ **Market** Market has $5,000+ traded: $56,698 traded
-- ✅ **Market** Price between 20% and 80%: 68%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 6.5 vs DK 6.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Orlando Magic 20% vs Sacramento Kings 20%
-- ✅ **Team** Last-5 average margin at least the opponent's: -6.6 vs -10.0
-- ✅ **Team** Not on a back-to-back: rested
-- ✅ **Team** Rest days at least the opponent's: 3 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 2-7 vs 1-9
-- ❌ **Players** None of our top-5 scorers is OUT: Paolo Banchero
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 87 vs 81 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ❌ **History** Won at least half of recent meetings: 0 of 2 meetings
-
-### SKIP: Clippers vs. Suns → Suns
-Price 60% · DK fair 60% · checklist 9/12 (75%) · only 75% of checks passed (need 80%)
-- ⚠ Phoenix Suns played yesterday (back-to-back).
-- ⚠ Phoenix Suns OUT: Jordan Goodwin, Mark Williams
-- ⚠ LA Clippers OUT: Yanic Konan Niederhauser, Brandon Ingram, Bradley Beal, Jordan Miller
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 60% vs DK fair 60% = -0.5 pts
-- ✅ **Market** Market has $5,000+ traded: $41,282 traded
-- ✅ **Market** Price between 20% and 80%: 60%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ✅ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 3.5 vs DK 3.5
-- ✅ **Team** Last-5 win rate at least the opponent's: Phoenix Suns 40% vs LA Clippers 20%
-- ✅ **Team** Last-5 average margin at least the opponent's: -5.2 vs -6.0
-- ❌ **Team** Not on a back-to-back: played yesterday
-- ❌ **Team** Rest days at least the opponent's: 1 vs 2 days
-- ✅ **Team** Overall record at least the opponent's: 3-6 vs 2-7
-- ❌ **Players** None of our top-5 scorers is OUT: Jordan Goodwin
-- ✅ **Players** At most 1 top-5 scorer day-to-day: none
-- ✅ **Players** Our top-5 availability at least as good as theirs: ours 1 vs theirs 1 unavailable
-- ✅ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 79 vs 73 pts
-- ✅ **Players** Lineup not uncertain (under 3 day-to-day players): 0 day-to-day
-- ✅ **History** Won at least half of recent meetings: 2 of 4 meetings
-
-### SKIP: Capitals vs. Senators → Senators
-Price 54% · DK fair 53% · checklist 4/7 (57%) · only 57% of checks passed (need 80%)
-- ⚠ Ottawa Senators has 3 day-to-day players (rest/injury): lineup uncertain.
-- ⚠ Washington Capitals has 3 day-to-day players (rest/injury): lineup uncertain.
-- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 54% vs DK fair 53% = -0.3 pts
-- ✅ **Market** Market has $5,000+ traded: $35,103 traded
-- ✅ **Market** Price between 20% and 80%: 54%
-- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
-- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 125.0
-- ✅ **Team** Last-5 win rate at least the opponent's: Ottawa Senators 60% vs Washington Capitals 60%
-- ✅ **Team** Last-5 average margin at least the opponent's: +0.6 vs +0.0
-- ✅ **Team** Not on a back-to-back: rested
-- ❌ **Team** Rest days at least the opponent's: 3 vs 4 days
-- ✅ **Team** Overall record at least the opponent's: 11-6-1 vs 9-6-0
+- ✅ **Team** Overall record at least the opponent's: 10-6-2 vs 8-9-2
 - ➖ **Players** None of our top-5 scorers is OUT: all available
 - ➖ **Players** At most 1 top-5 scorer day-to-day: none
 - ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
 - ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
 - ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
-- ❌ **History** Won at least half of recent meetings: 1 of 3 meetings
+- ✅ **History** Won at least half of recent meetings: 2 of 3 meetings
+
+### SKIP: Panthers vs. Blue Jackets → Blue Jackets
+Price 46% · DK fair 48% · checklist 5/7 (71%) · only 71% of checks passed (need 80%)
+- ⚠ Florida Panthers OUT: Sandis Vilmanis
+- ⚠ Florida Panthers has 3 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 46% vs DK fair 48% = +1.3 pts
+- ✅ **Market** Market has $5,000+ traded: $237,656 traded
+- ✅ **Market** Price between 20% and 80%: 46%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 120.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Columbus Blue Jackets 40% vs Florida Panthers 40%
+- ✅ **Team** Last-5 average margin at least the opponent's: +0.0 vs -0.2
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 4 vs 3 days
+- ❌ **Team** Overall record at least the opponent's: 7-8-0 vs 9-7-2
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ✅ **History** Won at least half of recent meetings: 3 of 4 meetings
+
+### SKIP: Wild vs. Canadiens → Canadiens
+Price 46% · DK fair 47% · checklist 5/7 (71%) · only 71% of checks passed (need 80%)
+- ⚠ Montreal Canadiens OUT: Mike Matheson
+- ⚠ Montreal Canadiens has 5 day-to-day players (rest/injury): lineup uncertain.
+- ⚠ Minnesota Wild has 3 day-to-day players (rest/injury): lineup uncertain.
+- ❌ **Market** Price at least 4.0 pts below DraftKings fair chance: PM 46% vs DK fair 47% = +0.3 pts
+- ✅ **Market** Market has $5,000+ traded: $171,461 traded
+- ✅ **Market** Price between 20% and 80%: 46%
+- ✅ **History** Regular season or later (preseason = PRACTICE bet only): regular season
+- ❌ **Market** Polymarket and DraftKings spreads agree (within 1.5): PM spread 1.5 vs DK 125.0
+- ✅ **Team** Last-5 win rate at least the opponent's: Montreal Canadiens 80% vs Minnesota Wild 60%
+- ❌ **Team** Last-5 average margin at least the opponent's: +1.2 vs +1.4
+- ✅ **Team** Not on a back-to-back: rested
+- ✅ **Team** Rest days at least the opponent's: 3 vs 3 days
+- ✅ **Team** Overall record at least the opponent's: 11-3-3 vs 12-3-4
+- ➖ **Players** None of our top-5 scorers is OUT: all available
+- ➖ **Players** At most 1 top-5 scorer day-to-day: none
+- ➖ **Players** Our top-5 availability at least as good as theirs: ours 0 vs theirs 0 unavailable
+- ➖ **Players** Top-5 scoring (last-5 avg) at least the opponent's: 0 vs 0 pts
+- ➖ **Players** Lineup not uncertain (under 3 day-to-day players): basketball-only check
+- ✅ **History** Won at least half of recent meetings: 1 of 2 meetings
 
 ## Open and recent positions
 - #128 [EXPERIMENT] OPEN Magic to win (Magic vs. Kings) $1.00
