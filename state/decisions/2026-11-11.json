@@ -2398,5 +2398,149 @@
    "Washington Wizards OUT: Tristan Vukcevic, Reece Beekman, Justin Champagnie, Jamir Watkins"
   ],
   "ts": 1794398575
+ },
+ {
+  "league": "nba",
+  "game": "Wizards vs. Pacers",
+  "start": "2026-11-12T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Cavaliers vs. Knicks",
+  "start": "2026-11-12T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Celtics vs. Raptors",
+  "start": "2026-11-12T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Spurs vs. Bulls",
+  "start": "2026-11-12T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Nuggets vs. Grizzlies",
+  "start": "2026-11-12T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Lakers vs. Bucks",
+  "start": "2026-11-12T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Nets vs. Pelicans",
+  "start": "2026-11-12T01:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Magic vs. Jazz",
+  "start": "2026-11-12T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Warriors vs. Rockets",
+  "start": "2026-11-12T02:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nba",
+  "game": "Thunder vs. Trail Blazers",
+  "start": "2026-11-12T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "ncaam",
+  "game": "Marquette Golden Eagles vs. Michigan Wolverines",
+  "start": "2026-11-12T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "ncaam",
+  "game": "Colgate Raiders vs. St. John's Red Storm",
+  "start": "2026-11-12T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "ncaam",
+  "game": "USC Trojans vs. California Golden Bears",
+  "start": "2026-11-12T04:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nhl",
+  "game": "Lightning vs. Sabres",
+  "start": "2026-11-12T00:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nhl",
+  "game": "Rangers vs. Flames",
+  "start": "2026-11-12T00:30:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nhl",
+  "game": "Flyers vs. Oilers",
+  "start": "2026-11-12T02:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nhl",
+  "game": "Predators vs. Ducks",
+  "start": "2026-11-12T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
+ },
+ {
+  "league": "nhl",
+  "game": "Penguins vs. Sharks",
+  "start": "2026-11-12T03:00:00+00:00",
+  "action": "NO EDGE",
+  "note": "Polymarket price within 4 pts of DraftKings fair chance",
+  "ts": 1794402991
  }
 ]
