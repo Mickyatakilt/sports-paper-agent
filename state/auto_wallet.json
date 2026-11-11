@@ -1,5 +1,5 @@
 {
- "cash": 97.0873,
+ "cash": 99.8373,
  "next_id": 131,
  "positions": [
   {
@@ -3267,11 +3267,13 @@
    "shares": 1.2739,
    "price": 0.785,
    "fee": 0.0107,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794288148,
    "note": "EXPERIMENT (checklist only) 100% (12/12). PM 78%, DK fair 77%. Failed: Price at least 4.0 pts below DraftKings fair chance",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.27,
+   "closed_at": 1794398522
   },
   {
    "id": 127,
@@ -3317,11 +3319,13 @@
    "shares": 1.4815,
    "price": 0.675,
    "fee": 0.0162,
-   "status": "open",
+   "status": "won",
    "placed_at": 1794288163,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 68%, DK fair 68%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT; Won at least half of recent meetings",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 1.48,
+   "closed_at": 1794398522
   },
   {
    "id": 129,
