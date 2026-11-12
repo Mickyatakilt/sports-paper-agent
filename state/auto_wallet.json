@@ -3345,11 +3345,13 @@
    "shares": 2.8986,
    "price": 0.345,
    "fee": 0.0328,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1794369179,
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 34%, DK fair 36%. Failed: Price at least 4.0 pts below DraftKings fair chance; None of our top-5 scorers is OUT",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794488721
   },
   {
    "id": 130,
