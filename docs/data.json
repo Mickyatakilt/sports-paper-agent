@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-12T13:05:21+00:00",
+ "updated": "2026-11-12T14:19:51+00:00",
  "wallet": {
-  "total": 99.68,
+  "total": 99.66,
   "cash": 96.78,
-  "open_value": 2.9,
+  "open_value": 2.88,
   "realized": -0.16,
   "start": 100.0
  },
@@ -64,7 +64,7 @@
    "stake": 1.0,
    "price": 0.525,
    "payout": null,
-   "value": 0.98,
+   "value": 0.96,
    "practice": false,
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 52%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",

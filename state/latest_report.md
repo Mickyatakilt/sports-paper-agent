@@ -1,7 +1,7 @@
 # Paper agent report
-_2026-11-12 13:05 UTC_
+_2026-11-12 14:19 UTC_
 
-**Wallet:** total $99.68 (start $100) · cash $96.78 · open $2.90 · realized $-0.16
+**Wallet:** total $99.66 (start $100) · cash $96.78 · open $2.88 · realized $-0.16
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
 **Experiment (checklist alone, no price edge, not counted):** 126 settled · 75 won · profit $+2.64 · ROI +2%
