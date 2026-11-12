@@ -1,6 +1,6 @@
 {
- "cash": 99.8373,
- "next_id": 131,
+ "cash": 96.7755,
+ "next_id": 134,
  "positions": [
   {
    "id": 1,
@@ -3369,9 +3369,83 @@
    "shares": 2.4096,
    "price": 0.415,
    "fee": 0.0292,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1794369195,
    "note": "EXPERIMENT (checklist only) 83% (10/12). PM 42%, DK fair 41%. Failed: Price at least 4.0 pts below DraftKings fair chance; Last-5 win rate at least the opponent's; Last-5 average margin at least the opponent's",
+   "bucket": "experiment",
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794459600
+  },
+  {
+   "id": 131,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6079816",
+     "idx": 1,
+     "label": "Giants to win",
+     "game": "Commanders vs. Giants",
+     "league": "nfl",
+     "price": 0.555,
+     "question": "Commanders vs. Giants"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.8018,
+   "price": 0.555,
+   "fee": 0.0222,
+   "status": "open",
+   "placed_at": 1794459614,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 132,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "6428673",
+     "idx": 1,
+     "label": "Suns to win",
+     "game": "Hornets vs. Suns",
+     "league": "nba",
+     "price": 0.685,
+     "question": "Hornets vs. Suns"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.4599,
+   "price": 0.685,
+   "fee": 0.0158,
+   "status": "open",
+   "placed_at": 1794459624,
+   "note": "EXPERIMENT (checklist only) 92% (11/12). PM 68%, DK fair 67%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
+   "bucket": "experiment",
+   "practice": false
+  },
+  {
+   "id": 133,
+   "kind": "single",
+   "legs": [
+    {
+     "market_id": "5776279",
+     "idx": 0,
+     "label": "Avalanche to win",
+     "game": "Avalanche vs. Senators",
+     "league": "nhl",
+     "price": 0.525,
+     "question": "Avalanche vs. Senators"
+    }
+   ],
+   "stake": 1.0,
+   "shares": 1.9048,
+   "price": 0.525,
+   "fee": 0.0238,
+   "status": "open",
+   "placed_at": 1794459628,
+   "note": "EXPERIMENT (checklist only) 86% (6/7). PM 52%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
    "practice": false
   }
