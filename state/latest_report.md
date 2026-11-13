@@ -1,18 +1,18 @@
 # Paper agent report
-_2026-11-13 04:15 UTC_
+_2026-11-13 12:29 UTC_
 
-**Wallet:** total $98.68 (start $100) · cash $96.78 · open $1.90 · realized $-1.19
+**Wallet:** total $98.24 (start $100) · cash $98.24 · open $0.00 · realized $-1.76
 
 **Official test:** 0 / 40 settled bets · wins 0 · profit $+0.00
-**Experiment (checklist alone, no price edge, not counted):** 127 settled · 75 won · profit $+1.61 · ROI +1%
+**Experiment (checklist alone, no price edge, not counted):** 129 settled · 76 won · profit $+1.03 · ROI +1%
 **Practice (preseason, not counted):** 4 settled · profit $-2.80
 
 ## This run: 0 bet(s), 0 skipped, 0 no edge
 
 ## Open and recent positions
 - #133 [EXPERIMENT] LOST Avalanche to win (Avalanche vs. Senators) $1.00 → $0.00
-- #132 [EXPERIMENT] OPEN Suns to win (Hornets vs. Suns) $1.00
-- #131 [EXPERIMENT] OPEN Giants to win (Commanders vs. Giants) $1.00
+- #132 [EXPERIMENT] WON Suns to win (Hornets vs. Suns) $1.00 → $1.46
+- #131 [EXPERIMENT] LOST Giants to win (Commanders vs. Giants) $1.00 → $0.00
 - #130 [EXPERIMENT] LOST Grizzlies to win (Nuggets vs. Grizzlies) $1.00 → $0.00
 - #129 [EXPERIMENT] LOST Warriors to win (Warriors vs. Rockets) $1.00 → $0.00
 - #128 [EXPERIMENT] WON Magic to win (Magic vs. Kings) $1.00 → $1.48
