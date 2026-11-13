@@ -3445,11 +3445,13 @@
    "shares": 1.9048,
    "price": 0.525,
    "fee": 0.0238,
-   "status": "open",
+   "status": "lost",
    "placed_at": 1794459628,
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 52%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
    "bucket": "experiment",
-   "practice": false
+   "practice": false,
+   "payout": 0.0,
+   "closed_at": 1794543355
   }
  ]
 }

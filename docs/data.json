@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-12T21:39:22+00:00",
+ "updated": "2026-11-13T04:15:55+00:00",
  "wallet": {
-  "total": 99.6,
+  "total": 98.68,
   "cash": 96.78,
-  "open_value": 2.82,
-  "realized": -0.16,
+  "open_value": 1.9,
+  "realized": -1.19,
   "start": 100.0
  },
  "official": {
@@ -19,10 +19,10 @@
   "profit": -2.8
  },
  "experiment": {
-  "settled": 126,
+  "settled": 127,
   "wins": 75,
-  "profit": 2.64,
-  "roi": 0.021
+  "profit": 1.61,
+  "roi": 0.013
  },
  "readiness": {
   "ready": false,
@@ -50,7 +50,7 @@
    {
     "label": "Experiment (checklist alone) 30+ bets, profit above $0",
     "ok": true,
-    "detail": "126 bets, $+2.64"
+    "detail": "127 bets, $+1.61"
    }
   ],
   "note": "Paper results only. A pass means 'worth considering real money later', not a guarantee."
@@ -58,13 +58,13 @@
  "positions": [
   {
    "id": 133,
-   "status": "open",
+   "status": "lost",
    "label": "Avalanche to win",
    "game": "Avalanche vs. Senators",
    "stake": 1.0,
    "price": 0.525,
-   "payout": null,
-   "value": 0.9,
+   "payout": 0.0,
+   "value": null,
    "practice": false,
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 52%, DK fair 52%. Failed: Price at least 4.0 pts below DraftKings fair chance; Polymarket and DraftKings spreads agree (within 1.5)",
@@ -78,7 +78,7 @@
    "stake": 1.0,
    "price": 0.685,
    "payout": null,
-   "value": 0.97,
+   "value": 0.88,
    "practice": false,
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 92% (11/12). PM 68%, DK fair 67%. Failed: Price at least 4.0 pts below DraftKings fair chance; Rest days at least the opponent's",
@@ -92,7 +92,7 @@
    "stake": 1.0,
    "price": 0.555,
    "payout": null,
-   "value": 0.95,
+   "value": 1.02,
    "practice": false,
    "bucket": "experiment",
    "note": "EXPERIMENT (checklist only) 86% (6/7). PM 56%, DK fair 56%. Failed: Price at least 4.0 pts below DraftKings fair chance; Won at least half of recent meetings",
